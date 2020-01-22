@@ -1,0 +1,662 @@
+﻿/*************************************************************************************************************
+CUBE
+*************************************************************************************************************/
+.cube video {
+	margin-top: 0px;
+	width: 600px;
+}
+
+.viewport {
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+    -ms-perspective: 800px;
+    -o-perspective: 800px;
+    perspective: 800px;
+    -webkit-perspective-origin: 50% 200px;
+    -moz-perspective-origin: 50% 200px;
+    -ms-perspective-origin: 50% 200px;
+    -o-perspective-origin: 50% 200px;
+    perspective-origin: 50% 200px;
+    -webkit-transform: scale(0.8, 0.8);
+    -moz-transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+    -o-transform: scale(0.8, 0.8);
+    transform: scale(0.8, 0.8);
+ }
+
+.cube {
+  position: relative;
+  margin: 0 auto;
+  height: 600px;
+  width: 600px;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: rotateX(0deg) rotateY(0deg);
+  -moz-transform: rotateX(0deg) rotateY(0deg);
+  -ms-transform: rotateX(0deg) rotateY(0deg);
+  -o-transform: rotateX(0deg) rotateY(0deg);
+  transform: rotateX(0deg) rotateY(0deg); }
+
+.cube > div {
+  overflow: hidden;
+  position: absolute;
+  opacity: 1;
+  height: 600px;
+  width: 600px;
+  -webkit-touch-callout: none;
+  -moz-touch-callout: none;
+  -ms-touch-callout: none;
+  -o-touch-callout: none;
+  touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none; }
+
+.cube > div > div.cube-image1 {
+  width: 600px;
+  height: 600px;
+    background-image: url("../img/cube_1.jpg");
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  line-height: 200px;
+  font-size: 80px;
+  text-align: center;
+  color: #1b9bd8;
+  -webkit-transition: color 600ms;
+  -moz-transition: color 600ms;
+  -ms-transition: color 600ms;
+  -o-transition: color 600ms;
+  transition: color 600ms; }
+  
+  .cube > div > div.cube-image2 {
+    width: 600px;
+    height: 600px;
+      background-image: url("../img/cube_2.jpg");
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    line-height: 200px;
+    font-size: 80px;
+    text-align: center;
+    color: #1b9bd8;
+    -webkit-transition: color 600ms;
+    -moz-transition: color 600ms;
+    -ms-transition: color 600ms;
+    -o-transition: color 600ms;
+    transition: color 600ms; }
+	
+	.cube > div > div.cube-image3 {
+	    width: 600px;
+	    height: 600px;
+	    background-image: url("../img/cube_3.jpg");
+	  -webkit-transform: rotate(180deg);
+	  -moz-transform: rotate(180deg);
+	  -ms-transform: rotate(180deg);
+	  -o-transform: rotate(180deg);
+	  transform: rotate(180deg);
+	  line-height: 200px;
+	  font-size: 80px;
+	  text-align: center;
+	  color: #1b9bd8;
+	  -webkit-transition: color 600ms;
+	  -moz-transition: color 600ms;
+	  -ms-transition: color 600ms;
+	  -o-transition: color 600ms;
+	  transition: color 600ms; }
+	  
+	  .cube > div > div.cube-image4 {
+	      width: 600px;
+	      height: 600px;
+	      background-image: url("../img/cube_4.jpg");
+	    -webkit-transform: rotate(180deg);
+	    -moz-transform: rotate(180deg);
+	    -ms-transform: rotate(180deg);
+	    -o-transform: rotate(180deg);
+	    transform: rotate(180deg);
+	    line-height: 200px;
+	    font-size: 80px;
+	    text-align: center;
+	    color: #1b9bd8;
+	    -webkit-transition: color 600ms;
+	    -moz-transition: color 600ms;
+	    -ms-transition: color 600ms;
+	    -o-transition: color 600ms;
+	    transition: color 600ms; }
+		
+		.cube > div > div.cube-image5 {
+		    width: 600px;
+		    height: 600px;
+		    background-image: url("../img/cube_5.jpg");
+		  -webkit-transform: rotate(180deg);
+		  -moz-transform: rotate(180deg);
+		  -ms-transform: rotate(180deg);
+		  -o-transform: rotate(180deg);
+		  transform: rotate(180deg);
+		  line-height: 200px;
+		  font-size: 80px;
+		  text-align: center;
+		  color: #1b9bd8;
+		  -webkit-transition: color 600ms;
+		  -moz-transition: color 600ms;
+		  -ms-transition: color 600ms;
+		  -o-transition: color 600ms;
+		  transition: color 600ms; }
+		  
+		  .cube > div > div.cube-image6 {
+		      width: 600px;
+		      height: 600px;
+		      background-image: url("../img/cube_6.jpg");
+		    -webkit-transform: rotate(180deg);
+		    -moz-transform: rotate(180deg);
+		    -ms-transform: rotate(180deg);
+		    -o-transform: rotate(180deg);
+		    transform: rotate(180deg);
+		    line-height: 200px;
+		    font-size: 80px;
+		    text-align: center;
+		    color: #1b9bd8;
+		    -webkit-transition: color 600ms;
+		    -moz-transition: color 600ms;
+		    -ms-transition: color 600ms;
+		    -o-transition: color 600ms;
+		    transition: color 600ms; }
+  
+  .cube > div > div.cube-image.active {
+    color: red; }
+	
+
+
+.cube > div:hover {
+  cursor: pointer; }
+
+.cube > div:active {
+  cursor: pointer; }
+
+.cube > div:first-child {
+  -webkit-transform: rotateX(90deg) translateZ(300px);
+  -moz-transform: rotateX(90deg) translateZ(300px);
+  -ms-transform: rotateX(90deg) translateZ(300px);
+  -o-transform: rotateX(90deg) translateZ(300px);
+  transform: rotateX(90deg) translateZ(300px);
+  outline: 1px solid transparent; }
+
+.cube > div:nth-child(2) {
+  -webkit-transform: translateZ(300px);
+  -moz-transform: translateZ(300px);
+  -ms-transform: translateZ(300px);
+  -o-transform: translateZ(300px);
+  transform: translateZ(300px);
+  outline: 1px solid transparent; }
+
+.cube > div:nth-child(3) {
+  -webkit-transform: rotateY(90deg) translateZ(300px);
+  -moz-transform: rotateY(90deg) translateZ(300px);
+  -ms-transform: rotateY(90deg) translateZ(300px);
+  -o-transform: rotateY(90deg) translateZ(300px);
+  transform: rotateY(90deg) translateZ(300px);
+  outline: 1px solid transparent; }
+
+.cube > div:nth-child(4) {
+  -webkit-transform: rotateY(180deg) translateZ(300px);
+  -moz-transform: rotateY(180deg) translateZ(300px);
+  -ms-transform: rotateY(180deg) translateZ(300px);
+  -o-transform: rotateY(180deg) translateZ(300px);
+  transform: rotateY(180deg) translateZ(300px);
+  outline: 1px solid transparent; }
+
+.cube > div:nth-child(5) {
+  -webkit-transform: rotateY(-90deg) translateZ(300px);
+  -moz-transform: rotateY(-90deg) translateZ(300px);
+  -ms-transform: rotateY(-90deg) translateZ(300px);
+  -o-transform: rotateY(-90deg) translateZ(300px);
+  transform: rotateY(-90deg) translateZ(300px);
+  outline: 1px solid transparent; }
+
+.cube > div:nth-child(6) {
+  -webkit-transform: rotateX(-90deg) rotate(180deg) translateZ(300px);
+  -moz-transform: rotateX(-90deg) rotate(180deg) translateZ(300px);
+  -ms-transform: rotateX(-90deg) rotate(180deg) translateZ(300px);
+  -o-transform: rotateX(-90deg) rotate(180deg) translateZ(300px);
+  transform: rotateX(-90deg) rotate(180deg) translateZ(300px);
+  outline: 1px solid transparent; }
+
+object {
+  opacity: 0.5; }
+
+object:hover {
+  opacity: 1; }
+
+@media (max-width: 640px) {
+  .viewport {
+    -webkit-transform: scale(0.5, 0.5);
+    -moz-transform: scale(0.5, 0.5);
+    -ms-transform: scale(0.5, 0.5);
+    -o-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+	padding: 0px; 
+   } 
+   
+   .cubic {
+	   overflow: hidden;
+	   padding: 0 !important;
+	   height: 635px;
+   }
+
+}
+
+
+
+
+
+/*************************************************************************************************************
+HOVER EYEZ
+*************************************************************************************************************/
+
+
+.cove a, .girlgaze a, .inset-curved-video a, a.billie-fuzz-link, a.block-link, a.hilma-link, .dreampop a {
+		cursor: url('../img/eyez.png'), auto;	
+}
+
+/*************************************************************************************************************
+INTRO
+*************************************************************************************************************/
+
+.intro-headline {
+	margin:260px 0px 100px 0px;
+}
+
+.intro-headline h1 {
+	margin-bottom:20px;
+	
+}
+
+@media (max-width: 640px) {
+	.intro-headline {
+		margin: 0px 0px 0px 0px;
+	}
+	
+	.intro-headline h4 {
+		margin: 0 0 40px 0;
+	}
+	
+}
+
+@media (max-width: 500px) {
+	.intro-headline {
+		margin: 0px 0px 0px 0px;
+	}
+	
+	.intro-headline h4 {
+		margin: 0 0 40px 0;
+	}
+	
+}
+
+
+/*************************************************************************************************************
+PROJECT MODULE
+*************************************************************************************************************/
+.home-project {
+	border-top: 2px solid #000;
+	padding-top: 60px;
+	padding-bottom: 80px;
+}
+
+
+.home-project-copy-padding {
+	padding-top: 60px;
+}
+
+.home-project-copy h5 {
+	margin-bottom:40px;
+}
+
+
+.home-project-copy h5.home-project-tag {
+	margin-bottom:20px;
+}
+
+
+
+/*************************************************************************************************************
+COMING SOON
+*************************************************************************************************************/
+.coming-soon-project:hover a h1.label {
+	display:none;
+}
+
+.coming-soon-project:hover a h1.labelnew:after {
+	visibility:visible;
+	content:'Coming Soon!';
+	z-index:99;
+} 
+
+.coming-soon-project a:hover video {
+	filter: blur(0px);
+}
+
+.vid-soon {
+	filter: blur(40px);
+}
+
+.coming-soon-project a:hover img {
+	filter: blur(0px);
+}
+
+.img-soon {
+	filter: blur(40px);
+}
+
+.coming-soon-copy {
+	z-index:99;
+	position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);	
+}
+
+.coming-soon-copy h1 {
+	width:100%;
+}
+
+.coming-soon-vid video {
+	z-index:-1;
+
+}
+
+.inset-curved-video {
+	position:relative;
+
+}
+
+.cove {
+	position:relative;
+}
+
+.dreampop {
+	position:relative;
+
+}
+
+
+
+@media (max-width: 1150px) { 
+	.coming-soon-copy h1 {
+		width:120%;
+		margin-left: -20px;
+		margin-top:50px;
+	}
+}
+
+@media (max-width: 899px) { 
+	.coming-soon-copy h1 {
+		width:140%;
+		margin-left: -40px;
+		margin-top:80px;
+	}
+}
+
+@media (max-width: 675px) { 
+	.coming-soon-copy h1 {
+		width:160%;
+		margin-left: -60px;
+		margin-top:120px;
+	}
+}
+
+@media (max-width: 500px) { 	
+	.coming-soon-copy h1 {
+		width:130%;
+		margin-left: -20px;
+		margin-top:130px;
+	}
+}
+
+@media (max-width: 450px) { 	
+	.coming-soon-copy h1 {
+		width:160%;
+		margin-left: -45px;
+		margin-top:130px;
+	}
+}
+
+/*************************************************************************************************************
+VIDEO HERO - TALL
+*************************************************************************************************************/
+
+.vid-hero-tall {
+		height: 2100px;
+	    width: 100%;
+	    overflow: hidden;
+	    position: relative;
+		border-top:2px solid #000;
+}
+
+.video-headline {
+	z-index:99;
+	padding-top:60px;
+}
+
+.video-headline-img {
+	z-index:99;
+	padding-top:30px;
+}
+
+.video-headline  h1 {
+	margin-top: 0px;
+}
+
+
+.vid-hero-tall video {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+}
+
+@media (max-width: 768px) {
+	.vid-hero-tall {
+			height: 1000px;
+	}
+	
+}
+
+
+@media (max-width: 500px) { 
+	.vid-hero-tall {
+		height: 900px;
+	}
+	
+	.video-headline  h1 {
+		padding-top:0px;
+	}
+	
+	.video-headline-img  h1 {
+			padding-top:0px;
+	}
+
+	.video-headline  h1 span {
+	}
+	
+	.video-headline  h1.home-block {
+		padding-top:630px;
+	}
+	
+	
+	
+}
+
+@media (max-width: 375px) { 
+	.vid-hero {
+
+	}
+}
+
+
+/*************************************************************************************************************
+IMAGE MODULE 
+*************************************************************************************************************/
+
+.img-hero-tall img {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+}
+
+.img-hero-tall {
+		height: 1100px;
+	    width: 100%;
+	    overflow: hidden;
+	    position: relative;
+		border-top:2px solid #000;
+}
+
+@media (max-width: 900px) { 
+	.img-hero-tall {
+			height: 750px;
+	}
+}
+
+@media (max-width: 768px) { 
+	.img-hero-tall {
+			height: 600px;
+	}
+}
+
+@media (max-width: 500px) { 
+	.img-hero-tall {
+			height:300px;
+	}
+}
+
+
+
+
+.bgimg {
+	background-image: url("../img/project_7_hilma.jpg");
+	height:120%;
+}
+
+.hilma  h1 {
+	margin-top: 0px;
+}
+
+
+
+@media (max-width: 1024px) {
+	.bgimg {
+		min-height:90%!important;
+	}
+}
+
+@media (max-width: 500px) { 
+	.bgimg {
+		min-height:70%!important;
+		height:92%;
+	}
+	
+}
+
+
+
+/*************************************************************************************************************
+CURVE VIDEO
+*************************************************************************************************************/
+
+.home-curve-video video {
+    width: 100%;
+    height: auto;
+	border-radius: 30px;
+	z-index:-1;
+}
+
+
+@media (max-width: 500px) { 
+	
+	
+	.home-curve-video {
+		margin-top:60px;
+	}
+	
+	.home-curve-video video {
+		border-radius: 16px;
+	}
+}
+
+
+/*************************************************************************************************************
+CURVE IMAGE
+*************************************************************************************************************/
+
+.dreampop .img-home-project {
+		border-radius: 30px;
+		filter: blur(40px);
+}
+
+@media (max-width: 500px) { 
+	.dreampop .img-home-project {
+			border-radius: 16px;
+	}
+}
+
+
+
+/*************************************************************************************************************
+SOCIAL VIDEO
+*************************************************************************************************************/
+
+
+.video-social  { 
+	bottom:20px;
+	right: 30px;
+	position: fixed;
+	z-index:1000;
+    display:none;
+}
+
+.video-social.dim  { 
+	opacity: 0;
+}
+
+.video-social video { 
+	height:200px;
+	width: 200px;
+	border-radius: 10px;
+	transition: all .2s ease-in-out; 
+	transform-origin: right bottom;
+}
+
+.video-social video:hover { 
+	transform: scale(2); 
+}
+
+@media (max-width: 500px) { 
+
+	.video-social video { 
+		height:100px;
+		width: 100px;
+	}
+	
+	.video-social video:hover { 
+		transform: scale(1); 
+	}
+}
+
+
