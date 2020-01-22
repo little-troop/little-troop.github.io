@@ -1,0 +1,182 @@
+﻿
+/*************************************************************************************************************
+VIDEO HERO
+*************************************************************************************************************/
+
+.vid-hero {
+    width:100%;
+    height:100vh;
+    overflow: hidden;
+}
+
+.vid-hero video {
+      /*object-fit: contain;*/
+/*       object-fit: fill; */
+      object-fit: cover;
+      width:100%;
+      height:100%;
+}
+
+@media (max-width: 500px) { 
+	.vid-hero {
+	    width:100%;
+	    height:70vh;
+	    overflow: hidden;
+	}
+}
+
+@media (max-width: 375px) { 
+	.vid-hero {
+	    width:100%;
+	    height:55vh;
+	    overflow: hidden;
+	}
+}
+
+
+/*************************************************************************************************************
+BLUSH
+*************************************************************************************************************/
+
+.blush {
+	background:#f3c3a9;
+	padding-bottom: 200px;
+}
+
+@media (max-width: 500px) { 
+	.blush {
+		padding-top:0px;
+		padding-bottom: 90px;
+	}		
+}
+
+.blush video {
+    width: 100%;
+    height: auto;
+}
+
+
+/*************************************************************************************************************
+PEACH
+*************************************************************************************************************/
+.peach {
+	background:#f09079;
+	padding-top:0px;
+	padding-bottom: 200px;
+}
+
+@media (max-width: 500px) { 
+	.peach {
+		padding-top:0px;
+		padding-bottom: 90px;
+	}	
+}
+
+.peach video {
+    width: 100%;
+    height: auto;
+}
+
+/*************************************************************************************************************
+GREY
+*************************************************************************************************************/
+.grey {
+	background-color: rgb(230, 233, 255);
+	padding-top:50px;
+	padding-bottom: 200px;
+}
+
+@media (max-width: 500px) { 
+	.grey {
+		padding-top:0px;
+		padding-bottom: 90px;
+	}	
+}
+
+.grey video {
+    width: 100%;
+    height: auto;
+}
+
+/*************************************************************************************************************
+PERI
+*************************************************************************************************************/
+.peri {
+	background-color: rgb(128, 147, 255);
+	padding-top:50px;
+	padding-bottom: 200px;
+}
+
+@media (max-width: 500px) { 
+	.peri {
+		padding-top:0px;
+		padding-bottom: 90px;
+	}	
+}
+
+
+/*************************************************************************************************************
+BLACK
+*************************************************************************************************************/
+.black {
+	background-color: #000;
+	padding-top:50px;
+	padding-bottom: 200px;
+}
+
+@media (max-width: 500px) { 
+	.black {
+		padding-top:0px;
+		padding-bottom: 50px;
+	}	
+}
+
+
+.black video {
+    width: 100%;
+    height: auto;
+}
+
+/*************************************************************************************************************
+BLACK2
+*************************************************************************************************************/
+.black2 {
+	background-color: #000;
+	padding-top:50px;
+	padding-bottom: 80px;
+}
+
+@media (max-width: 500px) { 
+	.black2 {
+		padding-top:0px;
+		padding-bottom: 50px;
+	}	
+}
+
+
+
+.black2 video {
+    width: 100%;
+    height: auto;
+}
+
+
+@media (max-width: 1024px) {
+	.bgimg2 {
+		min-height:90%!important;
+	}
+}
+
+@media (max-width: 500px) { 
+
+	
+	.billie-logo {
+		margin-top:80px;
+		margin-bottom:120px;
+	}
+	
+	.billie-louize{
+		margin-bottom:40px;
+	}
+}
+
