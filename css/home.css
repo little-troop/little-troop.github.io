@@ -1,4 +1,4 @@
-﻿/*************************************************************************************************************
+/*************************************************************************************************************
 CUBE
 *************************************************************************************************************/
 .cube video {
@@ -447,10 +447,6 @@ VIDEO HERO - TALL
 	padding-top:60px;
 }
 
-.video-headline-img {
-	z-index:99;
-	padding-top:30px;
-}
 
 .video-headline  h1 {
 	margin-top: 0px;
@@ -528,21 +524,116 @@ IMAGE MODULE
 		border-top:2px solid #000;
 }
 
-@media (max-width: 900px) { 
+.video-headline-img {
+	z-index:99;
+	padding-top:60px;
+}
+
+@media (max-width: 1400px) { 
 	.img-hero-tall {
-			height: 750px;
+			height: 1000px;
 	}
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 1200px) { 
+	.img-hero-tall {
+			height: 900px;
+	}
+}
+
+@media (max-width: 1100px) { 
+	.img-hero-tall {
+			height: 800px;
+	}
+}
+
+
+@media (max-width: 1000px) { 
+	.img-hero-tall {
+			height: 700px;
+	}
+}
+
+
+
+@media (max-width: 900px) { 
+	.img-hero-tall {
+			height: 650px;
+	}
+}
+
+@media (max-width: 800px) { 
 	.img-hero-tall {
 			height: 600px;
 	}
 }
 
+@media (max-width: 768px) { 
+	.img-hero-tall {
+			height: 550px;
+	}
+}
+
+@media (max-width: 700px) { 
+	.img-hero-tall {
+			height: 500px;
+	}
+	
+	.img-hero-tall h1 {
+		letter-spacing: -2px;
+		    font-size: 72px;
+		    line-height: 62px;
+	}
+	
+	.img-hero-tall h1 span {
+		letter-spacing: -2px;
+		    font-size: 70px;
+		    line-height: 62px;
+	}
+}
+
+@media (max-width: 600px) { 
+	.img-hero-tall {
+			height: 450px;
+	}
+	
+}
+
 @media (max-width: 500px) { 
 	.img-hero-tall {
+			height:400px;
+	}
+	.video-headline-img {
+		padding-top:30px;
+	}
+	
+	.img-hero-tall h1 {
+		font-size: 58px;
+		    line-height: 52px;
+		    letter-spacing: -1.8px;
+	}
+	
+	.img-hero-tall h1 span {
+	    font-size: 52px;
+	    line-height: 52px;
+	    letter-spacing: -1px;
+	}
+}
+
+@media (max-width: 375px) { 
+	.img-hero-tall {
 			height:300px;
+	}
+	
+	.img-hero-tall h1 {
+		font-size: 52px;
+		 line-height: 48px;
+	}
+	
+	.img-hero-tall h1 span {
+	    font-size: 48px;
+	    line-height: 48px;
+	    letter-spacing: -1px;
 	}
 }
 
@@ -658,5 +749,3 @@ SOCIAL VIDEO
 		transform: scale(1); 
 	}
 }
-
-
