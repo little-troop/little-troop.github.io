@@ -1,0 +1,107 @@
+﻿
+/*************************************************************************************************************
+VIDEO HERO
+*************************************************************************************************************/
+
+.vid-hero {
+    width:100%;
+    height:100vh;
+    overflow: hidden;
+}
+
+.vid-hero video {
+      /*object-fit: contain;*/
+/*       object-fit: fill; */
+      object-fit: cover;
+      width:100%;
+      height:100%;
+}
+
+@media (max-width: 500px) { 
+	.vid-hero {
+	    width:100%;
+	    height:70vh;
+	    overflow: hidden;
+	}
+}
+
+@media (max-width: 375px) { 
+	.vid-hero {
+	    width:100%;
+	    height:55vh;
+	    overflow: hidden;
+	}
+
+}
+
+
+/*************************************************************************************************************
+ORANGE
+*************************************************************************************************************/
+
+.site {
+	background-color:#000;
+	padding-bottom: 200px;
+	padding-top:60px;
+}
+
+@media (max-width: 500px) { 
+	.site {
+		padding-top:0px;
+		padding-bottom: 90px;
+	}		
+}
+
+.site video {
+    width: 100%;
+    height: auto;
+}
+
+
+/*************************************************************************************************************
+VIDEO HERO - TALL 1
+*************************************************************************************************************/
+
+.wide-vid {
+
+}
+
+.wide-vid video {
+    width: 100%;
+    height: auto;
+	margin-top:-10px;
+}
+
+video.block-tall-vid-2 {
+		margin-bottom:180px;
+}
+
+
+
+@media (max-width: 1280px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 600px) {
+}
+
+
+@media (max-width: 500px) {
+	video.block-tall-vid-2 {
+			margin-bottom:70px;
+	}
+}
+
+@media (max-width: 414px) {	
+}
+
+
+@media (max-width: 375px) {
+}
+
+
