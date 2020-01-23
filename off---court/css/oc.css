@@ -11,7 +11,7 @@ GLOBAL
    z-index: 9999;
    background-image: url('../img/preload.gif');
    background-repeat: no-repeat; 
-   background-color: #FFF;
+   background-color: #000;
    background-position: center;
 }
 
