@@ -355,9 +355,9 @@ h1{
 
 
 .h1-small-white {
-	font-size: 48px;
-	line-height: 48px;
-	letter-spacing: -1.5px;
+	font-size: 36px;
+	line-height: 38px;
+	letter-spacing: -.5px;
 	color:#fff;
 	margin: 0px 0 0px 0;
 }
@@ -365,11 +365,10 @@ h1{
 
 .h1-small-white span {
 	color: #fff;
-    font-size: 44px;
-    line-height: 48px;
-    letter-spacing: -1px;
-
-}
+	font-size: 34px;
+	    line-height: 38px;
+	    letter-spacing: -0.5px;
+	}
 
 
 
@@ -401,6 +400,20 @@ h2 span {
 	font-size: 36px;
 	line-height: 40px;
 	letter-spacing: -0.5px;	
+}
+
+.h2-small-white { 
+	font-size: 36px;
+	line-height: 38px;
+	letter-spacing: -.5px;
+
+}
+
+.h2-small-white span { 
+
+	font-size: 34px;
+	 line-height: 38px;
+	  letter-spacing: -0.5px;
 }
 
 h4 {
@@ -456,17 +469,17 @@ INTROS
 *************************************************************************************************************/
 
 .intro-headline {
-	margin:90px 0 90px 0;
+	margin:50px 0 50px 0;
 }
 
 
 .intro-para {
-	margin: 0px 0px 70px 0;
+	margin: 0px 0px 50px 0;
 	
 }
 
 .intro-para-project {
-	margin: 70px 0px 90px 0;
+	margin: 50px 0px 50px 0;
 }
 
 .links-top-black {
