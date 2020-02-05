@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "restricted area"
-AuthUserFile /little-troop.github.io/eden/.htpasswd
-require valid-user
