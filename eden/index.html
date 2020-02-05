@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!-- LITTLE TROOP 2020-->
 <!-- HI FRIENDS-->
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138640942-1"></script>
@@ -13,113 +13,80 @@
 	  gtag('config', 'UA-138640942-1');
 	</script>
 <title>Little Troop — Eden</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="../css/style.css" rel="stylesheet">
-<link href="../css/lt.css" rel="stylesheet">
-<link href="../css/lt_small.css" rel="stylesheet">
-<link href="eden.css" rel="stylesheet">
-<link href="../css/fonts/stylesheet.css" rel="stylesheet">	
+<link href="pword.css" rel="stylesheet">
 
-<link rel="icon" href="../../img/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
-
-.bg {
-  /* The image used */
-  background-image: url("img/Eden_RFP-02.jpg");
-
-  /* Full height */
-  height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.navbarWHITE {
-	display: block!important;
-}
-
-.navbarBLACK {
-	display: none!important;
-}
-
-
-
-</style>
 </head>
 
-<body class="dark">
 
 
-<!-- Nav / Logo-->
-<div class="navbarWHITE">
-	<h4 class="lt"><a href="../index.html" target="_blank">LITTLE TROOP</a></h4>
-</div>
-<div class="navbarBLACK">
-	<h4 class="lt"><a href="../index.html" target="_blank">LITTLE TROOP</a></h4>
-</div>
+<body>
 
-
-
-
-
-<!-- BG-->
-<a href="2.html" class="link-right-white">
-<div class="bg"></div>	
-</a>
-
-<!-- Footer3-->
-<div class="contact-footer-3">
-   <div class="w3-container">
-  	  <div class="w3-content">
-	  
-		<div class="contact-toenail">
-			
-			<ul>
-				<li><h6>
-					<a href="https://www.instagram.com/littletroopinc/" target="_blank">
-						Instagram
-					</a>
-				</h6></li>
-			
-				<li class="contact-item2"><h6>
-					<a href= "mailto:hello@littletroop.com">
-						hello@littletroop.com
-					</a>
-				</h6></li>
-			
-				<li class="contact-item2"><h6>
+	<div id="loginbox" class="lightbox" >
+		<div class="horizontal">
+			<div class="vertical">
 				
-						MADE IN BED STUY, NY
-				
-				</h6></li>
-			
-			</ul>
-			
+				<div class="box">
+					<div class="eyes"><img src="../img/eyez-white.png" class="#"></div>
+					<input style="margin: 16px; text-align: center;" id="password" type="password" placeholder="Password" /> <br />
+					<button id="loginbutton" type="button">ENTER</button>
+					<p id="wrongPassword" style="display: none">wrong password</p>
+				</div>
+			</div>
 		</div>
-		
-  	</div>
-  </div>
-</div>
+	</div>
 
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 
 
-<script>
- 		$(window).load(function() {
- 		   $('.preloader').fadeOut('slow');
- 		});			
-</script> 
+	 <script type="text/javascript" src="https://rawcdn.githack.com/chrisveness/crypto/7067ee62f18c76dd4a9d372a00e647205460b62b/sha1.js"></script>
 
+	<script type="text/javascript">
+	"use strict";
+
+
+	function loadPage(pwd) {
+
+		var hash= pwd;
+		hash= Sha1.hash(pwd);
+		var url= hash + "/index.html";
+
+		$.ajax({
+			url : url,
+			dataType : "html",
+			success : function(data) {
+
+				window.location= url;
+
+			},
+			error : function(xhr, ajaxOptions, thrownError) {
+
+
+				parent.location.hash= hash;
+
+				//$("#wrongPassword").show();
+				$("#password").attr("placeholder","wrong password");
+				$("#password").val("");
+			}
+		});
+	}
+
+
+	$("#loginbutton").on("click", function() {
+		loadPage($("#password").val());
+	});
+	$("#password").keypress(function(e) {
+		if (e.which == 13) {
+
+			loadPage($("#password").val());
+		}
+	});
+	$("#password").focus();
+
+	</script>
 
 </body>
 </html>
