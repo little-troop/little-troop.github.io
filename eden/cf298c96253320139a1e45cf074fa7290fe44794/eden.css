@@ -1,0 +1,170 @@
+﻿/*************************************************************************************************************
+MOBILE
+*************************************************************************************************************/
+
+
+@media (max-width: 823px) { 
+	.lt {
+	    font-size:10px;
+	}
+	
+	.tap {
+		visibility: visible!important;
+		
+	}
+}
+
+
+
+@media (max-width: 500px) { 
+	.rotate {
+		visibility: visible!important;
+	}
+	.bg {
+		visibility:hidden!important;	
+	}
+	.tap {
+		visibility: hidden!important;
+	}
+}
+
+
+.rotate {
+	font-size:16px;
+	position:fixed;
+	top:50%;
+	z-index:100;
+	text-align:center;
+	width:100%;
+	height:100%;
+	background:#000;
+	color:#fff;
+	padding-bottom:8px;
+	padding-top:3px;
+	visibility: hidden;
+}
+
+.tap {
+	bottom:-20px;
+	font-size:10px;
+	position:fixed;
+	z-index:100;
+	text-align:center;
+	width:100%;
+	background:#fff;
+	color:#000;
+	padding-bottom:8px;
+	padding-top:3px;
+	visibility: hidden;
+
+}
+
+
+
+/*************************************************************************************************************
+BLOCK
+*************************************************************************************************************/
+.wide-vid video {
+    width: 100%;
+    height: auto;
+	margin-top:-10px;
+}
+
+.scroll {
+	bottom:-20px;
+	position:fixed;
+	z-index:100;
+	text-align:center;
+	width:100%;
+	background:#fff;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+
+
+
+
+
+/*************************************************************************************************************
+VIDEO HERO
+*************************************************************************************************************/
+
+.vid-hero {
+    width:100%;
+    height:100vh;
+    overflow: hidden;
+}
+
+.vid-hero video {
+      /*object-fit: contain;*/
+/*       object-fit: fill; */
+      object-fit: cover;
+      width:100%;
+      height:100%;
+}
+
+@media (max-width: 500px) { 
+	.vid-hero {
+	    width:100%;
+	    height:70vh;
+	    overflow: hidden;
+	}
+}
+
+@media (max-width: 375px) { 
+	.vid-hero {
+	    width:100%;
+	    height:55vh;
+	    overflow: hidden;
+	}
+}
+
+
+
+/*************************************************************************************************************
+LINKS SIDE BY SIDE
+*************************************************************************************************************/
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+}
+
+.left {
+  left:0;
+  background:transparent;
+}
+
+.right {
+  right: 0;
+  background:transparent;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+a.link-left-white {
+			cursor: url('../../img/arrow_small_left_white.png'), auto;	
+}
+
+a.link-right-white {
+			cursor: url('../../img/arrow_small_right_white.png'), auto;	
+}
+
+a.link-left-black {
+			cursor: url('../../img/arrow_small_left_black.png'), auto;	
+}
+
+a.link-right-black {
+			cursor: url('../../img/arrow_small_right_black.png'), auto;	
+}
+
+
