@@ -1,4 +1,46 @@
 ﻿/*************************************************************************************************************
+HEADER FOOTER
+*************************************************************************************************************/
+
+
+
+.navbarWHITE {
+	border-bottom:1px solid #fff;
+	padding-bottom:50px;
+	position:fixed;
+	width:100%;
+}
+
+.navbarBLACK {
+	border-bottom:1px solid #000;
+	padding-bottom:50px;
+	position:fixed;
+	width:100%;
+}
+
+.contact-footer-3 {
+    border-top: 1px #000 solid!important;
+}
+
+
+.contact-toenail {
+	margin:0 auto;
+	width:780px;
+}
+
+li {
+	text-align:center;
+}
+
+h6 {
+		font-size:12px!important;
+}
+
+h4 {
+	font-size:14px!important;
+}
+
+/*************************************************************************************************************
 MOBILE
 *************************************************************************************************************/
 
@@ -12,6 +54,10 @@ MOBILE
 		visibility: visible!important;
 		
 	}
+	.contact-toenail {
+	
+		width:100%;
+	}
 }
 
 
@@ -20,12 +66,28 @@ MOBILE
 	.rotate {
 		visibility: visible!important;
 	}
+	.rotateWHITE {
+		visibility: visible!important;
+	}
 	.bg {
+		visibility:hidden!important;	
+	}
+	
+	.vid-hero {
 		visibility:hidden!important;	
 	}
 	.tap {
 		visibility: hidden!important;
 	}
+	
+	.navbarWHITE {
+		visibility: hidden!important;
+	}
+
+	.navbarBLACK {
+		visibility: hidden!important;
+	}
+	
 }
 
 
@@ -36,9 +98,22 @@ MOBILE
 	z-index:100;
 	text-align:center;
 	width:100%;
-	height:100%;
 	background:#000;
 	color:#fff;
+	padding-bottom:8px;
+	padding-top:3px;
+	visibility: hidden;
+}
+
+.rotateWHITE {
+	font-size:16px;
+	position:fixed;
+	top:50%;
+	z-index:100;
+	text-align:center;
+	width:100%;
+	background:#fff;
+	color:#000;
 	padding-bottom:8px;
 	padding-top:3px;
 	visibility: hidden;
@@ -76,7 +151,7 @@ BLOCK
 	z-index:100;
 	text-align:center;
 	width:100%;
-	background:#fff;
+	background-color: rgb(255, 124, 85);
 	padding-bottom:10px;
 	padding-top:10px;
 }
@@ -106,7 +181,6 @@ VIDEO HERO
 @media (max-width: 500px) { 
 	.vid-hero {
 	    width:100%;
-	    height:70vh;
 	    overflow: hidden;
 	}
 }
@@ -125,7 +199,7 @@ VIDEO HERO
 LINKS SIDE BY SIDE
 *************************************************************************************************************/
 .split {
-  height: 100%;
+  height: 90%;
   width: 50%;
   position: fixed;
   z-index: 1;
@@ -168,3 +242,73 @@ a.link-right-black {
 }
 
 
+
+a.link-left-green {
+			cursor: url('../../img/arrow_small_left_green.png'), auto;	
+}
+
+a.link-right-green {
+			cursor: url('../../img/arrow_small_right_green.png'), auto;	
+}
+
+
+/*************************************************************************************************************
+SIDENAV
+*************************************************************************************************************/
+
+.openbtn{
+	width:40px;
+	height:40px;
+	z-index:99;
+	position:fixed;
+}
+
+.hamcontainer {
+	top:20px;
+	left:20px;
+		position:fixed;
+
+}
+.ham {
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    margin: 2px 0;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  overflow-x: hidden;
+  transition: 0.4s;
+}
+
+.sidenav a {
+  text-decoration: none;
+  font-size: 60px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.toc {
+	margin-top:200px;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 26px;
+  z-index:100;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
