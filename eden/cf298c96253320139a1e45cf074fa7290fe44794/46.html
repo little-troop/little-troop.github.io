@@ -29,18 +29,6 @@ body, html {
   margin: 0;
 }
 
-.bg {
-  /* The image used */
-  background-image: url("img/Eden_RFP-46.gif");
-
-  /* Full height */
-  height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 .navbarWHITE {
 	display: none!important;
@@ -56,7 +44,7 @@ body, html {
 </head>
 
 <body class="dark">
-
+<div class="preloader"></div>
 
 <!-- Nav / Logo-->
 <div class="navbarWHITE">
@@ -83,6 +71,13 @@ body, html {
 
 <!-- BG-->
 <div class="bg"></div>	
+<!-- Video Hero-->
+<div class="vid-hero">	
+<video preload="auto" playsinline autoplay muted loop>
+  <source src="img/Eden_RFP-46.mp4" type="video/mp4">
+</video>
+<div class="nav-trigger">	</div>
+</div>
 
 
 <!-- Footer3-->
