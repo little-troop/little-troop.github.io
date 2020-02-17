@@ -41,9 +41,7 @@ hr.hr-black {
 /*************************************************************************************************************
 NAV
 *************************************************************************************************************/
-.navbarWHITE {
-	display: none;
-}
+
 
 .navbarWHITE h4 {
   color: #fff;
@@ -965,6 +963,11 @@ video.project-grid-vid {
 }
 
 
+.thumb-7 img {
+	margin-top:-12px;
+	margin-left:-10px;
+}
+
 .thumb-9 img {
 	margin-top:-12px;
 	margin-left:-10px;
@@ -1048,30 +1051,7 @@ video.project-grid-vid {
 	margin-left:-10px;
 }
 
-/*THUMB 7**/
-.coming-soon-thumb-7:hover a h5 {
-	display:none;
-}
 
-.coming-soon-thumb-7:hover a:after {
-	content:"Coming Soon";
-	font-family: "Favorit", sans-serif;
-	font-size: 15px;
-	line-height:10px;
-    font-weight: 300;
-    letter-spacing: 0.5px;
-    color: #000;
-    text-transform: uppercase;
-} 
-
-.coming-soon-thumb-7 a:hover img {
-    content: url('../img/thumb_7.jpg');
-}
-
-.coming-soon-thumb-7 a img {
-	margin-top:-12px;
-	margin-left:-10px;
-}
 
 /*THUMB 8**/
 .coming-soon-thumb-8:hover a h5 {
