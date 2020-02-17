@@ -1,4 +1,9 @@
-﻿img {
+﻿.navbarWHITE {
+	display: none;
+}
+
+
+img {
 	border-radius:6px;
 }
 
