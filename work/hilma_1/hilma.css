@@ -1,4 +1,13 @@
-﻿img {
+﻿.navbarWHITE {
+	display: none;
+}
+
+.fullBGImage img {
+		 border-radius: 0px!important;
+}
+
+
+img {
 	 border-radius: 14px;
 }
 
