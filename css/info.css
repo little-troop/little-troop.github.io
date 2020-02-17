@@ -402,10 +402,45 @@ PARAGRAPH
 }
 
 
-
-.info-para-text {
-
+.info-client-row { 
+	border-bottom:0.5px #000 solid;
+	padding-bottom:21px;
+	padding-top:3px;
+  	font-family: "Favorit", sans-serif; 
+  	font-weight: 300;
+  	letter-spacing: 0.6px;
+  	font-size:12px;	
+	line-height:20px;
+	text-transform:uppercase;
 }
+
+.info-client-para {
+	padding-bottom:50px;
+}
+
+@media (max-width: 600px) {
+	.info-client-row {
+	  	letter-spacing: 0.3px;
+	  	font-size:10px;	
+	}	
+}
+
+@media (max-width: 414px) {
+	.info-client-row {
+	  	letter-spacing: 0.3px;
+	  	font-size:9px;	
+		margin-top:2px;
+	}	
+}
+
+@media (max-width: 375px) {
+	.info-client-row {
+	  	letter-spacing: 0.3px;
+	  	font-size:8px;	
+		margin-top:2px;
+	}	
+}
+
 
 .info-para-contain {
 	float:left;
@@ -414,11 +449,19 @@ PARAGRAPH
 .info-para {
 	border-top: 2px solid #000;
 	padding-top: 80px;
+	padding-bottom: 80px;
 
 }
 
+.info-clients {
+    border-top: 2px solid #000;
+    padding-top: 80px;
+	padding-bottom: 80px;
+	border-bottom: 2px solid #000;
+}
 
-.info-para h1 {
+
+.info-para h1, .info-clients h1 {
 
 	font-size: 40px;
 	line-height: 39px;
