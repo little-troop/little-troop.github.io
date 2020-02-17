@@ -1,4 +1,9 @@
-﻿.navbarWHITE {
+﻿.dead {
+	display: none;	
+}
+
+
+.navbarWHITE {
 	display: none;
 }
 
