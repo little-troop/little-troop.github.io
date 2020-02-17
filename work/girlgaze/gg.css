@@ -1,5 +1,5 @@
-﻿.dead {
-	display: none;	
+﻿.dead p {
+	visibility:hidden;
 }
 
 
