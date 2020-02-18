@@ -1,8 +1,4 @@
-﻿.dead p {
-	visibility:hidden;
-}
-
-
+﻿
 .navbarWHITE {
 	display: none;
 }
@@ -42,7 +38,13 @@ iframe {
 		border-radius:6px;	
 }
 
-.two-up video {
+.wide-vid video {
+    width: 100%;
+    height: auto;
+			border-radius:6px;	
+}
+
+.spin-vid video {
     width: 100%;
     height: auto;
 			border-radius:6px;	
