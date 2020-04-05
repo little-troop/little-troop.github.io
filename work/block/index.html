@@ -25,8 +25,7 @@
 </head>
 
 <body class="dark">
-	
-<div class="preloader"></div>
+
 <div id="preload">
 	<img src="../../img/thumb_1.jpg" />
 	<img src="../../img/thumb_4.jpg" />
@@ -36,65 +35,24 @@
 </div>
 
 <!-- Nav / Logo-->
-<div class="navbarBLACK">
-	<h4 class="lt"><a href="../../index.html">LITTLE TROOP</a></h4>
-	<h4 class="work"><a href="../../index.html">W<br>O<br>R<br>K</a></h4>
-	<h4 class="info"><a href="../../info.html">I<br>N<br>F<br>O</a></h4>
-	
-	<div class="black-BACK-NEXT">
-		 <div class="backHover">
-		   <h4 class="back"><a href="../girlgaze/index.html">B<br>A<br>C<br>K</a></h4>
-		   <div class="backHover-content">
-		        <a href="#">A shiny new <span>Girlgaze &mdash;</span><br/>closing the gender gap.</a>
-	       </div>
+<header class="header">
+		<div class="header_content">
+			 <a href="../../index.html" class="logo">LITTLE TROOP</a>
+			<nav>
+				<div class="nav-left"><a href="../../index.html">W<br>O<br>R<br>K</a></div>
+				<div class="nav-right"><a href="../../info.html">I<br>N<br>F<br>O</a></div>
+			</nav>
 		</div>
-
-		<div class="nextHover">
-		   <h4 class="next"><a href="../billie/index.html">N<br>E<br>X<br>T</a></h4>		   
-		   <div class="nextHover-content">
-		        <a href="../billie/index.html">Launching <span>Billie &mdash;</span><br/>the new body brand.</a>
-	       </div>
-		</div>
-		
-	</div>
-</div>
-
-
-
-<!-- Nav / Logo-->
-<div class="navbarWHITE">
-	<h4 class="lt"><a href="../../index.html">LITTLE TROOP</a></h4>
-	<h4 class="work"><a href="../../index.html">W<br>O<br>R<br>K</a></h4>
-	<h4 class="info"><a href="../../info.html">I<br>N<br>F<br>O</a></h4>
-	<div class="white-BACK-NEXT">
-		 <div class="backHover">
-		   <h4 class="back"><a href="../girlgaze/index.html">B<br>A<br>C<br>K</a></h4>
-		   <div class="backHover-content">
-		        <a href="#">A shiny new <span>Girlgaze &mdash;</span><br/>closing the gender gap.</a>
-	       </div>
-	       </div>
-		</div>
-
-		<div class="nextHover">
-		   <h4 class="next"><a href="../billie/index.html">N<br>E<br>X<br>T</a></h4>		   
-		   <div class="nextHover-content">
-		        <a href="../billie/index.html">Launching <span>Billie &mdash;</span><br/>the new body brand.</a>
-	       </div>
-		</div>
-		
-	</div>
-</div>
-
-
-
+</header>
 	
 	
+
+
 <!-- Video Hero-->
 <div class="vid-hero">	
 <video preload="auto" playsinline autoplay muted loop>
   <source src="img/block1.mp4" type="video/mp4">
 </video>
-<div class="nav-trigger"></div>
 </div>
 
 
@@ -398,13 +356,13 @@
 					 	  <source src="img/block8d.mp4" type="video/mp4">
 				     	</video>
 					</div>
+					
 			</div>
 		</div>
   	</div>
 	
-
-
 </div>
+
 
 
 
@@ -427,6 +385,8 @@
 				</h1>
 			</section>
   			<div class="project-grid-items">
+			
+			<div id="black-end"></div>
 			<div class="project-grid-row">
 				
 				<div class="project-grid-item">
@@ -477,7 +437,8 @@
     			</div>
 				
 			</div>
-			
+
+				
 			<div class="project-grid-row">
 			
 				<div class="project-grid-item">
@@ -532,10 +493,9 @@
   </div>
 </div>
 
-
-
 <!-- Footer-->
 <div class="contact-footer">
+	
    <div class="w3-container">
   	  <div class="w3-content">
 	
@@ -565,7 +525,7 @@
     </div>
   </div>
 </div>		
-<div class="nav-trigger-2"></div>
+
 <!-- Footer2-->
 <div class="contact-footer-2">
    <div class="w3-container">
@@ -584,8 +544,9 @@
   	  <div class="w3-content">
 	  
 		<div class="contact-toenail">
-			
+				
 			<ul>
+				
 				<li><h6>
 					<a href="https://www.instagram.com/littletroopinc/" target="_blank">
 						Instagram
@@ -615,14 +576,9 @@
 
 
 
-<script  src="js/index.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-<script>
- 		$(window).load(function() {
- 		   $('.preloader').fadeOut('slow');
- 		});			
-</script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 
 
 <script>
@@ -638,30 +594,25 @@ function myFunction() {
 
 function outFunc() {
   var tooltip = document.getElementById("myTooltip");
-  tooltip.innerHTML = "Copy to clipboard";
+  tooltip.innerHTML = "Copy: hello@littletroop.com";
 }
 </script>
 
 <script>
-		$(document).ready(function () {
-		    var navWHITESTART = $(".nav-trigger").offset().top;
-		    var navWHITEEND = $(".nav-trigger-2").offset().top;
-		    $(window).scroll(function () {       
-				if ($(window).scrollTop() > navWHITESTART && $(window).scrollTop() < navWHITEEND) {
-		            $(".navbarWHITE").show();
-					$(".white-BACK-NEXT").show();
-					$(".black-BACK-NEXT").hide();
-					$(".navbarBLACK").hide();
-		        } else {
-		            $(".navbarWHITE").hide();
-					$(".white-BACK-NEXT").hide();
-					$(".black-BACK-NEXT").hide();
-					$(".navbarBLACK").show();
-		        }
-		    });
-		});	
+		  $(window).scroll(function() {
+		     var heroHeight = $('.header').outerHeight(),
+		         winScrollPos = $(this).scrollTop();
+		     //console.log(heroHeight, winScrollPos);
+
+		     if (winScrollPos > heroHeight){
+		      $('header').addClass('header--alt');
+		     } else {
+		     	 $('header').removeClass('header--alt');
+		     }
+		  });
 </script>
-		
+
+
 
 
 </body>

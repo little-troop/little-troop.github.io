@@ -1,6 +1,4 @@
-﻿.navbarWHITE {
-	display: none;
-}
+﻿
 
 /*************************************************************************************************************
 VIDEO HERO
@@ -10,6 +8,8 @@ VIDEO HERO
     width:100%;
     height:100vh;
     overflow: hidden;
+	z-index: 1;
+	
 }
 
 .vid-hero video {
