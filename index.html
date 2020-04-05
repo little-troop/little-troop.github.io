@@ -27,25 +27,30 @@
 
 <body>
 	
-	
-<!-- Nav / Logo-->
-<div class="navbarBLACK">
-	<h4 class="lt"><a href="#">LITTLE TROOP</a></h4>
-	<h4 class="work"><a href="#">W<br>O<br>R<br>K</a></h4>
-	<h4 class="info"><a href="info.html">I<br>N<br>F<br>O</a></h4>
+<div id="preload">
+	<img src="img/thumb_1.jpg" />
+	<img src="img/thumb_4.jpg" />
+	<img src="img/thumb_6.jpg" />
+	<img src="img/thumb_7.jpg" />
+	<img src="img/thumb_8.jpg" />
 </div>
 
 
-
-<!-- Nav / Logo-->
-<div class="navbarWHITE">
-	<h4 class="lt"><a href="#">LITTLE TROOP</a></h4>
-	<h4 class="work"><a href="#">W<br>O<br>R<br>K</a></h4>
-	<h4 class="info"><a href="info.html">I<br>N<br>F<br>O</a></h4>
-</div>
-
-
+<header class="header">
+		<div class="header_content">
+			 <a href="#" class="logo">LITTLE TROOP</a>
+			<nav>
+				<div class="nav-left"><a href="#" class="work">W<br>O<br>R<br>K</a></div>
+				<div class="nav-right"><a href="info.html">I<br>N<br>F<br>O</a></div>
+			</nav>
+		</div>
+</header>
 	
+
+
+
+
+<div id="top-home">
 <!-- Cube-->
 <div class="cubic">
 	<div class="viewport">
@@ -81,6 +86,7 @@
 
 
 <!-- Intro-->
+
 <div class="w3-container">
   <div class="w3-content">
 	<div class="intro-headline">
@@ -89,6 +95,9 @@
   	</div>
   </div>
 </div>
+
+</div>
+
 
 <!-- Project Grid-->
 <div class="project-grid">
@@ -213,13 +222,7 @@
   	</div>
   </div>
 </div>
-<div id="preload">
-	<img src="img/thumb_1.jpg" />
-	<img src="img/thumb_4.jpg" />
-	<img src="img/thumb_6.jpg" />
-	<img src="img/thumb_7.jpg" />
-	<img src="img/thumb_8.jpg" />
-</div>
+
 
 
 
@@ -672,11 +675,9 @@
 
 
 <script  src="js/index.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
  
  
-
-
 
 
 		
@@ -698,36 +699,36 @@ function outFunc() {
 </script>
 	
  
- 
-	<script>
-		$(document).ready(function () {
-		    var topOfOthDiv = $(".trigger1").offset().top;
-		    var topOfOthDiv2 = $(".trigger2").offset().top;
-		    $(window).scroll(function () {
-		        if ($(window).scrollTop() > topOfOthDiv && $(window).scrollTop() < topOfOthDiv2) {
-		            $(".video-social").fadeIn("slow");
-		        } else {
-		            $(".video-social").fadeOut("slow");
-		        }
-		    });
-		});	
-	</script>
-	
 
 	
 	<script>
-    	  $(".lt").click(function() {
+    	  $(".logo").click(function() {
     	      $('html, body').animate({
-    	          scrollTop: $(".cubic").offset().top
+    	          scrollTop: $("#top-home").offset().top
     	      }, 1000);
     	  });
 	
   	  $(".work").click(function() {
   	      $('html, body').animate({
-  	          scrollTop: $(".intro-headline").offset().top
+  	          scrollTop: $(".project-grid").offset().top
   	      }, 1000);
   	  });
   	  
 	</script>
+	  
+	  
+	  <script>
+		  $(window).scroll(function() {
+		     var heroHeight = $('#top-home').outerHeight(),
+		         winScrollPos = $(this).scrollTop();
+		     //console.log(heroHeight, winScrollPos);
+
+		     if (winScrollPos > heroHeight){
+		      $('header').addClass('header--alt');
+		     } else {
+		     	 $('header').removeClass('header--alt');
+		     }
+		  });
+	  </script>
 </body>
 </html>
