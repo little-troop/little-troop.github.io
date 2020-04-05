@@ -25,7 +25,6 @@
 </head>
 
 <body>
-	
 
 <div id="preload">
 	<img src="../../img/thumb_1.jpg" />
@@ -132,8 +131,16 @@
 </div>
 
 <!-- Background photo -->
-<div class="w3-display-container bgimg2">
-</div>
+
+<div class="fullBGImage2">		
+			<div class="w3-col s12">
+  					<img src="img/billie5.jpg" style="width:100%;" class="image_full">
+					<img src="img/billie5_mob.jpg" style="width:100%;" class="image_mobile">
+			</div>		
+</div>	
+
+
+
 
 <div class="white2">
 
@@ -500,7 +507,7 @@
 		<div class="w3-container">
 			<div class="w3-content">
 				<div class="w3-col s12">
-					<h1>The brand's <span>highest performing</span> IG product post, to date.</h1>
+					<h1>The brand's <span><a href="https://www.instagram.com/p/Bp-rR1BnODW/" target="_blank">highest</a></span> performing IG product post, to date.</h1>
 				</div>
   			</div>
 		</div>
@@ -587,8 +594,9 @@
 					 	<video preload="auto" playsinline autoplay muted loop class="project-grid-vid">
 					 	  <source src="../../img/thumb_5.mp4" type="video/mp4">
 				     	</video>
-   	  		  		
+						
 						<h5 class="project-grid-copy">Launching a big one, <span>Billie</span></h5>
+					
 					</a>
     			</div>
 				
@@ -618,16 +626,19 @@
 					<div class="coming-soon-thumb-8">
 					<a href="#" onclick="return false;">
    	  		  			<img src="../../img/thumb_8_blur.jpg" style="width:110%">
-						<h5 class="project-grid-copy">An all new, natural <span>Hilma</span></h5>
+						<h5 class="project-grid-copy">An all new natural <span>Hilma</span></h5>
 					</a>
 					</div>
     			</div>
 				
 				<div class="project-grid-item">
-					<div class="thumb-9">
-   	  		  			<img src="../../img/thumb_9.jpg" style="width:110%;">
-						<h5 class="project-grid-copy">Little Troop <span>swag</span> coming soon</h5>
-					</div>
+					<a href="../dreampop/index.html">
+					 	<div class="thumb-9">
+					 	<img src="../../img/thumb_9.jpg" style="width:110%;">
+   	  		  			
+						<h5 class="project-grid-copy">Making <span>Billie</span> drops pops</h5>
+						</div>
+					</a>
     			</div>
 			
 				
@@ -665,7 +676,7 @@
 	   	 	<h1 class="contact-chat">Want to chat?</h1>
 			<h1 class="contact-email">	
 				
-					<input type="text" value="hello@littletroop.com" id="myInput"  style="opacity:0;font-size:1px;border:0;height:1px;width:3px;">
+					<input type="text" value="hello@littletroop.com" id="myInput"  style="opacity:0;font-size:1px;border:0;height:1px;width:3px;" data-role="none">
 
 					<div class="tooltip">
 						<button onclick="myFunction()" onmouseout="outFunc()"  style="text-align: left;color:#000;border:0;background:transparent;outline: 0;"> 
@@ -736,12 +747,6 @@
 <script src="https://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js"></script>
 
 <script>
- 		$(window).load(function() {
- 		   $('.preloader').fadeOut('slow');
- 		});			
-</script> 
-
-<script>
 function myFunction() {
   var copyText = document.getElementById("myInput");
   copyText.select();
@@ -809,7 +814,8 @@ $(function(){
 
 </script>
 
-
-
+<script>
+$.mobile.loading().hide();
+</script>
 </body>
 </html>
