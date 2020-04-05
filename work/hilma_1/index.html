@@ -548,8 +548,7 @@
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-
+<script src="https://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js"></script>
 
 
 <script>
@@ -608,6 +607,18 @@ function showDivs(n, no) {
   }
   x[slideIndex[no]-1].style.display = "block";  
 }
+
+
+$(function(){
+  $( ".mySlides1" ).on( "swipeleft", swipeleftHandler );
+  $( ".mySlides1" ).on( "swiperight", swiperightHandler);
+  function swipeleftHandler( ){
+    plusSlides(1);
+  }
+  function swiperightHandler( ){
+    plusSlides(-1);
+  }
+});
 </script>
 
 
