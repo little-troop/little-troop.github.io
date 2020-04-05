@@ -84,7 +84,13 @@ h1 {
 }
 
 .h1-small-white, .h1-small-white span  {
-		color: #fff;
+	color: #fff;
+}
+
+.h1-small a {
+    position: relative;
+    box-shadow: inset 0 -0.1em white, inset 0 -0.15em #000;
+    text-shadow: -2px -2px white, -2px 2px white, 2px -2px white, 2px 2px white;
 }
 
 .h1-white {
@@ -93,6 +99,15 @@ h1 {
 
 h1 span {
 	font-family: "Arial Narrow", sans-serif; 
+  	font-weight: normal;
+	font-size: 108px; 
+  	line-height: 120px;
+  	letter-spacing: -3px;
+    color: #000;
+}
+
+h1 span.gara-italic {
+	font-family: "AppleGaramondLight-Italic", sans-serif; 
   	font-weight: normal;
 	font-size: 108px; 
   	line-height: 120px;
@@ -165,7 +180,7 @@ h3 {
   	font-weight: 300;
 	letter-spacing: -0.6px;
   	font-size: 30px; 
-  	line-height: 33px;
+  	line-height: 32px;
     color: #000;
 	margin-top:0px;
 }
@@ -756,6 +771,7 @@ BACKGROUND IMAGES
 
 .fullBGImage {
 	display: table;
+	width:100%;
 }
 
 

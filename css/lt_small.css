@@ -114,9 +114,13 @@
 	h2 {
 		letter-spacing: -0.6px;
   		font-size: 36px; 
-  	  line-height: 40px;
+  	  	line-height: 40px;
 	}
-
+	
+	h2 span { 
+		font-size: 34px; 
+		line-height: 34px;
+	}
 
 	.four-up-left {
 		margin-right:15px;
@@ -197,7 +201,12 @@
 	h2 {
 		letter-spacing: -0.6px;
   		font-size: 30px; 
-  	  line-height: 35px;
+  	    line-height: 35px;
+	}
+	
+	h2 span {
+  		font-size: 26px; 
+  	    line-height: 26px;
 	}
 	
 
@@ -214,7 +223,7 @@
 @media (max-width: 660px) {	
 	
 	.w3-display-left img,.w3-display-right img  {
-		width:60px;
+		width:80px;
 	}
 	
 	.w3-button {
@@ -222,7 +231,7 @@
 	}
 	
 	.carousel-img  {
-		margin: 0 80px 0 80px;
+		margin: 0px 0px 0px 0px;
 	}
 	
 	.p-carousel {
@@ -338,20 +347,19 @@ h1{
 }
 
 .h1-small {
-	font-size: 48px;
-	line-height: 52px;
-	letter-spacing: -1.5px;
+	font-size: 36px;
+	line-height: 38px;
+	letter-spacing: -.5px;
 	color:#000;
-		margin: 0px 0 0px 0;
+	margin: 0px 0px 0px 0px;
 }
 
 
 .h1-small span {
-	color: #000;
-    font-size: 44px;
-    line-height: 48px;
-    letter-spacing: -1px;
-
+	color:#000;
+	font-size: 34px;
+	line-height: 38px;
+	letter-spacing: -0.5px;
 }
 
 
@@ -360,16 +368,16 @@ h1{
 	line-height: 38px;
 	letter-spacing: -.5px;
 	color:#fff;
-	margin: 0px 0 0px 0;
+	margin: 0px 0px 0px 0px;
 }
 
 
 .h1-small-white span {
 	color: #fff;
 	font-size: 34px;
-	    line-height: 38px;
-	    letter-spacing: -0.5px;
-	}
+	line-height: 38px;
+	letter-spacing: -0.5px;
+}
 
 
 
@@ -398,9 +406,7 @@ h2 {
 }
 
 h2 span {
-	font-size: 36px;
-	line-height: 40px;
-	letter-spacing: -0.5px;	
+	font-size: 34px;
 }
 
 .h2-small-white { 
@@ -567,7 +573,7 @@ PROJECT CONTENT CONTAINERS
 	padding-top: 70px;
 }
 
-.project-top-120-top-120 {
+.project-top-120-bottom-120 {
 	padding-top: 70px;
 	padding-bottom:70px;
 }
