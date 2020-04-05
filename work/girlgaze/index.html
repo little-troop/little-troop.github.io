@@ -27,7 +27,7 @@
 <body class="dark">
 
 	
-<div class="preloader"></div>
+
 <div id="preload">
 	<img src="../../img/thumb_1.jpg" />
 	<img src="../../img/thumb_4.jpg" />
@@ -38,55 +38,19 @@
 
 
 <!-- Nav / Logo-->
-<div class="navbarBLACK">
-	<h4 class="lt"><a href="../../index.html">LITTLE TROOP</a></h4>
-	<h4 class="work"><a href="../../index.html">W<br>O<br>R<br>K</a></h4>
-	<h4 class="info"><a href="../../info.html">I<br>N<br>F<br>O</a></h4>
+<header class="header">
+		<div class="header_content">
+			 <a href="../../index.html" class="logo">LITTLE TROOP</a>
+			<nav>
+				<div class="nav-left"><a href="../../index.html">W<br>O<br>R<br>K</a></div>
+				<div class="nav-right"><a href="../../info.html">I<br>N<br>F<br>O</a></div>
+			</nav>
+		</div>
+</header>
 	
-	<div class="black-BACK-NEXT">
-		 <div class="backHover">
-		   <h4 class="back"><a href="../teatime/index.html">B<br>A<br>C<br>K</a></h4>
-		   <div class="backHover-content">
-		        <a href="#"><span>Teatime &mdash;</span><br/>ID for Dakota Johnson</a>
-	       </div>
-		</div>
-
-		<div class="nextHover">
-		   <h4 class="next"><a href="../block/index.html">N<br>E<br>X<br>T</a></h4>		   
-		   <div class="nextHover-content">
-		        <a href="../block/index.html">Building <span>Block &mdash;</span><br/>from the ground up.</a>
-	       </div>
-		</div>
-		
-	</div>
-</div>
 
 
 
-<!-- Nav / Logo-->
-<div class="navbarWHITE">
-	<h4 class="lt"><a href="../../index.html">LITTLE TROOP</a></h4>
-	<h4 class="work"><a href="../../index.html">W<br>O<br>R<br>K</a></h4>
-	<h4 class="info"><a href="../../info.html">I<br>N<br>F<br>O</a></h4>
-	
-	<div class="white-BACK-NEXT">
-		 <div class="backHover">
-		   <h4 class="back"><a href="../teatime/index.html">B<br>A<br>C<br>K</a></h4>
-		   <div class="backHover-content">
-		        <a href="#"><span>Teatime &mdash;</span><br/>ID for Dakota Johnson</a>
-	       </div>
-	       </div>
-		</div>
-
-		<div class="nextHover">
-		   <h4 class="next"><a href="../block/index.html">N<br>E<br>X<br>T</a></h4>		   
-		   <div class="nextHover-content">
-		        <a href="../block/index.html">Building <span>Block &mdash;</span><br/>from the ground up.</a>
-	       </div>
-		</div>
-		
-	</div>
-</div>
 
 
 	
@@ -95,7 +59,6 @@
 <video preload="auto" playsinline autoplay muted loop>
   <source src="img/girlgaze1.mp4" type="video/mp4">
 </video>
-<div class="nav-trigger"></div>
 </div>
 
 
@@ -493,11 +456,10 @@ Using color-coding to clearly bucket the site by audience, the website mixes tog
 	</div>
 	
 	
-	<div class="nav-trigger-2"></div>
+
 	
 
 </div>
-
 
 
 
@@ -705,8 +667,9 @@ Using color-coding to clearly bucket the site by audience, the website mixes tog
   </div>
 </div>
 
-<script  src="js/index.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 <script>
  		$(window).load(function() {
@@ -728,28 +691,22 @@ function myFunction() {
 
 function outFunc() {
   var tooltip = document.getElementById("myTooltip");
-  tooltip.innerHTML = "Copy to clipboard";
+  tooltip.innerHTML = "Copy: hello@littletroop.com";
 }
 </script>
 
 <script>
-		$(document).ready(function () {
-		    var navWHITESTART = $(".nav-trigger").offset().top;
-		    var navWHITEEND = $(".nav-trigger-2").offset().top;
-		    $(window).scroll(function () {       
-				if ($(window).scrollTop() > navWHITESTART && $(window).scrollTop() < navWHITEEND) {
-		            $(".navbarWHITE").show();
-					$(".white-BACK-NEXT").show();
-					$(".black-BACK-NEXT").show();
-					$(".navbarBLACK").hide();
-		        } else {
-		            $(".navbarWHITE").hide();
-					$(".white-BACK-NEXT").hide();
-					$(".black-BACK-NEXT").hide();
-					$(".navbarBLACK").show();
-		        }
-		    });
-		});	
+		  $(window).scroll(function() {
+		     var heroHeight = $('.header').outerHeight(),
+		         winScrollPos = $(this).scrollTop();
+		     //console.log(heroHeight, winScrollPos);
+
+		     if (winScrollPos > heroHeight){
+		      $('header').addClass('header--alt');
+		     } else {
+		     	 $('header').removeClass('header--alt');
+		     }
+		  });
 </script>
 		
 
