@@ -298,6 +298,10 @@
 	.three-up-left, .three-up-center, .three-up-right {
 		padding:10px 20px 10px 20px;
 	}
+	
+	p {
+		line-height:23px;
+	}
 
 }
 
