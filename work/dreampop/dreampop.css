@@ -1,0 +1,180 @@
+﻿img.half-half {
+	padding-right:40px;
+}
+
+
+img.fifty-fifty-LEFT {
+	padding-right:10px;
+}
+
+img.fifty-fifty-RIGHT {
+	padding-left:10px;
+}
+
+
+/*************************************************************************************************************
+VIDEO HERO
+*************************************************************************************************************/
+
+video.dreampop-holder {
+    width: 78%;
+    height: auto;
+	margin-top:25px;
+}
+
+video.dreampop-subway {
+    width: 100%;
+    height: auto;
+	margin-top:25px;
+}
+
+
+
+@media (max-width: 600px) { 
+	video.dreampop-holder {
+	    width: 96%;
+	    height: auto;
+	    margin-top: 25px;
+	    padding-left: 36px;
+	    padding-right: 30px;
+	}
+	
+
+	video.dreampop-subway {
+	    width: 100%;
+	    height: auto;
+		margin-top:25px;
+	}
+	
+	img.half-half {
+		padding-top:60px;
+		padding-left:36px;
+		padding-right:40px;
+	}
+	
+	img.fifty-fifty-LEFT {
+		padding-right:0px;
+	}
+
+	img.fifty-fifty-RIGHT {
+		padding-left:0px;
+		padding-top:70px;
+	}
+	
+}
+
+
+.white { 
+	background-color: #fff;
+}
+
+
+
+/*************************************************************************************************************
+BLACK
+*************************************************************************************************************/
+.black {
+	background-color: #000;
+	padding-bottom: 200px;
+	margin-top:60px;
+	
+}
+
+@media (max-width: 600px) { 
+	.black {
+		padding-bottom: 100px;
+	}	
+}
+
+
+.black video {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/*************************************************************************************************************
+BLUSH
+*************************************************************************************************************/
+
+.blush {
+	background:#FFCA9B;
+	padding-bottom: 200px;
+}
+
+@media (max-width: 600px) { 
+	.blush {
+		padding-bottom: 100px;
+	}	
+}
+
+
+
+/*************************************************************************************************************
+FULL SCREEN IMAGES
+*************************************************************************************************************/
+
+
+
+/*************************************************************************************************************
+FULL SCREEN IMAGES
+*************************************************************************************************************/
+.fullBGImage {
+	display: table;
+
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 500px) { 	
+}
+
+
+
+
+
+
+.bgimg {
+	background-image: url("img/billie1.jpg");
+	height:108%;
+}
+
+.bgimg2 {
+	background-image: url("img/billie5.jpg");
+	min-height:61%;
+}
+
+
+
+
+@media (max-width: 1024px) {
+	.bgimg2 {
+		min-height:43%!important;
+	}
+}
+
+@media (max-width: 768px) {
+	.bgimg2 {
+		min-height:84%!important;
+		background-image: url("img/billie5_mob.jpg");
+	}
+}
+
+@media (max-width: 600px) { 
+	.bgimg {
+		min-height:70%!important;
+		height:72%;
+	}
+	
+	.bgimg2 {
+		min-height:61%!important;
+		background-image: url("img/billie5_mob.jpg");
+	}
+
+
+	
+
+}
+
