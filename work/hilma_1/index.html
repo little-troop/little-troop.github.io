@@ -619,7 +619,20 @@ $(function(){
     plusDivs(1, 0);
   }
 });
+
+$(function(){
+  $( ".mySlides2" ).on( "swipeleft", swipeleftHandler);
+  $( ".mySlides2" ).on( "swiperight", swiperightHandler);
+  function swipeleftHandler( ){
+    plusDivs(-1, 1);
+  }
+  function swiperightHandler( ){
+    plusDivs(1, 1);
+  }
+});
 </script>
+
+
 
 
 
