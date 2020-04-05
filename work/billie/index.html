@@ -36,57 +36,15 @@
 </div>
 
 <!-- Nav / Logo-->
-<div class="navbarBLACK">
-	<h4 class="lt"><a href="../../index.html">LITTLE TROOP</a></h4>
-	<h4 class="work"><a href="../../index.html">W<br>O<br>R<br>K</a></h4>
-	<h4 class="info"><a href="../../info.html">I<br>N<br>F<br>O</a></h4>
-	
-	<div class="black-BACK-NEXT">
-		 <div class="backHover">
-		   <h4 class="back"><a href="../block/index.html">B<br>A<br>C<br>K</a></h4>
-		   <div class="backHover-content">
-		        <a href="#">Building <span>Block &mdash;</span><br/>from the ground up.</a>
-	       </div>
+<header class="header">
+		<div class="header_content">
+			 <a href="../../index.html" class="logo">LITTLE TROOP</a>
+			<nav>
+				<div class="nav-left"><a href="../../index.html">W<br>O<br>R<br>K</a></div>
+				<div class="nav-right"><a href="../../info.html">I<br>N<br>F<br>O</a></div>
+			</nav>
 		</div>
-
-		<div class="nextHover">
-		   <h4 class="next"><a href="../teatime/index.html">N<br>E<br>X<br>T</a></h4>		   
-		   <div class="nextHover-content">
-			        <a href="../teatime/index.html"><span>Teatime &mdash;</span><br/>ID for Dakota Johnson</a>
-		       </div>
-	       </div>
-		</div>
-		
-	</div>
-</div>
-
-
-
-<!-- Nav / Logo-->
-<div class="navbarWHITE">
-	<h4 class="lt"><a href="../../index.html">LITTLE TROOP</a></h4>
-	<h4 class="work"><a href="../../index.html">W<br>O<br>R<br>K</a></h4>
-	<h4 class="info"><a href="../../info.html">I<br>N<br>F<br>O</a></h4>
-	<div class="white-BACK-NEXT">
-		 <div class="backHover">
-		   <h4 class="back"><a href="../block/index.html">B<br>A<br>C<br>K</a></h4>
-		   <div class="backHover-content">
-		        <a href="#">Building <span>Block &mdash;</span><br/>from the ground up.</a>
-	       </div>
-	       </div>
-		</div>
-
-		<div class="nextHover">
-		   <h4 class="next"><a href="../teatime/index.html">N<br>E<br>X<br>T</a></h4>		   
-		   <div class="nextHover-content">
-		        <a href="../teatime/index.html"><span>Teatime &mdash;</span><br/>ID for Dakota Johnson</a>
-	       </div>
-		</div>
-		
-	</div>
-</div>
-
-
+</header>
 
 	
 	
@@ -95,7 +53,6 @@
 <video preload="auto" playsinline autoplay muted loop>
   <source src="img/billie1.mp4" type="video/mp4">
 </video>
-<div class="nav-trigger">	</div>
 </div>
 
 
@@ -705,7 +662,8 @@
 	
 </div>
 
-<!-- Background photo -->
+<!-- Iconography -->
+<div id="black-start"></div>
 <div class="project-0">
 	<div class="fullBGImage">
 			
@@ -715,7 +673,7 @@
 	</div>		
 </div>
 
- 
+
 <div class="project-top-180-bottom-70">
 		<div class="w3-container">
 			<div class="w3-content">
@@ -739,7 +697,7 @@
 		</div>
 	</div>
 
-
+<div id="black-end"></div>
  <div class="project-0">
 		
  				     <img class="mySlides3" src="img/billie32a.jpg" style="width:100%;display:none;">
@@ -750,7 +708,7 @@
  </div>
 
 
-<div class="nav-trigger-2"></div>
+
 <!-- Project Grid-->
 <div class="project-grid">
 	<div class="w3-container">
@@ -956,7 +914,7 @@
 </div>
 
 
-<script  src="js/index.js"></script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 
@@ -983,32 +941,9 @@ function outFunc() {
 }
 </script>
 
-<script>
-		$(document).ready(function () {
-		    var navWHITESTART = $(".nav-trigger").offset().top;
-		    var navWHITEEND = $(".nav-trigger-2").offset().top;
-		    $(window).scroll(function () {       
-				if ($(window).scrollTop() > navWHITESTART && $(window).scrollTop() < navWHITEEND) {
-		            $(".navbarWHITE").show();
-					$(".white-BACK-NEXT").show();
-					$(".black-BACK-NEXT").hide();
-					$(".navbarBLACK").hide();
-		        } else {
-		            $(".navbarWHITE").hide();
-					$(".white-BACK-NEXT").hide();
-					$(".black-BACK-NEXT").hide();
-					$(".navbarBLACK").show();
-		        }
-		    });
-		});	
-</script>
+
 		
 		
-		
-
-
-
-
 <script>
 	let xIndex = 0;
 	let yIndex = 0;
@@ -1046,7 +981,19 @@ function outFunc() {
 </script>
 
 
+<script>
+		  $(window).scroll(function() {
+		     var heroHeight = $('#top-home').outerHeight(),
+		         winScrollPos = $(this).scrollTop();
+		     //console.log(heroHeight, winScrollPos);
 
+		     if (winScrollPos > heroHeight){
+		      $('header').addClass('header--alt');
+		     } else {
+		     	 $('header').removeClass('header--alt');
+		     }
+		  });
+</script>
 
 
 
