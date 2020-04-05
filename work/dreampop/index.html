@@ -733,7 +733,7 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
+<script src="https://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js"></script>
 
 <script>
  		$(window).load(function() {
@@ -759,13 +759,25 @@ function outFunc() {
 </script>
 
 
+<script>
+		  $(window).scroll(function() {
+		     var heroHeight = $('.header').outerHeight(),
+		         winScrollPos = $(this).scrollTop();
+		     //console.log(heroHeight, winScrollPos);
+
+		     if (winScrollPos > heroHeight){
+		      $('header').addClass('header--alt');
+		     } else {
+		     	 $('header').removeClass('header--alt');
+		     }
+		  });
+</script>
 		
 
 <script>
 var slideIndex = [1,1];
-var slideId = ["mySlides1", "mySlides2"]
+var slideId = ["mySlides1"]
 showDivs(1, 0);
-showDivs(1, 1);
 
 function plusDivs(n, no) {
   showDivs(slideIndex[no] += n, no);
@@ -782,6 +794,7 @@ function showDivs(n, no) {
   x[slideIndex[no]-1].style.display = "block";  
 }
 
+
 $(function(){
   $( ".mySlides1" ).on( "swipeleft", swipeleftHandler);
   $( ".mySlides1" ).on( "swiperight", swiperightHandler);
@@ -793,22 +806,9 @@ $(function(){
   }
 });
 
+
 </script>
 
-
-<script>
-		  $(window).scroll(function() {
-		     var heroHeight = $('.header').outerHeight(),
-		         winScrollPos = $(this).scrollTop();
-		     //console.log(heroHeight, winScrollPos);
-
-		     if (winScrollPos > heroHeight){
-		      $('header').addClass('header--alt');
-		     } else {
-		     	 $('header').removeClass('header--alt');
-		     }
-		  });
-</script>
 
 
 </body>
