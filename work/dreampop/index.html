@@ -67,7 +67,7 @@
 	<div class="w3-container">
  	   <div class="w3-content">
 		  <div class="w3-col l11 s12">
-   	 	  	 <h1 class="h1-small">Creative Direction for <span>Billie &mdash;</span> launching their first colorblock razor, DreamPop.</h1>
+   	 	  	 <h1 class="h1-small">Creative Direction for <span>Billie &mdash;</span> launching their first colorblock razor, <a href="https://mybillie.com/products/razor-starter-kit" target="_blank">DreamPop.</a></h1>
   		  </div>
 	</div>
   </div>
@@ -87,8 +87,8 @@
 <div class="w3-container">
 	<div class="links-bottom">
   	  	<div class="w3-content">	 
-				<div class="w3-col l3 s6"><h4><a href="http://mybillie.com" target="_blank">MYBILLIE.COM</a></h4></div>
-	 		   	<div class="w3-col l3 s6"><h4><a href="info.html">BLOCKRENOVATION.COM</a><br/><a href="info.html">BLOCKRENOVATION.COM</a></h4></div>
+				<div class="w3-col l3 s6"><h4><a href="https://mybillie.com/products/razor-starter-kit" target="_blank">MYBILLIE.COM</a></h4></div>
+	 		   	<div class="w3-col l3 s6"><h4><a href="https://hypebae.com/2018/10/billie-dreampop-razor-shaving-campaign" target="_blank">HYPEBAE</a><br/><a href="https://www.adweek.com/retail/womens-shaving-brand-billie-debuts-new-90s-inspired-razor/" taget="_blank">ADWEEK</a></h4></div>
 		</div>
    </div>
 </div>
@@ -819,6 +819,18 @@ function showDivs(n, no) {
   }
   x[slideIndex[no]-1].style.display = "block";  
 }
+
+$(function(){
+  $( ".mySlides1" ).on( "swipeleft", swipeleftHandler);
+  $( ".mySlides1" ).on( "swiperight", swiperightHandler);
+  function swipeleftHandler( ){
+    plusDivs(-1, 0);
+  }
+  function swiperightHandler( ){
+    plusDivs(1, 0);
+  }
+});
+
 </script>
 
 
