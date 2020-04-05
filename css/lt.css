@@ -2,6 +2,7 @@
 	visibility:hidden;
 }
 
+
 /*************************************************************************************************************
 GLOBAL
 *************************************************************************************************************/
@@ -129,11 +130,13 @@ h2 {
   	line-height: 54px;
 	letter-spacing: -0.8px;
     color: #000;
-	margin: 30px 0 0 0;
+	margin-top:30px;
 }
 
 .h2-white {
 	color: #fff;
+	margin-top:30px;
+
 }
 
 .h2-white span {
@@ -1064,6 +1067,7 @@ video.project-grid-vid {
 	margin-bottom: 4px;
 	margin-top:-2px;
 }
+
 
 
 .thumb-7 img {
