@@ -24,6 +24,7 @@ body {
     font-family: "Apple Garamond", sans-serif;
     margin: 0;
     font-weight: 300;
+	background: #fff;
 }
 
 body, html {height: 100%}
@@ -47,22 +48,17 @@ NAV
 *************************************************************************************************************/
 
 
-.navbarWHITE h4 {
+
+
+.backNext a {
+	color: rgba(0, 0, 0, 0);
+}
+
+
+.backNext .backHover-content a {
   color: #fff;
 }
 
-.navbarBLACK h4 {
-  color: #000;
-}
-
-
-.navbarWHITE .backHover-content a {
-  color: #fff;
-}
-
-.navbarWHITE .nextHover-content a {
-  color: #fff;
-}
 
 
 /*************************************************************************************************************
@@ -296,53 +292,140 @@ p span {
 
 
 /*************************************************************************************************************
-NAV
+NAV - BLACK
 *************************************************************************************************************/
-.lt {
-  	top: 20px;
-  	position: fixed;
+.header {
+    position: fixed;
+    top: 0;
     width: 100%;
-    margin: 0 auto;
-  	z-index:98;
-	text-transform: uppercase;
-  	text-align:center;
-	line-height:16px;
+    z-index: 10;
+    transition: background-color 0.5s ease;
 }
 
-
-h4.work {
-	top: 20px;
-  	left: 20px;
-  	position: fixed;
-  	z-index:98;
-	text-transform: uppercase;
-  	text-align:center;
-	line-height:16px;
+.header--alt {
+    mix-blend-mode: difference;
 }
 
-h4.info {
-  	top: 20px;
-  	right: 20px;
-  	position: fixed;
-	text-transform: uppercase;
-  	text-align:center;
-  	z-index:99;
-	line-height:16px;
+.header .header_content {
+    padding: 20px 20px;
 }
+
+.header .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #000;
+    text-decoration: none;
+	text-transform: uppercase;
+  	font-family: "Favorit", sans-serif; 
+  	font-weight: 300;
+  	font-size:16px;	
+	letter-spacing: 0.6px;
+	margin-top:-5px!important;
+}
+
+.header nav {
+    overflow: hidden;
+    text-decoration: none;
+	text-transform: uppercase;
+  	font-family: "Favorit", sans-serif; 
+  	font-weight: 300;
+  	font-size:16px;	
+	line-height:16px;
+  	text-align:center;
+}
+
+.header nav .nav-left {
+    float: left;
+}
+
+.header nav .nav-right {
+    float: right;
+}
+
+.header nav a {
+    color: #000;
+}
+
+.header--alt nav a, .header--alt .logo {
+    color: #fff;
+}
+
+/*************************************************************************************************************
+NAV - WHITE
+*************************************************************************************************************/
+.white-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    transition: background-color 0.5s ease;
+}
+
+.white-header--alt {
+    mix-blend-mode: difference;
+}
+
+.white-header .white-header_content {
+    padding: 20px 20px;
+}
+
+.white-header .white-logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    text-decoration: none;
+	text-transform: uppercase;
+  	font-family: "Favorit", sans-serif; 
+  	font-weight: 300;
+  	font-size:16px;	
+	letter-spacing: 0.6px;
+	margin-top:-5px!important;
+}
+
+.white-header nav {
+    overflow: hidden;
+    text-decoration: none;
+	text-transform: uppercase;
+  	font-family: "Favorit", sans-serif; 
+  	font-weight: 300;
+  	font-size:16px;	
+	line-height:16px;
+  	text-align:center;
+}
+
+.white-header nav .white-nav-left {
+    float: left;
+}
+
+.white-header nav .white-nav-right {
+    float: right;
+}
+
+.white-header nav a {
+    color: #fff;
+}
+
+.white-header--alt nav a, .white-header--alt .white-logo {
+    color: #fff;
+}
+
+/*************************************************************************************************************
+BACK / NEXT
+*************************************************************************************************************/
 
 h4.back {
     margin: 0 auto;
-  	z-index:99;
   	vertical-align: middle;
-		line-height:16px;
+	line-height:16px;
 }
 
 
 h4.next {
   	vertical-align: middle;
     margin: 0 auto;
-  	z-index:99;
-		line-height:16px;
+	line-height:16px;
 }
 
 
@@ -708,7 +791,7 @@ PROJECT CONTENT CONTAINERS
 	padding-top: 120px;
 }
 
-.project-top-120-top-120 {
+.project-top-120-bottom-120 {
 	padding-top: 120px;
 	padding-bottom:120px;
 }

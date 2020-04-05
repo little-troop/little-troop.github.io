@@ -1,10 +1,10 @@
-﻿.navbarWHITE {
-	display: none;
-}
-
-/*************************************************************************************************************
+﻿/*************************************************************************************************************
 INTRO
 *************************************************************************************************************/
+.info-head{
+	background-color:#fff;
+}
+
 
 .hover_img a { 
 	position:relative; 
@@ -231,6 +231,7 @@ WHAT WE DO ANIMATION
 
 .info-what {
 	margin:0px 0px 60px 0px;
+		background-color:#fff;
 }
 
 .we-do-wrapper {	
@@ -452,13 +453,14 @@ PARAGRAPH
 	border-top: 2px solid #000;
 	padding-top: 80px;
 	padding-bottom: 80px;
-
+	background-color:#fff;
 }
 
 .info-clients {
     border-top: 2px solid #000;
     padding-top: 80px;
 	padding-bottom: 40px;
+	background-color:#fff;
 }
 
 

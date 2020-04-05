@@ -1,8 +1,4 @@
-﻿.navbarWHITE {
-	display: none;
-}
-
-
+﻿
 /*************************************************************************************************************
 CUBE
 *************************************************************************************************************/
@@ -315,6 +311,7 @@ PROJECT MODULE
 	border-top: 2px solid #000;
 	padding-top: 60px;
 	padding-bottom: 80px;
+	background-color:#fff;
 }
 
 
@@ -336,6 +333,9 @@ PROJECT MODULE
 /*************************************************************************************************************
 COMING SOON
 *************************************************************************************************************/
+
+
+
 .coming-soon-project:hover a h1.label {
 	display:none;
 }
@@ -343,11 +343,12 @@ COMING SOON
 .coming-soon-project:hover a h1.labelnew:after {
 	visibility:visible;
 	content:'Coming Soon!';
-	z-index:99;
+	z-index:98;
 } 
 
 .coming-soon-project a:hover video {
 	filter: blur(0px);
+	background-color:#fff;
 }
 
 .vid-soon {
@@ -363,7 +364,7 @@ COMING SOON
 }
 
 .coming-soon-copy {
-	z-index:99;
+	z-index:98;
 	position:absolute;
     top: 50%;
     left: 50%;
@@ -381,7 +382,6 @@ COMING SOON
 
 .inset-curved-video {
 	position:relative;
-
 }
 
 .cove {
@@ -681,6 +681,7 @@ CURVE VIDEO
     height: auto;
 	border-radius: 30px;
 	z-index:-1;
+	background-color:#fff;
 }
 
 
