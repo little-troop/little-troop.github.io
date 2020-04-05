@@ -160,11 +160,7 @@ BLACK2
 }
 
 
-@media (max-width: 1024px) {
-	.bgimg2 {
-		min-height:90%!important;
-	}
-}
+
 
 @media (max-width: 500px) { 
 
