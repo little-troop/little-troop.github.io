@@ -26,7 +26,7 @@
 
 <body class="dark">
 
-<div class="preloader"></div>
+
 <div id="preload">
 	<img src="../../img/thumb_1.jpg" />
 	<img src="../../img/thumb_4.jpg" />
@@ -36,70 +36,25 @@
 </div>
 
 
-<!-- Nav / Logo-->
-<div class="navbarBLACK">
-	<h4 class="lt"><a href="../../index.html">LITTLE TROOP</a></h4>
-	<h4 class="work"><a href="../../index.html">W<br>O<br>R<br>K</a></h4>
-	<h4 class="info"><a href="../../info.html">I<br>N<br>F<br>O</a></h4>
-	
-	<div class="black-BACK-NEXT">
-		 <div class="backHover">
-		   <h4 class="back"><a href="../billie/index.html">B<br>A<br>C<br>K</a></h4>
-		   <div class="backHover-content">
-		        <a href="#">Launching <span>Billie &mdash;</span><br/>the new body brand.</a>
-	       </div>
-		</div>
-
-		<div class="nextHover">
-		   <h4 class="next"><a href="../girlgaze/index.html">N<br>E<br>X<br>T</a></h4>		   
-		   <div class="nextHover-content">
-		       <a href="../girlgaze/index.html">A shiny new <span>Girlgaze &mdash;</span><br/>closing the gender gap.</a>
-	       </div>
-		</div>
-		
-	</div>
-</div>
-
-
 
 <!-- Nav / Logo-->
-<div class="navbarWHITE">
-	<h4 class="lt"><a href="../../index.html">LITTLE TROOP</a></h4>
-	<h4 class="work"><a href="../../index.html">W<br>O<br>R<br>K</a></h4>
-	<h4 class="info"><a href="../../info.html">I<br>N<br>F<br>O</a></h4>
-	
-	<div class="white-BACK-NEXT">
-		 <div class="backHover">
-		   <h4 class="back"><a href="../billie/index.html">B<br>A<br>C<br>K</a></h4>
-		   <div class="backHover-content">
-		        <a href="#">Launching <span>Billie &mdash;</span><br/>the new body brand.</a>
-	       </div>
-	       </div>
+<header class="white-header">
+		<div class="white-header_content">
+			 <a href="../../index.html" class="white-logo">LITTLE TROOP</a>
+			<nav>
+				<div class="white-nav-left"><a href="../../index.html">W<br>O<br>R<br>K</a></div>
+				<div class="white-nav-right"><a href="../../info.html">I<br>N<br>F<br>O</a></div>
+			</nav>
 		</div>
-
-		<div class="nextHover">
-		   <h4 class="next"><a href="../girlgaze/index.html">N<br>E<br>X<br>T</a></h4>		   
-		   <div class="nextHover-content">
-		       <a href="../girlgaze/index.html">A shiny new <span>Girlgaze &mdash;</span><br/>closing the gender gap.</a>
-	       </div>
-		</div>
-		
-	</div>
-</div>
+</header>
 
 
 
-	
-	
-
-
-	<div class="fullBGImage2">
-			
+<div class="fullBGImage2">		
 			<div class="w3-col s12">
   					<img src="img/teatime1.jpg" style="width:100%;">
 			</div>
-			 <div class="nav-trigger">	</div>
-	</div>	
+</div>	
 
 
 <!-- Intro-->
@@ -175,9 +130,6 @@
 	
 </div>
 
-
-
-<div class="nav-trigger-2"></div>
 
 
 
@@ -384,8 +336,7 @@
   </div>
 </div>
 
-<script  src="js/index.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 
 <script>
@@ -412,56 +363,20 @@ function outFunc() {
 </script>
 
 <script>
-		$(document).ready(function () {
-		    var navWHITESTART = $(".nav-trigger").offset().top;
-		    var navWHITEEND = $(".nav-trigger-2").offset().top;
-		    $(window).scroll(function () {       
-				if ($(window).scrollTop() < navWHITEEND) {
-		            $(".navbarWHITE").show();
-					$(".white-BACK-NEXT").show();
-					$(".black-BACK-NEXT").hide();
-					$(".navbarBLACK").hide();
-		        } else {
-		            $(".navbarWHITE").hide();
-					$(".white-BACK-NEXT").hide();
-					$(".black-BACK-NEXT").hide();
-					$(".navbarBLACK").show();
-		        }
-		    });
-		});	
+		  $(window).scroll(function() {
+		     var heroHeight = $('.white-header').outerHeight(),
+		         winScrollPos = $(this).scrollTop();
+		     //console.log(heroHeight, winScrollPos);
+
+		     if (winScrollPos > heroHeight){
+		      $('.white-header').addClass('white-header--alt');
+		     } else {
+		     	 $('.white-header').removeClass('white-header--alt');
+		     }
+		  });
 </script>
 		
 		
-		
-
-
-
-
-<script>
-var slideIndex = [1,1];
-var slideId = ["mySlides1", "mySlides2"]
-showDivs(1, 0);
-showDivs(1, 1);
-
-function plusDivs(n, no) {
-  showDivs(slideIndex[no] += n, no);
-}
-
-function showDivs(n, no) {
-  var i;
-  var x = document.getElementsByClassName(slideId[no]);
-  if (n > x.length) {slideIndex[no] = 1}
-  if (n < 1) {slideIndex[no] = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  x[slideIndex[no]-1].style.display = "block";  
-}
-</script>
-
-
-
-
 
 
 </body>
