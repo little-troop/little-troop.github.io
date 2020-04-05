@@ -63,12 +63,19 @@ video.dreampop-subway {
 	
 }
 
-
+/*********
 .white { 
 	background-color: #fff;
 }
+****/
 
+.white1 { 
+	background-color: #fff;
+}
 
+.white2 { 
+	background-color: #fff;
+}
 
 /*************************************************************************************************************
 BLACK
@@ -120,26 +127,8 @@ FULL SCREEN IMAGES
 /*************************************************************************************************************
 FULL SCREEN IMAGES
 *************************************************************************************************************/
-.fullBGImage {
-	display: table;
-
-}
-
-@media (max-width: 1024px) {
-}
-
-@media (max-width: 500px) { 	
-}
 
 
-
-
-
-
-.bgimg {
-	background-image: url("img/billie1.jpg");
-	height:108%;
-}
 
 .bgimg2 {
 	background-image: url("img/billie5.jpg");
@@ -155,7 +144,7 @@ FULL SCREEN IMAGES
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) {	
 	.bgimg2 {
 		min-height:84%!important;
 		background-image: url("img/billie5_mob.jpg");
@@ -163,10 +152,6 @@ FULL SCREEN IMAGES
 }
 
 @media (max-width: 600px) { 
-	.bgimg {
-		min-height:70%!important;
-		height:72%;
-	}
 	
 	.bgimg2 {
 		min-height:61%!important;
