@@ -613,10 +613,10 @@ $(function(){
   $( "mySlides1" ).on( "swipeleft", swipeleftHandler );
   $( "mySlides1" ).on( "swiperight", swiperightHandler);
   function swipeleftHandler( ){
-    plusSlides(1);
+    plusDivs(-1, 0);
   }
   function swiperightHandler( ){
-    plusSlides(-1);
+    plusDivs(1, 0);
   }
 });
 </script>
