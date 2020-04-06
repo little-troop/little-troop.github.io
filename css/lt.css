@@ -927,6 +927,14 @@ CAROUSEL
   	align-items: flex-end; 
 }
 
+
+
+.p-carousel-wide {
+	color:#fff;
+	padding-top: 40px;
+
+}
+
 .carousel-mod {
 	display:table;
 	width:100%;
