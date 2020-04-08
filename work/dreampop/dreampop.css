@@ -15,6 +15,7 @@ FULL SCREEN IMAGES
   display:none;
  }
 
+
 @media (max-width: 768px) {
     .image_full{
       display:none;
@@ -97,6 +98,19 @@ video.dreampop-subway {
 		padding-top:70px;
 	}
 	
+	h2.half-half-copy {
+	    letter-spacing: -0.6px;
+	    font-size: 30px;
+	    line-height: 32px;
+	}
+	
+	h3.half-half-copy {
+		margin: 30px 0 20px 0 !important;
+	}
+	
+	.from-left-under {
+		margin-top:-30px;
+	}
 }
 
 /*********
@@ -113,13 +127,17 @@ video.dreampop-subway {
 	background-color: #fff;
 }
 
+.white3 { 
+	background-color: #fff;
+}
+
 /*************************************************************************************************************
 BLACK
 *************************************************************************************************************/
 .black {
 	background-color: #000;
-	padding-bottom: 200px;
-	margin-top:60px;
+	padding-bottom: 140px;
+	margin-top:140px;
 	
 }
 
@@ -131,7 +149,7 @@ BLACK
 }
 
 
-.black video {
+.white2 video {
     width: 100%;
     height: auto;
 }
