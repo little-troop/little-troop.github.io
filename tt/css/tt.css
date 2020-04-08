@@ -102,8 +102,21 @@ h1 span.teatime {
 	position:relative;
 }
 
-h1.join-us {
+h1.join-us-desktop {
+	display:block;
+}
+
+h1.join-us-mobile {
+	display:none;
+}
+
+h1.join-us-desktop {
 	margin-top:10px!important;
+}
+
+h1.join-us-desktop a:hover {
+    box-shadow: inset 0 -0.1em #EBE5F0, inset 0 -0.15em #FF4848;
+    text-shadow: -2px -2px #EBE5F0, -2px 2px #EBE5F0, 2px -2px #EBE5F0, 2px 2px #EBE5F0;
 }
 
 .home-copy-left {
@@ -115,17 +128,19 @@ h1.join-us {
 	height:90px;
 }
 
-h1.footer {
+h1.footer-desktop {
+	display:block;
+}
+
+h1.footer-mobile {
+	display:none;
+}
+
+h1.footer-desktop {
 	margin-bottom:50px;
 }
 
-h1.join-us a:hover {
-    box-shadow: inset 0 -0.1em #EBE5F0, inset 0 -0.15em #FF4848;
-    text-shadow: -2px -2px #EBE5F0, -2px 2px #EBE5F0, 2px -2px #EBE5F0, 2px 2px #EBE5F0;
-}
-
-
-h1.footer a:hover {
+h1.footer-desktop a:hover {
     border-bottom: 2px solid #FF4848;
     padding-bottom: 10px;
 }
