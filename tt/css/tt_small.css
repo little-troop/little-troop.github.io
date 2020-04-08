@@ -78,7 +78,15 @@
 	}
 	
 	.home-copy-space {
-		height: 70vh;
+		height: 65vh;
+	}
+	
+	.home-copy-blur {
+	   	margin-top:-20px;
+	}
+	
+	h1.join-us {
+		margin-top:-30px!important;
 	}
 	
 	.home-copy-left {
@@ -99,10 +107,13 @@
 	.teatime-insta {
 		height:60px;
 	}
+	
+
 }
 
 
 @media (max-width: 414px) { 
+	
 }
 
 
