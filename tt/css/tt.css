@@ -75,16 +75,6 @@ h1 span.teatime {
 
 
 
-p {
-  	font-family: "Arial Narrow", sans-serif; 
-  	font-weight: normal;
-  	letter-spacing: -0.2px;
-  	font-size: 20px; 
-  	line-height: 26px;
-    color: #000;
-	margin-top:0px;
-	margin-bottom: -10px;
-}
 
 .tt-content {
 	height: 100vh;
@@ -95,28 +85,25 @@ p {
 }
 
 .home-copy-top {
-	margin-bottom:20px;
+
 }
 
 .home-copy-blur {
-    filter: blur(10px);
-    background: #EBE5F0;
-    height: 70px;
-    width: 120%;
-    margin-left: -20px;
+    background-image: url("../img/bg_fade.png");
+    background-repeat: repeat-x;
+    height: 42px;
 	z-index:1;
 	position:relative;
 }
 
 .home-copy-bottom {
 	background: #EBE5F0;
-	margin-top: -30px;
 	z-index:2;
 	position:relative;
 }
 
 h1.join-us {
-	margin-top:-10px!important;
+	margin-top:10px!important;
 }
 
 .home-copy-left {
