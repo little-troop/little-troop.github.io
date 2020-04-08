@@ -1,0 +1,170 @@
+﻿/*************************************************************************************************************
+GLOBAL
+*************************************************************************************************************/
+
+.preloader {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 9999;
+   background-image: url('../img/preload.gif');
+   background-repeat: no-repeat; 
+   background-color: #000;
+   background-position: center;
+}
+
+
+body {
+    font-family: "TeXGyreHerosCondensed-Regular", sans-serif;
+    margin: 0;
+    font-weight: normal;
+	background: #000;
+	color: #FF4848;
+}
+
+
+hr.hr-white {
+	border:1px #fff solid;
+	margin: 0;
+}
+
+hr.hr-black {
+	border:1px #000 solid;
+	margin: 0;
+}
+
+.empty p {
+	visibility:hidden;
+}
+
+/*************************************************************************************************************
+h1 - h6 - p
+*************************************************************************************************************/
+
+h1 {
+  	font-family: "TeXGyreHerosCondensed-Regular", serif; 
+	font-size: 32px; 
+    line-height: 30px;
+	font-weight: 300;
+	letter-spacing:1px;
+	text-align: center;
+}
+
+h1.grey {
+		color: #EBE5F0;
+}
+
+h1.left {
+	text-align: left;
+}
+
+h1 span {
+  	font-family: "PanamaDemo-Regular", serif; 
+	font-weight: normal;
+	letter-spacing:-0.5px;
+}
+
+h1 span.teatime {
+	font-family: "DrukWide-Bold", serif; 
+	font-size: 22px; 
+    line-height: 18px;
+	font-weight: normal;
+}
+
+
+
+p {
+  	font-family: "Arial Narrow", sans-serif; 
+  	font-weight: normal;
+  	letter-spacing: -0.2px;
+  	font-size: 20px; 
+  	line-height: 26px;
+    color: #000;
+	margin-top:0px;
+	margin-bottom: -10px;
+}
+
+.tt-content {
+	height: 100vh;
+}
+
+.home-copy-space {
+	height: 79vh;
+}
+
+.home-copy-top {
+	margin-bottom:20px;
+}
+
+.home-copy-blur {
+    filter: blur(10px);
+    background: #EBE5F0;
+    height: 70px;
+    width: 120%;
+    margin-left: -20px;
+	z-index:1;
+	position:relative;
+}
+
+.home-copy-bottom {
+	background: #EBE5F0;
+	margin-top: -30px;
+	z-index:2;
+	position:relative;
+}
+
+h1.join-us {
+	margin-top:-10px!important;
+}
+
+.home-copy-left {
+	margin: 160px 0;
+}
+
+
+.teatime-insta {
+	height:90px;
+}
+
+h1.footer {
+	margin-bottom:50px;
+}
+
+h1.join-us a:hover {
+    box-shadow: inset 0 -0.1em #EBE5F0, inset 0 -0.15em #FF4848;
+    text-shadow: -2px -2px #EBE5F0, -2px 2px #EBE5F0, 2px -2px #EBE5F0, 2px 2px #EBE5F0;
+}
+
+
+h1.footer a:hover {
+    border-bottom: 2px solid #FF4848;
+    padding-bottom: 10px;
+}
+
+/*************************************************************************************************************
+VIDEO HERO
+*************************************************************************************************************/
+
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+	background-image: url('../img/poster.jpg') no-repeat;
+  	background-size: cover;
+  	transition: 1s opacity;
+}
+
+
+
+
+
+
