@@ -46,7 +46,7 @@
 	
 	video { 
 	    top: 43%;
-	    width: 103vw;
+	    width: auto;
 	    height: auto;
 	}
 	
@@ -94,7 +94,7 @@
 
 @media (max-width: 375px) { 
 	.home-copy-space {
-		height: 64vh;
+		height: 60vh;
 	}
 }
 
@@ -103,7 +103,7 @@
 @media (max-width: 320px) {
 	
 	.home-copy-space {
-		height: 65vh;
+		height: 58vh;
 	}
 	
 	.home-copy-left {
