@@ -95,6 +95,10 @@
 	.home-copy-space {
 		height: 60vh;
 	}
+	
+	video { 
+	    top: 37%;
+	}
 }
 
 
