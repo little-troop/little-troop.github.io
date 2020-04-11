@@ -11,7 +11,7 @@ GLOBAL
    z-index: 9999;
    background-image: url('../img/preload.gif');
    background-repeat: no-repeat; 
-   background-color: #000;
+   background-color: #EBE5F0;
    background-position: center;
 }
 
@@ -45,11 +45,11 @@ h1 - h6 - p
 
 h1 {
   	font-family: "TeXGyreHerosCondensed-Regular", serif; 
-	font-size: 32px; 
+	font-size: 24px; 
     line-height: 30px;
 	font-weight: 300;
 	letter-spacing:1px;
-	text-align: center;
+	text-align: center;  
 }
 
 h1.grey {
@@ -70,6 +70,7 @@ h1 span.teatime {
 	font-family: "DrukWide-Bold", serif; 
 	font-size: 22px; 
     line-height: 18px;
+	letter-spacing:1px;
 	font-weight: normal;
 }
 
@@ -81,11 +82,11 @@ h1 span.teatime {
 }
 
 .home-copy-space {
-	height: 79vh;
+	height: 83vh;
 }
 
 .home-copy-top {
-
+    margin-bottom: -20px;
 }
 
 .home-copy-blur {
@@ -104,46 +105,105 @@ h1 span.teatime {
 
 h1.join-us-desktop {
 	display:block;
+	margin-top:10px!important;
+    background-image: url("../img/bg3.gif");
+	background-size:cover;
+	background-clip: text;
+ 	 -webkit-background-clip: text;
+  	color: transparent;
 }
 
 h1.join-us-mobile {
 	display:none;
+	margin-top:10px!important;
+    background-image: url("../img/bg3.gif");
+	background-size:cover;
+	background-clip: text;
+ 	 -webkit-background-clip: text;
+  	color: transparent;
 }
 
-h1.join-us-desktop {
-	margin-top:10px!important;
-}
 
 h1.join-us-desktop a:hover {
-    box-shadow: inset 0 -0.1em #EBE5F0, inset 0 -0.15em #FF4848;
-    text-shadow: -2px -2px #EBE5F0, -2px 2px #EBE5F0, 2px -2px #EBE5F0, 2px 2px #EBE5F0;
+    border-bottom: 2px solid #FF4848;
 }
 
 .home-copy-left {
-	margin: 160px 0;
+	margin: 180px 0;
+    background-image: url("../img/bg3.gif");
+	background-size:cover;
+	background-clip: text;
+ 	-webkit-background-clip: text;
+  	color: transparent;
 }
 
 
-.teatime-insta {
+a.teatime-insta {
+  position: relative;
+  display: block;
+  margin: 0 auto;	
+  width:440px;
+} 
+
+.teatime-insta-fill {
 	height:90px;
+	width:440px;
 }
 
-h1.footer-desktop {
+img.teatime-insta-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height:90px;
+  width:440px;
+} 
+
+a.teatime-insta .teatime-insta-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;  
+	height:90px;
+    width:440px;
+}
+ 
+a.teatime-insta:hover .teatime-insta-hover {
+       display: inline;
+}
+
+
+
+.footer-desktop {
 	display:block;
 }
 
-h1.footer-mobile {
+.footer-mobile {
 	display:none;
 }
 
-h1.footer-desktop {
+.footer-desktop h1 {
 	margin-bottom:50px;
+    background-image: url("../img/bg3.gif");
+	background-size:cover;
+	background-clip: text;
+ 	 -webkit-background-clip: text;
+  	color: transparent;
+	font-size:16px;
+
 }
 
-h1.footer-desktop a:hover {
-    border-bottom: 2px solid #FF4848;
-    padding-bottom: 10px;
+.footer-mobile h1 {
+    background-image: url("../img/bg3.gif");
+	background-size:cover;
+	background-clip: text;
+ 	 -webkit-background-clip: text;
+  	color: transparent;
+	font-size:16px;
 }
+
+
+
 
 /*************************************************************************************************************
 VIDEO HERO
@@ -152,12 +212,12 @@ VIDEO HERO
 
 video { 
     position: fixed;
-    top: 50%;
+    top: 45%;
     left: 50%;
     min-width: 100%;
     min-height: 100%;
     width: auto;
-    height: auto;
+    height: 107vh;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
 	background-image: url('../img/poster.jpg') no-repeat;

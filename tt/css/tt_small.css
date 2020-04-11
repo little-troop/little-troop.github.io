@@ -1,42 +1,8 @@
-﻿@media (max-width: 1600px) {
-}
-
-@media (max-width: 1550px) {
-}
-
-@media (max-width: 1440px) {
-}
-
-@media (max-width: 1400px) {
-}
-
-@media (max-width: 1360px) {
-}
-
-@media (max-width: 1280px) {
-}
-
-
-@media (max-width: 1180px) {
-}
-
-
-@media (max-width: 1100px) {
-}
-
-
-@media (max-width: 1024px) {
-}
-
-
+﻿
 @media (max-width: 992px) {
 	.home-copy-space {
 		height: 75vh;
 	}
-}
-
-
-@media (max-width: 820px) {
 }
 
 
@@ -48,53 +14,50 @@
 	}
 	
 	h1.join-us-mobile {
-		display:block;
+		display:block!important;
 	}
 	
-	h1.footer-desktop {
+	.footer-desktop {
 		display:none;
 	}
 	
-	h1.footer-mobile {
+	.footer-mobile {
 		display:block;
 	}
+	
+	a.teatime-insta {
+	  width:292px;
+	} 
+
+	.teatime-insta-fill {
+		height:60px;
+		width:292px;
+	}
+
+	img.teatime-insta-mask {
+	  height:60px;
+	  width:292px;
+	} 
 }
 
 
-/* iPad Portrait */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-}
-
-
-/* iPad Landscape */
-@media only screen and (device-width: 1024px) and (device-height: 1366px) {
-}
-
-
-/* 580 */
-@media only screen and (max-height: 580px) {
-
-}
-
-/* 580 */
-@media only screen and (max-height: 680px) {
-}
-
-
-@media (max-width: 660px) {	
-}
-
-
-@media (max-width: 600px) {		
-}
 
 @media (max-width: 500px) {	
+	
+	video { 
+	    top: 43%;
+	    width: 103vw;
+	    height: 100vh;
+	}
+	
+	
+	
 	.w3-container {
 		padding:0.01em 20px
 	}
 	
 	.home-copy-space {
-		height: 62vh;
+		height: 72vh;
 	}
 	
 	.home-copy-blur {
@@ -120,15 +83,19 @@
 	    line-height: 14px;
 	}
 	
-	.teatime-insta {
-		height:60px;
-	}
 	
-	h1.footer-mobile {
-		margin-bottom:50px;
+	.footer-mobile h1 {
+		margin-bottom:30px;
+		    font-size: 12px;
 	}
 	
 
+}
+
+@media (max-width: 375px) { 
+	.home-copy-space {
+		height: 64vh;
+	}
 }
 
 
@@ -153,9 +120,18 @@
 	    line-height: 14px;
 	}
 	
-	
-	.teatime-insta {
+	a.teatime-insta {
+	  width:196px;
+	} 
+
+	.teatime-insta-fill {
 		height:40px;
+		width:196px;
 	}
+
+	img.teatime-insta-mask {
+		height:40px;
+		width:196px;
+	} 
 } 
 
