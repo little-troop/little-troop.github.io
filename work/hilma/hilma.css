@@ -25,6 +25,10 @@
 	border-radius: 0px 0px 14px 14px;
 }
 
+.carousel-img img {
+		border-radius: 14px;
+}
+
 
 @media (max-width: 768px) { 
 	.art-direction img {
@@ -38,6 +42,10 @@
 	}
 	.bottom-rounded {
 		border-radius: 0px 0px 6px 6px;
+	}
+	
+	.carousel-img img {
+			border-radius: 6px;
 	}
 }
 
@@ -79,6 +87,8 @@
 /*************************************************************************************************************
 SITE
 *************************************************************************************************************/
+
+
 
 .site video {
     width: 100%;
