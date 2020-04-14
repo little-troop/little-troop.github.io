@@ -913,8 +913,11 @@ CAROUSEL
 
 .mySlides {display:none;}
 
+.arrow-wide-left,.arrow-wide-right {
+	padding-top:900px!important;
+}
 
-.w3-button {
+.arrow-tall-left,.arrow-tall-right {
 	padding-top:900px!important;
 }
 
