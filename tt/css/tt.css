@@ -15,7 +15,6 @@ GLOBAL
    background-position: center;
 }
 
-
 body {
     font-family: "TeXGyreHerosCondensed-Regular", sans-serif;
     margin: 0;
@@ -125,11 +124,12 @@ h1.join-us-mobile {
 
 
 h1.join-us-desktop a:hover {
-    border-bottom: 2px solid #FF4848;
+	text-decoration-line: underline;
+	text-decoration-color:#FF4848;
 }
 
 .home-copy-left {
-	margin: 180px 0;
+	margin: 130px 0;
     background-image: url("../img/bg3.gif");
 	background-size:cover;
 	background-clip: text;
@@ -172,6 +172,12 @@ a.teatime-insta:hover .teatime-insta-hover {
        display: inline;
 }
 
+
+a.para-link:hover {
+   
+	text-decoration-line: underline;
+	text-decoration-color:#FF4848;
+}
 
 
 .footer-desktop {
