@@ -136,13 +136,13 @@ ORANGE
 	    overflow: hidden;
 	}
 	
-.one-third {
-	margin-top:40px;
-}
-.one-third p {
-	margin-left:40px;
-}
+	.one-third {
+		margin-top:40px;
+	}
 
+	.one-third p {
+		margin-left:40px;
+	}
 }
 
 @media (max-width: 768px) {
