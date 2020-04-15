@@ -8,6 +8,32 @@
 	}
 }
 
+
+.people-gif {
+	margin: 0px 80px;
+}
+
+@media (max-width: 1100px) { 
+	.people-gif {
+		margin: 0px 20px;
+	}
+}
+
+@media (max-width: 768px) { 
+	.people-gif {
+		margin: 0px 0px;
+	}
+}
+
+.home-mob {
+	margin: 0px 20px;
+}
+
+/*************************************************************************************************************
+ROUNDED EDGES
+*************************************************************************************************************/
+
+
 .art-direction img {
 	 border-radius: 14px;
 }
