@@ -1,7 +1,21 @@
 ﻿
+@media (max-width: 1220px) {
+
+	
+	.home-copy-left {
+		margin: 140px 0;
+	}
+}
+
+
+
 @media (max-width: 992px) {
 	.home-copy-space {
 		height: 75vh;
+	}
+	
+	.home-copy-left {
+		margin: 130px 0;
 	}
 }
 
