@@ -95,13 +95,16 @@
 		padding-left: 10px;
 		width: 240px;
 	}
-	
-	
-
-
 }
 
-@media (max-width: 992px) {
+
+
+
+@media (max-width: 1024px) {
+	
+	.center-trio{
+		margin: 0px 70px;
+	}
 	
 	.arrow-wide-left,.arrow-wide-right {
 		padding-top:520px!important;
@@ -263,6 +266,10 @@
 
 @media (max-width: 767px) {
 	
+	.center-trio{
+		margin: 0px 0px;
+	}
+	
 	.carousel-img  {
 		margin: 0px 0px 0px 0px;
 	}
@@ -388,9 +395,11 @@
 		margin: 30px 0 0 0;
 	}
 	
+	/*
 	.three-up-left, .three-up-center, .three-up-right {
 		padding:10px 20px 10px 20px;
 	}
+	*/
 	
 	p {
 		line-height:23px;
