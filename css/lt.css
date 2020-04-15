@@ -864,6 +864,9 @@ PROJECT CONTENT CONTAINERS
 /*************************************************************************************************************
 THREE UP
 *************************************************************************************************************/
+.center-trio{
+	margin: 0px 110px;
+}
 
 
 .three-up-left {
@@ -1081,6 +1084,11 @@ video.project-grid-vid {
 
 
 .thumb-7 img {
+	margin-top:-12px;
+	margin-left:-10px;
+}
+
+.thumb-8 img {
 	margin-top:-12px;
 	margin-left:-10px;
 }
