@@ -1,0 +1,339 @@
+﻿/*************************************************************************************************************
+GLOBAL
+*************************************************************************************************************/
+div#preload {
+    display: none;
+}
+
+@font-face {
+    font-family: "TeXGyreHerosCondensed-Regular";
+    src: url('texgyreheroscn-regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: "TeXGyreHerosCondensed-Regular", sans-serif;
+    margin: 0;
+	background: #ccc;
+    font-weight: 300;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+.hide p {
+	visibility:hidden;
+}
+
+
+/*************************************************************************************************************
+h1 - h6 - p
+*************************************************************************************************************/
+
+h1 {
+  	font-family: "TeXGyreHerosCondensed-Regular", serif; 
+  	font-weight: normal;
+	font-size: 18px; 
+    line-height: 24px;
+  	letter-spacing: 1px;
+	color: #000;
+	margin: 0;
+	text-align:center;
+}
+
+
+.fixed-logo-wrapper {
+	position:fixed;
+	width:100%;
+}
+
+
+
+.bagggy-logo {
+	position:fixed;
+	width:100%;
+    z-index:0;
+	top:23%;
+    transition: 0.3s all;
+	transform: scale(0.8);
+	transform-origin: top center;
+	    pointer-events: none;
+}
+
+.bagggy-logo.scale-img {
+	transform:scale(0.12);
+	z-index:99;
+    position: fixed;
+    top:100px;
+}
+
+
+.bagggy-logo img {
+	margin:0 auto;
+	width:100%;
+}
+
+h1.take-care {
+	margin-top:8px
+}
+
+img.care-icons {
+	width:140px;
+	margin-top:16px;
+}
+
+.fixed-words-wrapper-1 {
+	position:fixed;
+	top:50px;
+	width:100%;
+	z-index:100;
+	    pointer-events: none;
+}
+
+.fixed-words-wrapper-2 {
+	position:fixed;
+	top:200px;
+	width:100%;
+	z-index:100;
+	    pointer-events: none;
+}
+
+.fixed-words-wrapper-3 {
+	position:fixed;
+	top:260px;
+	width:100%;
+	z-index:100;
+	    pointer-events: none;
+}
+
+.fixed-words-inner {
+	margin: 0 auto;
+	pointer-events: none;
+}
+
+.Loop {
+  position: relative;
+  height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+section {
+  position: relative;
+  text-align: center;
+  min-height: 300px;
+  height: 100%;
+}
+
+
+::scrollbar {
+  display: none;
+}
+
+section video {
+    width: 100%;
+    height: auto;
+}
+
+.one-column {
+	padding-top:300px;
+}
+
+.left-column {
+	padding-top:300px;
+}
+
+.right-column {
+	padding-top:600px;
+}
+
+.one {
+	margin-top:-800px;
+}
+
+
+
+@media (max-width: 1440px) {
+	.bagggy-logo {
+		top:25%;	 
+	}
+	.bagggy-logo.scale-img {
+		transform:scale(0.14);
+	}
+}
+
+@media (max-width: 1360px) {
+	h1 {
+		font-size: 15px; 
+	    line-height: 20px;
+	  	letter-spacing: 0.8px;
+	}
+	
+	.fixed-words-wrapper-1 {
+		top:50px;
+	}
+
+	.fixed-words-wrapper-2 {
+		top:160px;
+	}
+
+	.fixed-words-wrapper-3 {
+		top:220px;
+	}
+	
+	.bagggy-logo {
+		top:23%;	
+			
+	}
+	
+	.bagggy-logo.scale-img {
+		transform:scale(0.12);
+		top:85px;
+	}
+	
+}
+
+@media (max-width: 1280px) {
+	.bagggy-logo {
+		top:28%;	 
+	}
+	.bagggy-logo.scale-img {
+		transform:scale(0.13);
+	}
+}
+
+@media (max-width: 1024px) {
+	.bagggy-logo {
+		top:33%;	 
+	}
+	.bagggy-logo.scale-img {
+		transform:scale(0.15);
+	}
+}
+
+@media (max-width: 896px) {
+	.bagggy-logo {
+		top:35%;	 
+	}
+	.bagggy-logo.scale-img {
+		transform:scale(0.17);
+	}
+}
+
+
+@media (max-width: 768px) {
+	.bagggy-logo {
+		top:34%;	 
+	}
+	.bagggy-logo.scale-img {
+		transform:scale(0.20);
+	}
+}
+
+@media (max-width: 636px) {
+	.bagggy-logo {
+		top:37%;	 
+	}
+	.bagggy-logo.scale-img {
+		transform:scale(0.24);
+	}
+}
+
+@media (max-width: 500px) {
+	.bagggy-logo {
+		top:43%;	 
+	}
+	.bagggy-logo.scale-img {
+		transform:scale(0.28);
+	}
+}
+
+@media (max-width: 414px) {
+	.bagggy-logo {
+		top:43%;	 
+	}
+	.bagggy-logo.scale-img {
+		transform:scale(0.36);
+	}
+}
+
+@media (max-width: 375px) {
+	.bagggy-logo {
+		top:44%;	 
+	}
+	.bagggy-logo.scale-img {
+		transform:scale(0.42);
+	}
+	
+	.one {
+		margin-top:-185px;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+/*************************************************************************************************************
+Rotation
+*************************************************************************************************************/
+.minus-two-degrees {
+	transform: rotate(-2deg);
+}
+
+
+.minus-three-degrees {
+	transform: rotate(-3deg);
+}
+
+.minus-five-degrees {
+	transform: rotate(-5deg);
+}
+
+.minus-ten-degrees {
+	transform: rotate(-10deg);
+}
+
+.minus-fifteen-degrees {
+	transform: rotate(-15deg);
+}
+
+.minus-twenty-degrees {
+	transform: rotate(-20deg);
+}
+
+
+.plus-two-degrees {
+	transform: rotate(2deg);
+}
+
+.plus-three-degrees {
+	transform: rotate(3deg);
+}
+
+.plus-five-degrees {
+	transform: rotate(5deg);
+}
+.plus-ten-degrees {
+	transform: rotate(10deg);
+}
+
+.plus-fifteen-degrees {
+	transform: rotate(15deg);
+}
+
+.plus-twenty-degrees {
+	transform: rotate(20deg);
+}
+
