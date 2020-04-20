@@ -1,6 +1,10 @@
 ﻿/*************************************************************************************************************
 GLOBAL
 *************************************************************************************************************/
+div#preload {
+    display: none;
+}
+
 @font-face {
     font-family: "TeXGyreHerosCondensed-Regular";
     src: url('texgyreheroscn-regular.woff2') format('woff2');
@@ -25,6 +29,7 @@ body {
 .hide p {
 	visibility:hidden;
 }
+
 
 /*************************************************************************************************************
 h1 - h6 - p
@@ -57,6 +62,7 @@ h1 {
     transition: 0.3s all;
 	transform: scale(0.8);
 	transform-origin: top center;
+	    pointer-events: none;
 }
 
 .bagggy-logo.scale-img {
@@ -72,10 +78,13 @@ h1 {
 	width:100%;
 }
 
+h1.take-care {
+	margin-top:8px
+}
 
 img.care-icons {
 	width:140px;
-	margin-top:20px
+	margin-top:16px;
 }
 
 .fixed-words-wrapper-1 {
@@ -83,6 +92,7 @@ img.care-icons {
 	top:50px;
 	width:100%;
 	z-index:100;
+	    pointer-events: none;
 }
 
 .fixed-words-wrapper-2 {
@@ -90,6 +100,7 @@ img.care-icons {
 	top:200px;
 	width:100%;
 	z-index:100;
+	    pointer-events: none;
 }
 
 .fixed-words-wrapper-3 {
@@ -97,6 +108,7 @@ img.care-icons {
 	top:260px;
 	width:100%;
 	z-index:100;
+	    pointer-events: none;
 }
 
 .fixed-words-inner {
@@ -130,8 +142,17 @@ section video {
     height: auto;
 }
 
+.one-column {
+	margin-top:300px;
+	margin-bottom:300px;
+}
+
+.right-column {
+	margin-top:300px;
+}
+
 .one {
-	margin-top:-485px;
+	margin-top:-815px;
 }
 
 
@@ -266,6 +287,15 @@ section video {
 /*************************************************************************************************************
 Rotation
 *************************************************************************************************************/
+.minus-two-degrees {
+	transform: rotate(-2deg);
+}
+
+
+.minus-three-degrees {
+	transform: rotate(-3deg);
+}
+
 .minus-five-degrees {
 	transform: rotate(-5deg);
 }
@@ -280,6 +310,15 @@ Rotation
 
 .minus-twenty-degrees {
 	transform: rotate(-20deg);
+}
+
+
+.plus-two-degrees {
+	transform: rotate(2deg);
+}
+
+.plus-three-degrees {
+	transform: rotate(3deg);
 }
 
 .plus-five-degrees {
