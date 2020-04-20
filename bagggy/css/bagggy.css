@@ -26,6 +26,20 @@ body {
 	visibility:hidden;
 }
 
+/*************************************************************************************************************
+h1 - h6 - p
+*************************************************************************************************************/
+
+h1 {
+  	font-family: "TeXGyreHerosCondensed-Regular", serif; 
+  	font-weight: normal;
+	font-size: 18px; 
+    line-height: 24px;
+  	letter-spacing: 1px;
+	color: #000;
+	margin: 0;
+	text-align:center;
+}
 
 
 .fixed-logo-wrapper {
@@ -51,94 +65,6 @@ body {
     position: fixed;
     top:100px;
 }
-
-
-@media (max-width: 1440px) {
-	.bagggy-logo {
-		top:25%;	 
-	}
-	.bagggy-logo.scale-img {
-		transform:scale(0.14);
-	}
-}
-
-@media (max-width: 1280px) {
-	.bagggy-logo {
-		top:28%;	 
-	}
-	.bagggy-logo.scale-img {
-		transform:scale(0.16);
-	}
-}
-
-@media (max-width: 1024px) {
-	.bagggy-logo {
-		top:33%;	 
-	}
-	.bagggy-logo.scale-img {
-		transform:scale(0.19);
-	}
-}
-
-@media (max-width: 896px) {
-	.bagggy-logo {
-		top:35%;	 
-	}
-	.bagggy-logo.scale-img {
-		transform:scale(0.22);
-	}
-}
-
-
-@media (max-width: 768px) {
-	.bagggy-logo {
-		top:34%;	 
-	}
-	.bagggy-logo.scale-img {
-		transform:scale(0.25);
-	}
-}
-
-@media (max-width: 636px) {
-	.bagggy-logo {
-		top:37%;	 
-	}
-	.bagggy-logo.scale-img {
-		transform:scale(0.32);
-	}
-}
-
-@media (max-width: 500px) {
-	.bagggy-logo {
-		top:43%;	 
-	}
-	.bagggy-logo.scale-img {
-		transform:scale(0.38);
-	}
-}
-
-@media (max-width: 414px) {
-	.bagggy-logo {
-		top:43%;	 
-	}
-	.bagggy-logo.scale-img {
-		transform:scale(0.46);
-	}
-}
-
-@media (max-width: 375px) {
-	.bagggy-logo {
-		top:44%;	 
-	}
-	.bagggy-logo.scale-img {
-		transform:scale(0.52);
-	}
-}
-
-
-
-
-
 
 
 .bagggy-logo img {
@@ -204,20 +130,137 @@ section video {
     height: auto;
 }
 
-/*************************************************************************************************************
-h1 - h6 - p
-*************************************************************************************************************/
-
-h1 {
-  	font-family: "TeXGyreHerosCondensed-Regular", serif; 
-  	font-weight: normal;
-	font-size: 18px; 
-    line-height: 24px;
-  	letter-spacing: 1px;
-	color: #000;
-	margin: 0;
-	text-align:center;
+.one {
+	margin-top:-485px;
 }
+
+
+
+@media (max-width: 1440px) {
+	.bagggy-logo {
+		top:25%;	 
+	}
+	.bagggy-logo.scale-img {
+		transform:scale(0.14);
+	}
+}
+
+@media (max-width: 1360px) {
+	h1 {
+		font-size: 15px; 
+	    line-height: 20px;
+	  	letter-spacing: 0.8px;
+	}
+	
+	.fixed-words-wrapper-1 {
+		top:50px;
+	}
+
+	.fixed-words-wrapper-2 {
+		top:160px;
+	}
+
+	.fixed-words-wrapper-3 {
+		top:220px;
+	}
+	
+	.bagggy-logo {
+		top:20%;	 
+	}
+	
+	.bagggy-logo.scale-img {
+		transform:scale(0.12);
+		top:85px;
+	}
+	
+}
+
+@media (max-width: 1280px) {
+	.bagggy-logo {
+		top:28%;	 
+	}
+	.bagggy-logo.scale-img {
+		transform:scale(0.13);
+	}
+}
+
+@media (max-width: 1024px) {
+	.bagggy-logo {
+		top:33%;	 
+	}
+	.bagggy-logo.scale-img {
+		transform:scale(0.15);
+	}
+}
+
+@media (max-width: 896px) {
+	.bagggy-logo {
+		top:35%;	 
+	}
+	.bagggy-logo.scale-img {
+		transform:scale(0.17);
+	}
+}
+
+
+@media (max-width: 768px) {
+	.bagggy-logo {
+		top:34%;	 
+	}
+	.bagggy-logo.scale-img {
+		transform:scale(0.20);
+	}
+}
+
+@media (max-width: 636px) {
+	.bagggy-logo {
+		top:37%;	 
+	}
+	.bagggy-logo.scale-img {
+		transform:scale(0.24);
+	}
+}
+
+@media (max-width: 500px) {
+	.bagggy-logo {
+		top:43%;	 
+	}
+	.bagggy-logo.scale-img {
+		transform:scale(0.28);
+	}
+}
+
+@media (max-width: 414px) {
+	.bagggy-logo {
+		top:43%;	 
+	}
+	.bagggy-logo.scale-img {
+		transform:scale(0.36);
+	}
+}
+
+@media (max-width: 375px) {
+	.bagggy-logo {
+		top:44%;	 
+	}
+	.bagggy-logo.scale-img {
+		transform:scale(0.42);
+	}
+	
+	.one {
+		margin-top:-185px;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
 
 /*************************************************************************************************************
 Rotation
