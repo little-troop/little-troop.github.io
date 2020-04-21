@@ -1,10 +1,6 @@
 ﻿/*************************************************************************************************************
 GLOBAL
 *************************************************************************************************************/
-div#preload {
-    display: none;
-}
-
 @font-face {
     font-family: "TeXGyreHerosCondensed-Regular";
     src: url('texgyreheroscn-regular.woff2') format('woff2');
@@ -30,7 +26,6 @@ body {
 	visibility:hidden;
 }
 
-
 /*************************************************************************************************************
 h1 - h6 - p
 *************************************************************************************************************/
@@ -52,8 +47,6 @@ h1 {
 	width:100%;
 }
 
-
-
 .bagggy-logo {
 	position:fixed;
 	width:100%;
@@ -62,7 +55,6 @@ h1 {
     transition: 0.3s all;
 	transform: scale(0.8);
 	transform-origin: top center;
-	    pointer-events: none;
 }
 
 .bagggy-logo.scale-img {
@@ -71,7 +63,6 @@ h1 {
     position: fixed;
     top:100px;
 }
-
 
 .bagggy-logo img {
 	margin:0 auto;
@@ -82,10 +73,12 @@ h1.take-care {
 	margin-top:8px
 }
 
+
 img.care-icons {
 	width:140px;
-	margin-top:16px;
+	margin-top:20px
 }
+
 
 .fixed-words-wrapper-1 {
 	position:fixed;
@@ -123,16 +116,15 @@ img.care-icons {
   -webkit-overflow-scrolling: touch;
 }
 
+
+
 section {
   position: relative;
   text-align: center;
   min-height: 300px;
-  height: 100%;
-}
-
-
-::scrollbar {
-  display: none;
+  max-height: 700px;
+  margin-bottom:240px;
+  height: 80%;
 }
 
 section video {
@@ -140,22 +132,9 @@ section video {
     height: auto;
 }
 
-.one-column {
-	padding-top:300px;
+::scrollbar {
+  display: none;
 }
-
-.left-column {
-	padding-top:300px;
-}
-
-.right-column {
-	padding-top:600px;
-}
-
-.one {
-	margin-top:-800px;
-}
-
 
 
 @media (max-width: 1440px) {
