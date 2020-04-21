@@ -237,6 +237,10 @@ section video {
 	.bagggy-logo.scale-img {
 		transform:scale(0.36);
 	}
+	section {
+	  	margin-bottom:480px;
+	
+	}
 }
 
 @media (max-width: 375px) {
