@@ -39,7 +39,6 @@
     border: 0;
     color: black;
     line-height: 0;
-    line-height: 0;
 }
 
 .newsletter #mc-embedded-subscribe {
@@ -176,6 +175,10 @@ img.care-icons {
   -webkit-overflow-scrolling: touch;
 }
 
+.bumbum {
+	margin-top:-455px;
+}
+
 section {
   position: relative;
   text-align: center;
@@ -219,9 +222,7 @@ section video {
 		top:160px;
 	}
 
-	.fixed-words-wrapper-3 {
-		top:220px;
-	}
+
 	
 	.bagggy-logo {
 		top:23%;	
@@ -231,6 +232,14 @@ section video {
 	.bagggy-logo.scale-img {
 		transform:scale(0.12);
 		top:85px;
+	}
+	
+	.newsletter input {
+	    font-size: 15px;
+	}
+	
+	.newsletter #mce-EMAIL { 
+		line-height:2;
 	}
 	
 }
@@ -287,6 +296,16 @@ section video {
 	}
 	.bagggy-logo.scale-img {
 		transform:scale(0.28);
+	}
+	
+	
+	
+	.bumbum {
+		margin-top:-455px;
+	}
+	
+	::-webkit-input-placeholder {
+	    color:    #000;
 	}
 }
 
