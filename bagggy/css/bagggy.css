@@ -50,7 +50,6 @@
 	background-color:transparent;
 	background-size:32px;
 	border-bottom: 2px solid black;
-
 }
 
 .newsletter .button {
@@ -135,7 +134,7 @@ h1 {
 }
 
 h1.take-care {
-	margin-top:8px
+	margin-top:2px
 }
 
 
@@ -324,11 +323,9 @@ section video {
 	.bagggy-logo.scale-img {
 		transform:scale(0.28);
 	}
-	
-	
-	
-	.bumbum {
-		margin-top:-455px;
+
+	.newsletter #mce-EMAIL {
+	    line-height: 2;
 	}
 	
 
