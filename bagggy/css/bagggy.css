@@ -327,6 +327,9 @@ section video {
 	.newsletter #mce-EMAIL {
 	    line-height: 2;
 	}
+	.newsletter #mc-embedded-subscribe {
+	    margin-top: -1px;
+	}
 	
 
 }
