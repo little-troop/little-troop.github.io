@@ -1,6 +1,6 @@
 ﻿#email{
 	position: fixed;
-	bottom: 40px;
+	bottom: 50px;
 	left: 0;
 	width: 100%;
 	z-index: 999;
@@ -22,8 +22,8 @@
 .newsletter #mce-EMAIL {
     width: 290px;
     border-bottom: 2px solid black;
-    margin-right: 7px;
-    line-height: 1;
+
+    line-height: 2;
 }
 
 .newsletter input {
@@ -49,10 +49,16 @@
     background-position: center;
 	background-color:transparent;
 	background-size:32px;
+	border-bottom: 2px solid black;
+
 }
 
 .newsletter .button {
 	border:none;
+}
+
+::-webkit-input-placeholder {
+    color: #000;
 }
 
 
@@ -166,6 +172,27 @@ img.care-icons {
 .fixed-words-inner {
 	margin: 0 auto;
 	pointer-events: none;
+}
+
+
+.thankyou {
+    animation:signup-response 0.5s 1;
+   -webkit-animation:signup-response 0.5s 1;
+   animation-fill-mode: forwards;
+
+   animation-delay:5s;
+   -webkit-animation-delay:5s; /* Safari and Chrome */
+   -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes signup-response{
+    from {opacity :1;}
+    to {opacity :0;}
+}
+
+@-webkit-keyframes signup-response{
+    from {opacity :1;}
+    to {opacity :0;}
 }
 
 .Loop {
@@ -304,9 +331,7 @@ section video {
 		margin-top:-455px;
 	}
 	
-	::-webkit-input-placeholder {
-	    color:    #000;
-	}
+
 }
 
 @media (max-width: 414px) {
