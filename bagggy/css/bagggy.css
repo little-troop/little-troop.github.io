@@ -1,0 +1,381 @@
+﻿#email{
+	position: fixed;
+	bottom: 40px;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+#email #mc_embed_signup {
+    position: relative;
+    float: none;
+    margin: 0 auto;
+    display: block;
+    width: 340px;
+}
+
+#mc_embed_signup{
+	clear:left; 
+	width:100%;
+}
+
+.newsletter #mce-EMAIL {
+    width: 290px;
+    border-bottom: 2px solid black;
+    margin-right: 7px;
+    line-height: 1;
+}
+
+.newsletter input {
+    position: relative;
+    float: left;
+    outline: 0;
+    border-radius: 0;
+    font-family: "TeXGyreHerosCondensed-Regular", serif;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background: none;
+    border: 0;
+    color: black;
+    line-height: 0;
+    line-height: 0;
+}
+
+.newsletter #mc-embedded-subscribe {
+    width: 40px;
+    height: 40px;
+   	background-image: url('../img/arrow.png');
+    background-repeat: no-repeat; 
+    background-position: center;
+	background-color:transparent;
+	background-size:32px;
+}
+
+.newsletter .button {
+	border:none;
+}
+
+
+
+/*************************************************************************************************************
+GLOBAL
+*************************************************************************************************************/
+@font-face {
+    font-family: "TeXGyreHerosCondensed-Regular";
+    src: url('texgyreheroscn-regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: "TeXGyreHerosCondensed-Regular", sans-serif;
+    margin: 0;
+	background: #ccc;
+    font-weight: 300;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+.hide p {
+	visibility:hidden;
+}
+
+/*************************************************************************************************************
+h1 - h6 - p
+*************************************************************************************************************/
+
+h1 {
+  	font-family: "TeXGyreHerosCondensed-Regular", serif; 
+  	font-weight: normal;
+	font-size: 18px; 
+    line-height: 24px;
+  	letter-spacing: 1px;
+	color: #000;
+	margin: 0;
+	text-align:center;
+}
+
+
+.fixed-logo-wrapper {
+	position:fixed;
+	width:100%;
+}
+
+.bagggy-logo {
+	position:fixed;
+	width:100%;
+    z-index:0;
+	top:23%;
+    transition: 0.3s all;
+	transform: scale(0.8);
+	transform-origin: top center;
+}
+
+.bagggy-logo.scale-img {
+	transform:scale(0.12);
+	z-index:99;
+    position: fixed;
+    top:100px;
+}
+
+.bagggy-logo img {
+	margin:0 auto;
+	width:100%;
+}
+
+h1.take-care {
+	margin-top:8px
+}
+
+
+img.care-icons {
+	width:140px;
+	margin-top:20px
+}
+
+
+.fixed-words-wrapper-1 {
+	position:fixed;
+	top:50px;
+	width:100%;
+	z-index:100;
+	    pointer-events: none;
+}
+
+.fixed-words-wrapper-2 {
+	position:fixed;
+	top:200px;
+	width:100%;
+	z-index:100;
+	    pointer-events: none;
+}
+
+.fixed-words-wrapper-3 {
+	position:fixed;
+	bottom:50px;
+	width:100%;
+	z-index:100;
+	    pointer-events: none;
+}
+
+.fixed-words-inner {
+	margin: 0 auto;
+	pointer-events: none;
+}
+
+.Loop {
+  position: relative;
+  height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+section {
+  position: relative;
+  text-align: center;
+  min-height: 300px;
+  max-height: 700px;
+  margin-bottom:240px;
+  height: 80%;
+}
+
+section video {
+    width: 100%;
+    height: auto;
+}
+
+::scrollbar {
+  display: none;
+}
+
+
+@media (max-width: 1440px) {
+	.bagggy-logo {
+		top:25%;	 
+	}
+	.bagggy-logo.scale-img {
+		transform:scale(0.14);
+	}
+}
+
+@media (max-width: 1360px) {
+	h1 {
+		font-size: 15px; 
+	    line-height: 20px;
+	  	letter-spacing: 0.8px;
+	}
+	
+	.fixed-words-wrapper-1 {
+		top:50px;
+	}
+
+	.fixed-words-wrapper-2 {
+		top:160px;
+	}
+
+	.fixed-words-wrapper-3 {
+		top:220px;
+	}
+	
+	.bagggy-logo {
+		top:23%;	
+			
+	}
+	
+	.bagggy-logo.scale-img {
+		transform:scale(0.12);
+		top:85px;
+	}
+	
+}
+
+@media (max-width: 1280px) {
+	.bagggy-logo {
+		top:28%;	 
+	}
+	.bagggy-logo.scale-img {
+		transform:scale(0.13);
+	}
+}
+
+@media (max-width: 1024px) {
+	.bagggy-logo {
+		top:33%;	 
+	}
+	.bagggy-logo.scale-img {
+		transform:scale(0.15);
+	}
+}
+
+@media (max-width: 896px) {
+	.bagggy-logo {
+		top:35%;	 
+	}
+	.bagggy-logo.scale-img {
+		transform:scale(0.17);
+	}
+}
+
+
+@media (max-width: 768px) {
+	.bagggy-logo {
+		top:34%;	 
+	}
+	.bagggy-logo.scale-img {
+		transform:scale(0.20);
+	}
+}
+
+@media (max-width: 636px) {
+	.bagggy-logo {
+		top:37%;	 
+	}
+	.bagggy-logo.scale-img {
+		transform:scale(0.24);
+	}
+}
+
+@media (max-width: 500px) {
+	.bagggy-logo {
+		top:43%;	 
+	}
+	.bagggy-logo.scale-img {
+		transform:scale(0.28);
+	}
+}
+
+@media (max-width: 414px) {
+	.bagggy-logo {
+		top:43%;	 
+	}
+	.bagggy-logo.scale-img {
+		transform:scale(0.36);
+	}
+	section {
+	  	margin-bottom:480px;
+	
+	}
+	
+}
+
+@media (max-width: 375px) {
+	.bagggy-logo {
+		top:44%;	 
+	}
+	.bagggy-logo.scale-img {
+		transform:scale(0.42);
+	}
+	
+	.one {
+		margin-top:-185px;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+/*************************************************************************************************************
+Rotation
+*************************************************************************************************************/
+.minus-two-degrees {
+	transform: rotate(-2deg);
+}
+
+
+.minus-three-degrees {
+	transform: rotate(-3deg);
+}
+
+.minus-five-degrees {
+	transform: rotate(-5deg);
+}
+
+.minus-ten-degrees {
+	transform: rotate(-10deg);
+}
+
+.minus-fifteen-degrees {
+	transform: rotate(-15deg);
+}
+
+.minus-twenty-degrees {
+	transform: rotate(-20deg);
+}
+
+
+.plus-two-degrees {
+	transform: rotate(2deg);
+}
+
+.plus-three-degrees {
+	transform: rotate(3deg);
+}
+
+.plus-five-degrees {
+	transform: rotate(5deg);
+}
+.plus-ten-degrees {
+	transform: rotate(10deg);
+}
+
+.plus-fifteen-degrees {
+	transform: rotate(15deg);
+}
+
+.plus-twenty-degrees {
+	transform: rotate(20deg);
+}
+
