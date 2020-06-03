@@ -256,6 +256,7 @@ VIDEO HERO
 /*************************************************************************************************************
 LINKS SIDE BY SIDE
 *************************************************************************************************************/
+
 .split {
   height: 90%;
   width: 50%;
@@ -263,6 +264,7 @@ LINKS SIDE BY SIDE
   z-index: 1;
   top: 0;
   overflow-x: hidden;
+
 }
 
 .left {
@@ -275,6 +277,8 @@ LINKS SIDE BY SIDE
   background:transparent;
 }
 
+
+
 .centered {
   position: absolute;
   top: 50%;
@@ -283,31 +287,58 @@ LINKS SIDE BY SIDE
   text-align: center;
 }
 
+
 a.link-left-white {
-			cursor: url('../../img/arrow_small_left_white.png'), auto;	
+	cursor: url('../../img/arrow_small_left_white.png'), auto;
+	cursor: -webkit-image-set(
+	  url('../../img/arrow_small_left_white.png') 1x,
+	  url('../../img/arrow_256_left_white.png') 2x
+	), auto;	
 }
 
 a.link-right-white {
-			cursor: url('../../img/arrow_small_right_white.png'), auto;	
+	cursor: url('../../img/arrow_small_right_white.png'), auto;
+	cursor: -webkit-image-set(
+	  url('../../img/arrow_small_right_white.png') 1x,
+	  url('../../img/arrow_256_right_white.png') 2x
+	), auto;	
 }
 
 a.link-left-black {
-			cursor: url('../../img/arrow_small_left_black.png'), auto;	
+	cursor: url('../../img/arrow_small_left_black.png'), auto;
+	cursor: -webkit-image-set(
+	  url('../../img/arrow_small_left_black.png') 1x,
+	  url('../../img/arrow_256_left_black.png') 2x
+	), auto;	
 }
 
 a.link-right-black {
-			cursor: url('../../img/arrow_small_right_black.png'), auto;	
+	cursor: url('../../img/arrow_small_right_black.png'), auto;
+	cursor: -webkit-image-set(
+	  url('../../img/arrow_small_right_black.png') 1x,
+	  url('../../img/arrow_256_right_black.png') 2x
+	), auto;	
 }
 
 
 
 a.link-left-green {
-			cursor: url('../../img/arrow_small_left_green.png'), auto;	
+	cursor: url('../../img/arrow_small_left_green.png'), auto;
+	cursor: -webkit-image-set(
+	  url('../../img/arrow_small_left_green.png') 1x,
+	  url('../../img/arrow_256_left_green.png') 2x
+	), auto;	
 }
 
 a.link-right-green {
-			cursor: url('../../img/arrow_small_right_green.png'), auto;	
+	cursor: url('../../img/arrow_small_right_green.png'), auto;
+	cursor: -webkit-image-set(
+	  url('../../img/arrow_small_right_green.png') 1x,
+	  url('../../img/arrow_256_right_green.png') 2x
+	), auto;	
 }
+
+
 
 
 /*************************************************************************************************************
