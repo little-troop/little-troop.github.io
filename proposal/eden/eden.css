@@ -2,7 +2,16 @@
 HEADER FOOTER
 *************************************************************************************************************/
 
-
+.lt {
+  	top: 20px;
+  	position: fixed;
+    width: 100%;
+    margin: 0 auto;
+  	z-index:98;
+	text-transform: uppercase;
+  	text-align:center;
+	line-height:16px;
+}
 
 .navbarWHITE {
 	border-bottom:1px solid #fff;
