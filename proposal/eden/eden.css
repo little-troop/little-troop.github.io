@@ -13,6 +13,10 @@ HEADER FOOTER
 	line-height:16px;
 }
 
+.navbarWHITE h4 {
+	color:#fff!important;
+}
+
 .navbarWHITE {
 	border-bottom:1px solid #fff;
 	padding-bottom:50px;
