@@ -1,5 +1,15 @@
-﻿img {
-	border-radius:6px;
+﻿
+.top-rounded {
+		  border-radius: 6px 6px 0px 0px;
+}
+
+
+.bottom-rounded {
+		  border-radius: 0px 0px 6px 6px;
+}
+
+.all-rounded {
+		border-radius:6px;
 }
 
 iframe {
