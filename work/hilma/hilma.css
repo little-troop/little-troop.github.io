@@ -1,15 +1,4 @@
-﻿.carousel-mod {
-    margin-bottom: 140px;
-}
-
-@media (max-width: 500px) { 
-	.carousel-mod {
-	    margin-bottom: 70px;
-	}
-}
-
-
-.people-gif {
+﻿.people-gif {
 	margin: 0px 80px;
 }
 
