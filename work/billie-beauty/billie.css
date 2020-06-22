@@ -175,12 +175,29 @@ ROUNDED EDGES
 
 
 
-img.fifty-fifty-LEFT {
-	margin-right:20px;
+.fifty-fifty-LEFT {
+	padding-right:40px;
+	padding-left:0px;
+	margin-right:0px;
 }
 
-img.fifty-fifty-RIGHT {
-	margin-left:20px;
+.fifty-fifty-RIGHT {
+	padding-left:40px;
+	padding-right:0px;
+	margin-left:0px;
+}
+
+@media (max-width: 600px) { 
+.fifty-fifty-LEFT {
+	padding-right:0px;
+	padding-left:0px;
+	margin-bottom:70px;
+}
+
+.fifty-fifty-RIGHT {
+	padding-left:0px;
+	padding-right:0px;
+}
 }
 
 
