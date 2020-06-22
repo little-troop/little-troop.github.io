@@ -34,21 +34,7 @@ VIDEO HERO
 
 
 
-.people-gif {
-	margin: 0px 80px;
-}
 
-@media (max-width: 1100px) { 
-	.people-gif {
-		margin: 0px 20px;
-	}
-}
-
-@media (max-width: 768px) { 
-	.people-gif {
-		margin: 0px 0px;
-	}
-}
 
 .home-mob {
 	margin: 0px 20px;
@@ -59,9 +45,7 @@ ROUNDED EDGES
 *************************************************************************************************************/
 
 
-.art-direction img {
-	 border-radius: 14px;
-}
+
 
 .all-rounded {
 	border-radius: 14px;
@@ -131,13 +115,55 @@ ROUNDED EDGES
 
 
 
+img.fifty-fifty-LEFT {
+	margin-right:20px;
+}
+
+img.fifty-fifty-RIGHT {
+	margin-left:20px;
+}
 
 
 
 
 /*************************************************************************************************************
-SITE
+VIDEO
 *************************************************************************************************************/
+.balm {
+	margin-bottom:160px;
+}
+
+
+
+
+@media (max-width: 414px) { 
+	.balm {
+		margin-bottom: 70px;
+	}
+	
+}
+
+
+.balm video {
+    width: 100%;
+    height: auto;
+}
+
+.xray video {
+    width: 100%;
+    height: auto;
+}
+
+.side-vid video {
+    width: 100%;
+    height: auto;
+}
+
+
+.wide-vid video {
+    width: 100%;
+    height: auto;
+}
 
 
 
