@@ -140,7 +140,9 @@ VIDEO
 	.balm {
 		margin-bottom: 70px;
 	}
-	
+	.site {
+		margin-bottom:70px;
+	}
 }
 
 
@@ -165,7 +167,9 @@ VIDEO
     height: auto;
 }
 
-
+.site {
+	margin-bottom:140px;
+}
 
 .site video {
     width: 100%;
