@@ -54,11 +54,17 @@
 	
 <!-- Video Hero-->
 <div class="vid-hero">	
-	<video preload="auto" playsinline autoplay muted loop>
+	<div class="mute-button">
+		<button onclick="toggleMute();" >
+			Toggle sound!
+		</button>
+	</div>
+	<video id="myVideo" preload="auto" playsinline autoplay muted loop>
   		  <source src="img/billie1.mp4" type="video/mp4">
 	</video>
 </div>
  
+
 
 <!-- Intro-->
 <div class="intro-headline">
@@ -353,65 +359,72 @@
 		<div class="w3-content w3-display-container">
 			<div class="w3-content">
 			
+						
+					
+							 <div class="w3-display-container mySlides2">
+							 		
+									<div class="w3-col l3 s12 w3-container"><div class="dead"><p>Y</p></div></div>
+									<div class="w3-col l6 s12">
+										<div class="carousel-img">
+											<img src="img/billie29a.jpg" style="width:100%" class="all-rounded">
+										</div>
+									</div>
+									   
+						   
+							 </div>
+						 
+							 <div class="w3-display-container mySlides2">
+							 		
+									<div class="w3-col l3 s12 w3-container"><div class="dead"><p>Y</p></div></div>
+									<div class="w3-col l6 s12">
+										<div class="carousel-img">
+											<img src="img/billie29b.jpg" style="width:100%" class="all-rounded">
+										</div>
+									</div>
+								   
+						   
+							 </div>
+						 
 						 <div class="w3-display-container mySlides2">
-							 	<div class="w3-col s12">
-									<div class="carousel-img-wide">
-										<img src="img/billie29a.jpg" style="width:100%" class="all-rounded">
+						 
+						
+								<div class="w3-col l3 s12 w3-container"><div class="dead"><p>Y</p></div></div>
+								<div class="w3-col l6 s12">
+									<div class="carousel-img">
+										<img src="img/billie29c.jpg" style="width:100%" class="all-rounded">
 									</div>
 								</div>
 							
+								
+							
 						 </div>
-						 
+					 
 						 <div class="w3-display-container mySlides2">
-							 	<div class="w3-col s12">
-									<div class="carousel-img-wide">
-										<img src="img/billie29b.jpg" style="width:100%" class="all-rounded">
+						 
+						
+								<div class="w3-col l3 s12 w3-container"><div class="dead"><p>Y</p></div></div>
+								<div class="w3-col l6 s12">
+									<div class="carousel-img">
+										<img src="img/billie29d.jpg" style="width:100%" class="all-rounded">
+									</div>
+								</div>
+							
+								
+							
+						 </div>
+					 
+						 <div class="w3-display-container mySlides2">
+						 
+						
+								<div class="w3-col l3 s12 w3-container"><div class="dead"><p>Y</p></div></div>
+								<div class="w3-col l6 s12">
+									<div class="carousel-img">
+										<img src="img/billie29e.jpg" style="width:100%" class="all-rounded">
 									</div>
 								</div>
 							
 							
 						 </div>
-						 
-					 	<div class="w3-display-container mySlides2">
-							<div class="w3-col s12">
-								<div class="carousel-img-wide">
-									<img src="img/billie29c.jpg" style="width:100%" class="all-rounded">
-								</div>
-							</div>
-							
-							
-						 </div>
-					 
-						 
-					 <div class="w3-display-container mySlides2">
-						 
-							<div class="w3-col s12">
-								<div class="carousel-img-wide">
-									<img src="img/billie29d.jpg" style="width:100%" class="all-rounded">
-								</div>
-							</div>
-							
-					 </div>
-					 
-					 <div class="w3-display-container mySlides2">
-						 
-							<div class="w3-col s12">
-								<div class="carousel-img-wide">
-									<img src="img/billie29e.jpg" style="width:100%" class="all-rounded">
-								</div>
-							</div>
-							
-					 </div>
-					 
-					 <div class="w3-display-container mySlides2">
-						 
-							<div class="w3-col s12">
-								<div class="carousel-img-wide">
-									<img src="img/billie29f.jpg" style="width:100%" class="all-rounded">
-								</div>
-							</div>
-							
-					 </div>
 						 
 						
 						 	 	 <button class="w3-button w3-display-left" onclick="plusDivs(-1, 1)"><img src="../../img/arrow_large_left.png" width="222px" class="arrow-wide-left"></button>
@@ -432,7 +445,7 @@
 						 <div class="w3-display-container mySlides3">
 							 	<div class="w3-col s12">
 									<div class="carousel-img-wide">
-										<img src="img/billie30a.jpg" style="width:100%">
+										<img src="img/billie30b.jpg" style="width:100%">
 									</div>
 								</div>
 							
@@ -441,7 +454,7 @@
 						 <div class="w3-display-container mySlides3">
 							 	<div class="w3-col s12">
 									<div class="carousel-img-wide">
-										<img src="img/billie30b.jpg" style="width:100%" class="all-rounded">
+										<img src="img/billie30a.jpg" style="width:100%" class="all-rounded">
 									</div>
 								</div>
 							
@@ -943,8 +956,19 @@ function outFunc() {
 		
 		
 
+<script>
+	function toggleMute() {
 
+	var video=document.getElementById("myVideo")
 
+	if(video.muted){
+		video.muted = false;
+	} else {
+		video.muted = true;
+	}
+
+	}
+</script>
 
 <script>
 var slideIndex = [1,1,1];

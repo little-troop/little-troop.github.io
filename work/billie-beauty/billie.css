@@ -32,9 +32,69 @@ VIDEO HERO
 	}
 }
 
+.mute-button button {
+	background-color:#4BE99A;
+	color:#000;
+	outline: none;
+	border:none;
+	width:240px;
+	font-size:42px;
+	letter-spacing:-0.25px!important;
+	height:58px;
+	padding: 0px 0px 3px 0px;
+	border-radius:36px;
+	line-height:42px;
+	text-align:center;
+	display: inline-block;
+}
+
+.mute-button button:active {
+  background-color: #FF97F5;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.mute-button {
+	right: 20px;
+	bottom:20px;
+	position:absolute;
+	z-index:999;
+}
+
+@media (max-width: 500px) { 
+	.mute-button{
+	   bottom:280px;
+	}
+}
+
+@media (max-width: 414px) { 
+	.mute-button{
+	   bottom:240px;
+	}
+}
 
 
 
+
+@media (max-width: 375px) { 
+	.mute-button{
+	   bottom:380px;
+	}
+}
+
+/* iPhone678 */
+@media only screen and (device-width: 375px) and (device-height: 667px) { 
+	.mute-button {
+	   bottom:320px;
+	}
+}
+
+@media (max-width: 320px) { 
+	.mute-button{
+	   bottom:270px;
+	}
+}
 
 .home-mob {
 	margin: 0px 20px;
