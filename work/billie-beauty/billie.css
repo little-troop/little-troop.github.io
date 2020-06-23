@@ -16,10 +16,41 @@ VIDEO HERO
       height:100%;
 }
 
+@media (max-width: 1280px) {
+	.vid-hero {
+	    width:100%;
+	    height:90vh;
+	    overflow: hidden;
+	}
+	
+	
+}
+
+
+
+@media (max-width: 1000px) { 
+	.vid-hero {
+	    width:100%;
+	    height:66vh;
+	    overflow: hidden;
+	}
+	
+
+}
+
+@media (max-width: 768px) {
+	.vid-hero {
+	    width:100%;
+	    height:50vh;
+	    overflow: hidden;
+	}
+
+}
+
 @media (max-width: 500px) { 
 	.vid-hero {
 	    width:100%;
-	    height:70vh;
+	    height:40vh;
 	    overflow: hidden;
 	}
 }
@@ -27,7 +58,7 @@ VIDEO HERO
 @media (max-width: 375px) { 
 	.vid-hero {
 	    width:100%;
-	    height:55vh;
+	    height:34vh;
 	    overflow: hidden;
 	}
 }
@@ -62,15 +93,53 @@ VIDEO HERO
 	z-index:999;
 }
 
+@media (max-width: 1280px) {
+	
+	.mute-button{
+	   bottom:13%;
+	}
+
+}
+
+@media (max-width: 1000px) {
+	
+	.mute-button{
+	  bottom:36%;
+	}
+
+}
+
+@media (max-width: 768px) { 
+	.mute-button{
+	    bottom:54%;
+	}
+}
+
 @media (max-width: 500px) { 
 	.mute-button{
-	   bottom:280px;
+	   bottom:62%;
+	}
+	
+	.mute-button button {
+		background-color:#4BE99A;
+		color:#000;
+		outline: none;
+		border:none;
+		width:180px;
+		font-size:32px;
+		letter-spacing:-0.25px!important;
+		height:50px;
+		padding: 0px 0px 3px 0px;
+		border-radius:36px;
+		line-height:32px;
+		text-align:center;
+		display: inline-block;
 	}
 }
 
 @media (max-width: 414px) { 
 	.mute-button{
-	   bottom:240px;
+	   bottom:63%;
 	}
 }
 
@@ -78,21 +147,54 @@ VIDEO HERO
 
 
 @media (max-width: 375px) { 
+	.mute-button button {
+		background-color:#4BE99A;
+		color:#000;
+		outline: none;
+		border:none;
+		width:150px;
+		font-size:26px;
+		letter-spacing:-0.25px!important;
+		height:40px;
+		padding: 0px 0px 3px 0px;
+		border-radius:36px;
+		line-height:26px;
+		text-align:center;
+		display: inline-block;
+	}
+	
 	.mute-button{
-	   bottom:380px;
+	     bottom:69%;
 	}
 }
 
 /* iPhone678 */
 @media only screen and (device-width: 375px) and (device-height: 667px) { 
 	.mute-button {
-	   bottom:320px;
+	    bottom:69%;
 	}
 }
 
 @media (max-width: 320px) { 
+	
+	.mute-button button {
+		background-color:#4BE99A;
+		color:#000;
+		outline: none;
+		border:none;
+		width:120px;
+		font-size:20px;
+		letter-spacing:-0.25px!important;
+		height:30px;
+		padding: 0px 0px 3px 0px;
+		border-radius:36px;
+		line-height:20px;
+		text-align:center;
+		display: inline-block;
+	}
+	
 	.mute-button{
-	   bottom:270px;
+	    bottom:68%;
 	}
 }
 
