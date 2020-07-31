@@ -31,7 +31,7 @@ body, html {
 
 .bg {
   /* The image used */
-  background-image: url("img/01.jpg");
+  background-image: url("img/02.jpg");
 
   /* Full height */
   height: 100%; 
@@ -50,12 +50,12 @@ body, html {
 	display: none!important;
 }
 
-
 @media (max-width: 500px) { 
 	.navbarWHITE {
 		display: block!important;
 	}
 }
+
 
 
 
@@ -72,15 +72,25 @@ body, html {
 <div class="navbarBLACK">
 	<h4 class="lt">LITTLE TROOP</h4>
 </div>
-
-<div class="tapContain"><h4 class="tap">TAP LEFT & RIGHT TO NAVIGATE</h4></div>
-
 <div class="rotateContain"><h4 class="rotate">Best viewed in landscape.<br/> Please rotate your device.</h4></div>
 
-<!-- BG-->
-<a href="2.html" class="link-right-white">
-	<div class="bg"></div>	
+
+<!-- LINKS-->
+<a href="index.html" class="link-left-white">
+	<div class="split left">
+		<div class="centered"></div>
+	</div> 
 </a>
+
+<a href="3.html" class="link-right-white">
+	<div class="split right">
+		<div class="centered"></div>
+	</div> 
+</a>
+
+
+<!-- BG-->
+<div class="bg"></div>	
 
 
 <!-- Footer3-->
@@ -124,7 +134,6 @@ body, html {
 </div>
 
 
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 
@@ -133,6 +142,14 @@ body, html {
  		   $('.preloader').fadeOut('slow');
  		});			
 </script> 
+
+
+ 
+		
+
+
+
+
 
 
 </body>
