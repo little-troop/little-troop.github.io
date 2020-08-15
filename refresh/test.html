@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Image</title>
+  
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+	<script type="text/javascript">
+	$(document).ready(function() {
+
+	    var bgArray = ['Testimonial1.png', 'Testimonial2.png', 'Testimonial3.png'];
+	    var bg = bgArray[Math.floor(Math.random() * bgArray.length)];
+
+	    $('body').css('background', bg);
+
+	    // If you have defined a path for the images
+	    var path = 'images/';
+
+	    // then you can put it right before the variable 'bg'
+	    $('body').css('background', path+bg);
+
+	}); 
+	</script>
+</head>
+<body>
+
+</body>
+</html>
