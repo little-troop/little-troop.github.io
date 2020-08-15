@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Image</title>
+  
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+	<script type="text/javascript">
+	$(document).ready(function() {
+
+		var images = ['Testimonial1.png', 'Testimonial2.png', 'Testimonial3.png', 'Testimonial4.png', 'Testimonial5.png'];
+		$('body').css({'background-image': 'url(images/' + images[Math.floor(Math.random() * images.length)] + ')'});
+
+	}); 
+	</script>
+</head>
+<body>
+
+</body>
+</html>
