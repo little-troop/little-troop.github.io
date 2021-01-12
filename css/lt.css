@@ -903,9 +903,9 @@ THREE UP
 	margin: 0px 110px;
 }
 
-
 .three-up-left {
 	padding-right:20px;
+	
 }
 
 .three-up-center {
@@ -915,6 +915,30 @@ THREE UP
 
 .three-up-right {
 	padding-left:20px;
+}
+
+
+
+
+.center-trio-big {
+	margin: 0px 80px;
+}
+
+.three-up-left-big {
+	padding-right:20px;
+	margin-right:40px;	
+}
+
+.three-up-center-big {
+	padding-left:10px;
+	padding-right:10px;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.three-up-right-big {
+	padding-left:20px;
+	margin-left:40px;
 }
 
 /*************************************************************************************************************
