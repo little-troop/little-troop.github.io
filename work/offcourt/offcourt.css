@@ -1,4 +1,40 @@
-﻿/*************************************************************************************************************
+﻿.ui-page-active { outline: none; }
+
+.charcoal { background: #111; }
+
+.links-top {
+    border-bottom: 2px #999 solid!important;
+}
+
+.people-gif {
+	margin: 0px 80px;
+}
+
+@media (max-width: 1100px) { 
+	.people-gif {
+		margin: 0px 20px;
+	}
+}
+
+@media (max-width: 768px) { 
+	.people-gif {
+		margin: 0px 0px;
+	}
+}
+
+
+@media (max-width: 500px) { 
+
+	
+	.oc-logo {
+		margin-top:80px;
+		margin-bottom:120px;
+	}
+
+}
+
+
+/*************************************************************************************************************
 WEBSITE EMBED
 *************************************************************************************************************/
 .oc-home-1 {
