@@ -156,7 +156,9 @@ h2.large {
 
 
 
-.h2-white a {
+
+
+.h2-white a, .h2-small a  {
   	font-family: "Arial Narrow", sans-serif; 
   	font-weight: normal;
   	letter-spacing: -0.8px;
@@ -802,14 +804,27 @@ PROJECT CONTENT CONTAINERS
 	padding-top: 40px;
 }
 
+.project-top-40-bottom-140 {
+		padding-top: 40px;
+		padding-bottom: 140px;
+}
+
+
 .project-top-70 {
 	padding-top: 70px;
 }
 
 
+
 .project-top-90 {
 	padding-top: 90px;
 }
+
+.project-top-90-bottom-70 {
+		padding-top: 90px;
+		padding-bottom: 70px;
+}
+
 
 .project-top-90-bottom-180 {
 		padding-top: 90px;
@@ -821,6 +836,8 @@ PROJECT CONTENT CONTAINERS
 	padding-top: 120px;
 }
 
+
+
 .project-top-120-bottom-120 {
 	padding-top: 120px;
 	padding-bottom:120px;
@@ -830,6 +847,12 @@ PROJECT CONTENT CONTAINERS
 .project-top-140 {
 	padding-top: 140px;
 }
+
+.project-top-140-bottom-90 {
+	padding-top: 140px;
+	padding-bottom:90px;
+}
+
 
 .project-top-140-bottom-140 {
 	padding-top: 140px;
@@ -867,6 +890,7 @@ PROJECT CONTENT CONTAINERS
 .project-top-180-bottom70 h2 {
 	margin-right: 20px;
 }
+
 
 .project-0 h2, .project-top-140 h2, .project-top-180-bottom70 h2 {
 	margin-top: 20px;

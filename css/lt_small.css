@@ -494,7 +494,7 @@ h1 - h6
 		letter-spacing: -.5px;
 	}
 
-	.h2-white a {
+	.h2-white a, .h2-small a {
 		font-size: 34px;
 		line-height: 38px;
 		letter-spacing: -0.5px;	
@@ -642,9 +642,19 @@ PROJECT CONTENT CONTAINERS
 	.project-top-70 {
 		padding-top: 50px;
 	}
+	
+	.project-top-40-bottom-140 {
+			padding-top: 30px;
+			padding-bottom: 50px;
+	}
 
 	.project-top-90 {
 		padding-top: 50px;
+	}
+	
+	.project-top-90-bottom-70 {
+		padding-top: 50px;
+		padding-bottom: 50px;
 	}
 
 	.project-top-90-bottom-180 {
@@ -663,6 +673,11 @@ PROJECT CONTENT CONTAINERS
 
 	.project-top-140 {
 		padding-top: 50px;
+	}
+	
+	.project-top-140-bottom-90 {
+		padding-top: 50px;
+		padding-bottom: 50px;
 	}
 
 	.project-top-140-bottom-140 {
