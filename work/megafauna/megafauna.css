@@ -1,0 +1,99 @@
+﻿.site {
+	padding-bottom: 180px;
+}
+
+.site video {
+    width: 100%;
+    height: auto;
+}
+
+
+/*************************************************************************************************************
+ROUNDED CORNERS
+*************************************************************************************************************/
+
+.top-rounded {
+		  border-radius: 6px 6px 0px 0px;
+}
+
+
+.bottom-rounded {
+		  border-radius: 0px 0px 6px 6px;
+}
+
+.all-rounded {
+		border-radius:6px;
+}
+
+
+/*************************************************************************************************************
+VIDEO HERO
+*************************************************************************************************************/
+
+.vid-hero {
+    width:100%;
+    height:100vh;
+    overflow: hidden;
+}
+
+.vid-hero video {
+      /*object-fit: contain;*/
+/*       object-fit: fill; */
+      object-fit: cover;
+      width:100%;
+      height:100%;
+}
+
+@media (max-width: 1280px) {
+	.vid-hero {
+	    width:100%;
+	    height:90vh;
+	    overflow: hidden;
+	}
+	
+	
+}
+
+
+
+@media (max-width: 1000px) { 
+	.vid-hero {
+	    width:100%;
+	    height:66vh;
+	    overflow: hidden;
+	}
+	
+
+}
+
+@media (max-width: 768px) {
+	.vid-hero {
+	    width:100%;
+	    height:50vh;
+	    overflow: hidden;
+	}
+
+}
+
+@media (max-width: 500px) { 
+	.vid-hero {
+	    width:100%;
+	    height:40vh;
+	    overflow: hidden;
+	}
+}
+
+@media (max-width: 375px) { 
+	.vid-hero {
+	    width:100%;
+	    height:34vh;
+	    overflow: hidden;
+	}
+}
+
+
+
+
+
+
+
