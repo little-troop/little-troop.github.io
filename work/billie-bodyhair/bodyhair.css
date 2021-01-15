@@ -25,6 +25,10 @@ video.body-ad {
 .from-left-under {
 	margin-top:-20px;
 }
+
+.links-three-four {
+	margin-top:-15px;
+}
 }
 /*************************************************************************************************************
 ROUNDED EDGES
@@ -250,7 +254,7 @@ BLACK
 
 @media (max-width: 600px) { 
 	.black {
-		padding-bottom: 100px;
+		padding-bottom: 50px;
 		margin-top:60px;
 	}	
 }
