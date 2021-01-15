@@ -31,6 +31,10 @@
 	.p-carousel {
 		height: 800px;
 	}
+	
+	.p-carousel-bodyhair {
+		height: 720px;
+	}
 }
 
 @media (max-width: 1280px) {
@@ -47,6 +51,12 @@
 		height: 700px;
 		padding-left: 30px;
 	}
+	
+	.p-carousel-bodyhair {
+		height: 660px;
+		padding-left: 30px;
+	}
+	
 	
 	h1 {
    	 	letter-spacing: -2px;
@@ -73,6 +83,10 @@
 	.p-carousel {
 		height: 650px;
 	}
+	
+	.p-carousel-bodyhair {
+		height: 575px;
+	}
 
 
 }
@@ -92,6 +106,12 @@
 
 	.p-carousel {
 		height: 580px;
+		padding-left: 10px;
+		width: 240px;
+	}
+	
+	.p-carousel-bodyhair {
+		height: 530px;
 		padding-left: 10px;
 		width: 240px;
 	}
@@ -130,6 +150,12 @@
 		width: 80%;
 	}
 	
+	.p-carousel-bodyhair {
+		height: 50px;
+		padding-left: 120px;
+		width: 80%;
+	}
+	
 	.carousel-img  {
 		margin: 0 140px 0 140px;
 	}
@@ -155,6 +181,12 @@
 	}
 
 	h2 {
+		letter-spacing: -0.6px;
+  		font-size: 36px; 
+  	  	line-height: 40px;
+	}
+	
+	h2 a {
 		letter-spacing: -0.6px;
   		font-size: 36px; 
   	  	line-height: 40px;
@@ -232,6 +264,10 @@
 	.p-carousel {
 		height: 150px;
 	}
+	
+	.p-carousel-bodyhair {
+		height: 50px;
+	}
 }
 
 @media (max-width: 768px) {
@@ -250,6 +286,13 @@
 	
 	.p-carousel {
 		height: 100px;
+		padding-left:0px;
+		width:100%;
+		margin-left:-15px;
+	}
+	
+	.p-carousel-bodyhair {
+		height: 80px;
 		padding-left:0px;
 		width:100%;
 		margin-left:-15px;
@@ -324,11 +367,19 @@
 	.p-carousel {
 		height:100px;
 	}
+	
+	.p-carousel-bodyhair {
+		height:100px;
+	}
 }
 
 @media (max-width: 664px) {
 	.p-carousel {
 		height:120px;
+	}
+	
+	.p-carousel-bodyhair {
+		height:70px;
 	}
 }
 
@@ -757,7 +808,6 @@ PROJECT CONTENT CONTAINERS
 	}
 	
 	.three-up-center-big {
-
 		margin-bottom:40px;
 	}
 	
@@ -788,6 +838,12 @@ PROJECT CONTENT CONTAINERS
 
 	.p-carousel {
 		height: 140px;
+		width: 100%;
+		padding-left:0px;
+	}
+	
+	.p-carousel-bodyhair {
+		height: 75px;
 		width: 100%;
 		padding-left:0px;
 	}
@@ -864,6 +920,12 @@ PROJECT CONTENT CONTAINERS
 	
 	.p-carousel {
 		height: 190px;
+		width: 100%;
+		padding-left:-20px;
+	}
+	
+	.p-carousel-bodyhair {
+		height: 60px;
 		width: 100%;
 		padding-left:-20px;
 	}

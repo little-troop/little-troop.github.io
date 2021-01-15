@@ -1004,6 +1004,14 @@ CAROUSEL
   	align-items: flex-end; 
 }
 
+.p-carousel-bodyhair {
+	color:#000;
+	padding-left: 40px;
+    height: 880px;
+    display: flex;                   /* defines flexbox */
+  	align-items: flex-end; 
+}
+
 
 
 .p-carousel-wide {
