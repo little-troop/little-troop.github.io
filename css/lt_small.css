@@ -298,7 +298,7 @@
 		line-height: 82px;
 	}
 
-	h2 {
+	h2, h2 a {
 		letter-spacing: -0.6px;
   		font-size: 30px; 
   	    line-height: 35px;
@@ -395,11 +395,24 @@
 		margin: 30px 0 0 0;
 	}
 	
-	/*
-	.three-up-left, .three-up-center, .three-up-right {
-		padding:10px 20px 10px 20px;
+	
+	.three-up-left-big {
+		padding:0;
+		margin:0;
+		margin-bottom:80px;
 	}
-	*/
+	
+	.three-up-center-big {
+		padding:0;
+		margin:0;
+		margin-bottom:80px;
+	}
+	
+	.three-up-right-big {
+		padding:0;
+		margin:0;
+	}
+	
 	
 	p {
 		line-height:23px;
@@ -494,7 +507,7 @@ h1 - h6
 		letter-spacing: -.5px;
 	}
 
-	.h2-white a, .h2-small a {
+	h2 a, .h2-white a, .h2-small a {
 		font-size: 34px;
 		line-height: 38px;
 		letter-spacing: -0.5px;	
@@ -670,6 +683,11 @@ PROJECT CONTENT CONTAINERS
 		padding-top: 50px;
 		padding-bottom:50px;
 	}
+	
+	.project-top-120-bottom-180 {
+		padding-top: 50px;
+		padding-bottom:50px;
+	}
 
 	.project-top-140 {
 		padding-top: 50px;
@@ -681,6 +699,11 @@ PROJECT CONTENT CONTAINERS
 	}
 
 	.project-top-140-bottom-140 {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	
+	.project-top-140-bottom-160 {
 		padding-top: 50px;
 		padding-bottom: 50px;
 	}
@@ -728,6 +751,16 @@ PROJECT CONTENT CONTAINERS
 	.project-grid-items {
 		margin-left:10px;
 	}
+	
+	.three-up-left-big {
+		margin-bottom:40px;
+	}
+	
+	.three-up-center-big {
+
+		margin-bottom:40px;
+	}
+	
 
 }
 

@@ -264,7 +264,7 @@ HOVER EYEZ
 *************************************************************************************************************/
 
 
-.cove a, .girlgaze a, .inset-curved-video a, a.billie-fuzz-link, a.block-link, a.hilma-link, .dreampop a {
+.cove a, .girlgaze a, .inset-curved-video a, a.billie-fuzz-link, a.block-link, a.beauty-link, a.hilma-link, .dreampop a {
 		cursor: url('../img/eyez.png'), auto;	
 }
 
@@ -729,7 +729,7 @@ CURVE IMAGE
 
 .dreampop .img-home-project {
 		border-radius: 30px;
-		filter: blur(40px);
+	/****	filter: blur(40px);*/
 }
 
 @media (max-width: 500px) { 

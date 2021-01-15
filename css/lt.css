@@ -158,7 +158,7 @@ h2.large {
 
 
 
-.h2-white a, .h2-small a  {
+h2 a, .h2-white a, .h2-small a  {
   	font-family: "Arial Narrow", sans-serif; 
   	font-weight: normal;
   	letter-spacing: -0.8px;
@@ -842,6 +842,10 @@ PROJECT CONTENT CONTAINERS
 	padding-top: 120px;
 	padding-bottom:120px;
 }
+.project-top-120-bottom-180 {
+	padding-top: 120px;
+	padding-bottom:180px;
+}
 
 
 .project-top-140 {
@@ -858,6 +862,14 @@ PROJECT CONTENT CONTAINERS
 	padding-top: 140px;
 	padding-bottom:140px;
 }
+
+
+
+.project-top-140-bottom-160 {
+	padding-top: 140px;
+	padding-bottom:160px;
+}
+
 
 
 .project-top-180 {
@@ -1141,7 +1153,6 @@ FOR 4 SENTENCES IN ROTATING WORD
 	20% { opacity: 0; }
     100% { opacity: 0; }
 *************************************************************************************************************/
-
 /*************************************************************************************************************
 PROJECT GRID - TILES
 *************************************************************************************************************/
@@ -1171,7 +1182,10 @@ video.project-grid-vid {
 	margin-top:-2px;
 }
 
-
+.thumb-3 img {
+	margin-top:-12px;
+	margin-left:-10px;
+}
 
 .thumb-7 img {
 	margin-top:-12px;
@@ -1184,6 +1198,17 @@ video.project-grid-vid {
 }
 
 .thumb-9 img {
+	margin-top:-12px;
+	margin-left:-10px;
+}
+
+
+.thumb-11 img {
+	margin-top:-12px;
+	margin-left:-10px;
+}
+
+.thumb-14 img {
 	margin-top:-12px;
 	margin-left:-10px;
 }
@@ -1258,7 +1283,7 @@ video.project-grid-vid {
 } 
 
 .coming-soon-thumb-6 a:hover img {
-    content: url('../img/thumb_6.jpg');
+    content: url('../img/thumb_10_google.jpg');
 }
 
 .coming-soon-thumb-6 a img {
@@ -1269,11 +1294,11 @@ video.project-grid-vid {
 
 
 /*THUMB 8**/
-.coming-soon-thumb-8:hover a h5 {
+.coming-soon-thumb-12:hover a h5 {
 	display:none;
 }
 
-.coming-soon-thumb-8:hover a:after {
+.coming-soon-thumb-12:hover a:after {
 	content:"Coming Soon";
 	font-family: "Favorit", sans-serif;
 	font-size: 15px;
@@ -1284,11 +1309,11 @@ video.project-grid-vid {
     text-transform: uppercase;
 } 
 
-.coming-soon-thumb-8 a:hover img {
-    content: url('../img/thumb_8.jpg');
+.coming-soon-thumb-12 a:hover img {
+    content: url('../img/thumb_12_bagggy.jpg');
 }
 
-.coming-soon-thumb-8 a img {
+.coming-soon-thumb-12 a img {
 	margin-top:-12px;
 	margin-left:-10px;
 }
