@@ -241,6 +241,7 @@ p {
 	-ms-transform:scale(0.8,1); 
 	-o-transform:scale(0.8,1);
 	-webkit-text-stroke: 3px black;	 
+    padding: 0!important;
 }
 
 .etaOCU.etaOCU.etaOCU.etaOCU.etaOCU.etaOCU:focus {
