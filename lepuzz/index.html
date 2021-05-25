@@ -45,7 +45,7 @@
 <header class="header_bottom">
 		<div class="header_content_bottom">
 			<nav>
-				<div class="nav-left"><a href="#" class="work"><p>SNEAK PEAK</p></a></div>
+				<div class="nav-left"><a href="#" id="linktomouseover"><p>SNEAK PEAK</p></a></div>
 				<div class="nav-right"><a href="http://instagram.com/lepuzzpuzzles" target="_blank"><p>FOLLOW</p></a></div>
 			</nav>
 		</div>
@@ -98,6 +98,20 @@
 <script  src="js/index.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
  
+<script>
+	
+
+
+jQuery('#linktomouseover').mouseenter(function()
+{
+jQuery('.move-area').css("background-image", "url(css/img/D_LePuzz_Splash-2.gif)");
+});
+jQuery('#linktomouseover').mouseleave(function()
+{
+jQuery('.move-area').css("background-image", "none");
+});
+
+</script>
 
  <script>
  	$(document).mousemove(function(event) {
