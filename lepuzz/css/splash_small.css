@@ -74,6 +74,15 @@
 	    left: 50%;
 	    -ms-transform: translate(-50%, -50%);
 	    transform: translate(-50%, -50%);
+
+	}
+	
+	.form {
+		left: 25%;
+	}
+		
+	.klaviyo-form-VrTaTq {
+		
 	}
 	
 	.header .logo {
@@ -140,6 +149,10 @@
 		width: 410px;
 		
 	}
+	
+	.hEMewN.hEMewN {
+		padding:0!important;
+	}
 }
 
 
@@ -198,16 +211,15 @@
 
 @media (max-width: 375px) { 
 	.header .logo {
-		height: 33px;
-		width: 200px;
+		height: 28px;
+		width: 165px;
 	} 
 }
 
 
 @media (max-width: 320px) {
 	.header .logo {
-		height: 33px;
-		width: 200px;
+		width: 113px;
 	} 
 } 
 	
