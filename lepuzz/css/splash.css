@@ -22,6 +22,7 @@ p {
 .move-area{/*normally use body*/
   width: 100vw;
   height: 100vh;
+  overflow:hidden;
 }
 
 .container {
@@ -236,7 +237,7 @@ p {
 	font-family:'Times Now-Light'!important;
 	height:110px!important;
 	text-align: center !important;
-	background-color: #ffd340 !important;
+	background-color: rgb(255,255,255,0) !important;
 	font-size: 100px !important;
 	border: 0px solid #ffd340!important;
 	color:#000!important;
@@ -262,7 +263,7 @@ p {
 	font-family:'Times Now-Light'!important;
 	height:110px!important;
 	text-align: center !important;
-	background-color: #ffd340 !important;
+	background-color: rgb(255,255,255,0) !important;
 	font-size: 100px !important;
 	border: 0px solid #ffd340!important;
     border-bottom: 1px solid rgb(0,0,0)!important;
@@ -288,7 +289,9 @@ p {
 
 .fPRXvs.fPRXvs.fPRXvs.fPRXvs.fPRXvs.fPRXvs {
 	background: url("img/arrow.svg") no-repeat top left !important;
-	color: rgb(255, 255, 255, 0) !important;
+    height: 6px;
+    width: 50px;
+	    font-size: 0px!important;
 	text-align: center;
 }
 
