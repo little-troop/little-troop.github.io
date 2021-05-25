@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Times Now-Light';
+    src: url('TimesNow-Light.woff2') format('woff2'),
+        url('TimesNow-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'helvetica_neueregular';
+    src: url('helveticaneue-lightext-webfont.woff2') format('woff2'),
+         url('helveticaneue-lightext-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
