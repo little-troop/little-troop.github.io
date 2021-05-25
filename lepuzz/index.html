@@ -1,1 +1,112 @@
+<!DOCTYPE html>
+<!-- LITTLE TROOP 2020-->
+<!-- HI FRIENDS-->
+<html>
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138640942-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'UA-138640942-1');
+</script>
+<title>Le Puzz</title>
+<meta name="description" content="Little Troop is a design partnership based in Brooklyn, New York.">
+<meta name="author" content="Le Puzz">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/splash.css" rel="stylesheet">
+<link href="css/splash_smalsl.css" rel="stylesheet">
+<link href="css/fonts/stylesheet.css" rel="stylesheet">	
+
+<link rel="icon" href="img/favicon.ico">
+
+</head>
+
+<body>
+	
+<header class="header">
+		<div class="header_content">
+						<div class="logo">
+				 	     <img src="css/img/logo.svg">
+						</div>
+						 <a href="#" class="logo222"></a>
+						 
+			<nav>
+				<div class="nav-left"><a href="#"><p>ABOUT</p></a></div>
+				<div class="nav-right"><a href="mailto:hey@lepuzz.com"><p>CONTACT</p></a></div>
+			</nav>
+		</div>
+</header>
+
+<header class="header_bottom">
+		<div class="header_content_bottom">
+			<nav>
+				<div class="nav-left"><a href="#" class="work"><p>SNEAK PEAK</p></a></div>
+				<div class="nav-right"><a href="http://instagram.com/lepuzzpuzzles" target="_blank"><p>FOLLOW</p></a></div>
+			</nav>
+		</div>
+</header>
+
+<div class="move-area">
+  <div class="container">
+	
+		<div class="face-image">
+			
+			
+		
+			<div class="eyes">
+     	   	 	<div class='eye'></div>
+     	 	   	<div class='eye'></div>
+			</div>
+			
+			<div class="rotate-words">
+					<img src="css/img/rotate_532.png" class="rotate" width="266" height="266" />
+			</div>
+			
+		</div>
+		<div class="klaviyo-form-VrTaTq"></div>
+		
+		
+		<div>
+			<p>Be the <i>first</i> to know</p>
+		</div>
+	
+  </div>
+</div>
+
+
+		
+
+		
+		
+
+
+
+
+<script  src="js/index.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ 
+
+ <script>
+ 	$(document).mousemove(function(event) {
+ 	  var eye = $(".eye");
+ 	  var x = (eye.offset().left) + (eye.width() / 2);
+ 	  var y = (eye.offset().top) + (eye.height() / 2);
+ 	  var rad = Math.atan2(event.pageX - x, event.pageY - y);
+ 	  var rot = (rad * (180 / Math.PI) * -1) + 180;
+ 	  eye.css({
+ 	    '-webkit-transform': 'rotate(' + rot + 'deg)',
+ 	    '-moz-transform': 'rotate(' + rot + 'deg)',
+ 	    '-ms-transform': 'rotate(' + rot + 'deg)',
+ 	    'transform': 'rotate(' + rot + 'deg)'
+ 	  });
+ 	});
+ </script>
+
+
+</body>
+</html>
