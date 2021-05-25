@@ -149,7 +149,7 @@ p {
 }
 
 
-.header .logo2 {
+.header .logo {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -160,7 +160,7 @@ p {
  	width:880px;
 	margin-top:10px!important;
 }
-
+/*
 .header .logo {
 	position: fixed;
     top: 1.5rem;
@@ -172,6 +172,7 @@ p {
 	    width: 100%;
 	    height: auto;
 }
+*/
 
 
 
