@@ -142,20 +142,20 @@
 	}
 	
 	.about-copy p {
-		font-size:24px;
-		line-height:24px;
+		font-size:20px;
+		line-height:23px;
 		text-align:center;
 		-webkit-text-stroke: 1.6px black;	
-		transform:scale(0.7,1); 
-		-webkit-transform:scale(0.7,1); 
-		-moz-transform:scale(0.7,1); 
-		-ms-transform:scale(0.7,1); 
-		-o-transform:scale(0.7,1); 
+		transform:scale(0.8,1); 
+		-webkit-transform:scale(0.8,1); 
+		-moz-transform:scale(0.8,1); 
+		-ms-transform:scale(0.8,1); 
+		-o-transform:scale(0.8,1); 
 	}
 
 	.about-copy p.about-sans {
 	 	font-size:10px;	
-		line-height:10px;
+		line-height:13px;
 		transform:scale(1.2,1); 
 		-webkit-transform:scale(1.2,1); 
 		-moz-transform:scale(1.2,1); 
