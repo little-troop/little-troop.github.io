@@ -1,6 +1,12 @@
 ﻿/*Global*/
+
+html {
+			height:100%;
+}
+
 body {
 		background-color:#ffd340;
+		height:100%;
 }
 
 .dead p {
@@ -364,6 +370,7 @@ button:focus {
 /*About*/ 
 body.about {
 	background-color:#CACACA;	
+			height:100%;
 }
 
 .container-about {
