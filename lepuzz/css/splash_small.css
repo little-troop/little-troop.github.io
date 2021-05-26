@@ -138,7 +138,7 @@
 	}
 	
 	.container-about {
-		visibility: hidden;
+		display: none;
 	}
 	
 	.about-copy p {
