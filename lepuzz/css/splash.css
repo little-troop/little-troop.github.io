@@ -127,6 +127,7 @@ p {
 	-ms-transform:scale(1.2,1); 
 	-o-transform:scale(1.2,1); 
 	letter-spacing:2px;
+    -webkit-text-stroke: 1.5px black;
 }
 
 
@@ -313,7 +314,7 @@ p {
 	text-transform:uppercase!important;
 	font-family:'helvetica_neueregular', sans-serif; 
  	font-size:12px!important;	
-	line-height:12px;
+	line-height:18px;
     color: #000;
 	transform:scale(1.2,1); 
 	-webkit-transform:scale(1.2,1); 
@@ -321,6 +322,7 @@ p {
 	-ms-transform:scale(1.2,1); 
 	-o-transform:scale(1.2,1); 
 	letter-spacing:2px!important;
+    -webkit-text-stroke: 1.5px black;	
 }
 
 
