@@ -3,6 +3,7 @@ body {
 		background-color:#ffd340;
 }
 
+
 /*
 p {
 	font-family:'Times Now-Light';
@@ -354,3 +355,91 @@ button:focus {
     outline: none!important;
 }
 
+
+
+
+/*About*/ 
+body.about {
+	background-color:#CACACA;	
+}
+
+.container-about {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.eyes-about {
+	padding: 0px 0px 0px 125px;
+	position: relative;
+	width: 1550px;
+}
+
+.eye-about {
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    height: 262px;
+    width: 262px;
+    border: 30px solid #FFD340;
+    margin-right: 447px;
+}
+
+.eye-about:after { /*pupil*/
+  position: absolute;
+  bottom: 0px;
+  right: -2px;
+  width: 198px;
+  height: 130px;
+  background: #FFD340;
+  border-radius: 50%;
+  content: " ";
+}
+
+
+.face-image-about {
+	position:relative;
+	 background: url("img/scotty_1226.svg") no-repeat top left;
+	 background-size:contain;
+	 height:667px;
+	 width:1226px;
+	 margin: 0 auto;
+}
+
+
+.about-copy {
+	padding-top:130px;
+}
+
+.about-copy p {
+	font-family:'Times Now-Light';
+	font-size:30px;
+	line-height:30px;
+	color:#000;
+	letter-spacing:0px;
+	text-align:center;
+	-webkit-text-stroke: 1.5px black;	
+	transform:scale(0.7,1); 
+	-webkit-transform:scale(0.7,1); 
+	-moz-transform:scale(0.7,1); 
+	-ms-transform:scale(0.7,1); 
+	-o-transform:scale(0.7,1); 
+}
+
+.about-copy p.about-sans {
+ 	text-decoration: none;
+	font-family:'helvetica_neueregular', sans-serif; 
+ 	font-size:12px;	
+	line-height:12px;
+    color: #000;
+	transform:scale(1.2,1); 
+	-webkit-transform:scale(1.2,1); 
+	-moz-transform:scale(1.2,1); 
+	-ms-transform:scale(1.2,1); 
+	-o-transform:scale(1.2,1); 
+	letter-spacing:2px;
+    -webkit-text-stroke: 1.5px black;
+}

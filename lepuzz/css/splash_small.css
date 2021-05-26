@@ -190,7 +190,7 @@
 		width: 200px;
 	} 
 	.form-inner {
-		width:350px;
+		width:400px;
 		height:133px!important;
 	}
 }
@@ -226,7 +226,7 @@
 		width: 113px;
 	} 
 	
-	.jEnZGi.jEnZGi.jEnZGi.jEnZGi.jEnZGi.jEnZGi,.etaOCU.etaOCU.etaOCU.etaOCU.etaOCU.etaOCU, input::placeholder,{
+	.jEnZGi.jEnZGi.jEnZGi.jEnZGi.jEnZGi.jEnZGi,.etaOCU.etaOCU.etaOCU.etaOCU.etaOCU.etaOCU, input::placeholder {
 		height:52px!important;
 		font-size: 44px !important;
 		transform:scale(0.8,1); 
@@ -235,10 +235,10 @@
 		-ms-transform:scale(0.8,1); 
 		-o-transform:scale(0.8,1);
 		-webkit-text-stroke: 2.5px black;	 
-		width:320px;
+		width:310px;
 	}
 	.form-inner {
-		width:320px;
+		width:310px;
 		height:52px!important;
 	}
 } 
