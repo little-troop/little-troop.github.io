@@ -1,6 +1,11 @@
 ﻿/*Global*/
 
+html {
+	height:100%;
+}
+
 body {
+	height:100%;
 	background-color:#ffd340;
 }
 
@@ -366,6 +371,7 @@ button:focus {
 /*About*/ 
 body.about {
 	background-color:#CACACA;	
+		height:100%;
 }
 
 .container-about {
