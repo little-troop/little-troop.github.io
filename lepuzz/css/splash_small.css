@@ -83,7 +83,7 @@
 	
 	.form-inner {
 			width:400px;
-			height:133px;
+			height:133px!important;
 	}
 		
 	.klaviyo-form-VrTaTq {
@@ -189,6 +189,10 @@
 		height: 33px;
 		width: 200px;
 	} 
+	.form-inner {
+		width:350px;
+		height:133px!important;
+	}
 }
 
 
@@ -199,9 +203,7 @@
 	} 
 	
 	
-	
-	
-	.jEnZGi.jEnZGi.jEnZGi.jEnZGi.jEnZGi.jEnZGi,.etaOCU.etaOCU.etaOCU.etaOCU.etaOCU.etaOCU, input::placeholder, .form-inner {
+	.jEnZGi.jEnZGi.jEnZGi.jEnZGi.jEnZGi.jEnZGi,.etaOCU.etaOCU.etaOCU.etaOCU.etaOCU.etaOCU, input::placeholder {
 		height:48px!important;
 		font-size: 52px !important;
 		transform:scale(0.8,1); 
@@ -213,7 +215,8 @@
 		width:350px;
 	}
 	.form-inner {
-		width:375px;
+		width:350px;
+		height:133px!important;
 	}
 }
 
@@ -223,7 +226,7 @@
 		width: 113px;
 	} 
 	
-	.jEnZGi.jEnZGi.jEnZGi.jEnZGi.jEnZGi.jEnZGi,.etaOCU.etaOCU.etaOCU.etaOCU.etaOCU.etaOCU, input::placeholder, .form-inner {
+	.jEnZGi.jEnZGi.jEnZGi.jEnZGi.jEnZGi.jEnZGi,.etaOCU.etaOCU.etaOCU.etaOCU.etaOCU.etaOCU, input::placeholder,{
 		height:52px!important;
 		font-size: 44px !important;
 		transform:scale(0.8,1); 
@@ -236,6 +239,7 @@
 	}
 	.form-inner {
 				width:320px;
+						height:133px!important;
 	}
 } 
 	
