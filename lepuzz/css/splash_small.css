@@ -77,6 +77,10 @@
 
 	}
 	
+	.form {
+		top:75%!important;
+	}
+	
 	.form-inner {
 			width:400px;
 	}

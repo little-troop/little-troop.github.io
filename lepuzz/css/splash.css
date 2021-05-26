@@ -3,6 +3,7 @@ body {
 		background-color:#ffd340;
 }
 
+/*
 p {
 	font-family:'Times Now-Light';
 	font-size:30px;
@@ -17,9 +18,10 @@ p {
 	-ms-transform:scale(0.7,1); 
 	-o-transform:scale(0.7,1); 
 }
+*/
 
 /*Face & Eyes*/
-.move-area{/*normally use body*/
+.move-area {/*normally use body*/
   width: 100vw;
   height: 100vh;
   overflow:hidden;
@@ -347,6 +349,6 @@ input:focus,
 select:focus,
 textarea:focus,
 button:focus {
-    outline: none;
+    outline: none!important;
 }
 
