@@ -390,10 +390,10 @@ body.about {
 
 .eye-about:after { /*pupil*/
   position: absolute;
-  bottom: 0px;
-  right: -2px;
-  width: 198px;
-  height: 130px;
+  bottom: 60px;
+  right: 0px;
+  width: 210px;
+  height: 170px;
   background: #FFD340;
   border-radius: 50%;
   content: " ";
@@ -412,6 +412,8 @@ body.about {
 
 .about-copy {
 	padding-top:130px;
+	position:absolute;
+	z-index:11;
 }
 
 .about-copy p {
@@ -431,6 +433,7 @@ body.about {
 
 .about-copy p.about-sans {
  	text-decoration: none;
+	text-transform:uppercase;
 	font-family:'helvetica_neueregular', sans-serif; 
  	font-size:12px;	
 	line-height:12px;
