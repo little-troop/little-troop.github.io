@@ -167,6 +167,10 @@
 	    text-align: center;
 	    margin: 0 auto;
 	}
+	
+	.close {
+		padding-top:20px;
+	}
 }
 
 

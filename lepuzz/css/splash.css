@@ -4,7 +4,7 @@ body {
 }
 
 .dead p {
-	visibility:hidden;
+	display:none;
 }
 
 /*
