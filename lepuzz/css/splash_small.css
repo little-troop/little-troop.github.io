@@ -163,6 +163,9 @@
 		-o-transform:scale(1.2,1); 
 		letter-spacing:2px;
 	    -webkit-text-stroke: 1.5px black;
+	    width: 200px;
+	    text-align: center;
+	    margin: 0 auto;
 	}
 }
 
