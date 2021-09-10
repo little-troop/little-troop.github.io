@@ -9,7 +9,7 @@
 }
 
 .all-rounded {
-		border-radius:10px;
+		border-radius:30px;
 }
 
 
@@ -103,7 +103,7 @@ IO TABLE
 
 .io-table-1 {
 	  align-self: flex-end;
-	  padding: 0px 10px 0px 0px ;
+	  padding: 0px 10px 3px 0px ;
 }
 
 .io-table-2 {
@@ -113,7 +113,7 @@ IO TABLE
 
 .io-table-3 {
 	  align-self: flex-end;
-	  padding: 0px 0px 5px 10px ;
+	  padding: 0px 0px 9px 10px ;
 }
 
 
