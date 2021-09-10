@@ -60,7 +60,7 @@
 		<div class="w3-container">
 	  	  <div class="w3-content">
 			<div class="w3-col l12 s12">
-				<p class="p-white">We reimagined Google IO’s iconic logo for it’s 2021 conference, updating the mark to create a playful, ever-changing graphic device.<br/> Seen above, the ident is brought to life by our friends at <a href="https://www.sing-sing.co/" target="_blan">Sing Sing.</a></p>
+				<p class="p-white">We reimagined Google IO’s iconic logo for its 2021 conference, updating the mark to create a playful, ever-changing graphic device.<br/> Seen above, the identity is brought to life by our friends at <a href="https://www.sing-sing.co/" target="_blan">Sing Sing.</a></p>
 			</div>
 	  	</div>
 	  </div>
@@ -71,7 +71,7 @@
 <div class="intro-headline">
 	<div class="w3-container w3-black">
  	   <div class="w3-content">
-   	 	  <h1 class="h1-small-white">Creative Direction, Branding and Design for Google I/O '21 - <span>Google's</span> largest event in 2021.</h1>
+   	 	  <h1 class="h1-small-white">Creative Direction, Branding and Design for <span>Google I/O '21</span> &mdash; Google's largest event in 2021.</h1>
 		  
   	</div>
   </div>
@@ -123,9 +123,19 @@
   <div class="w3-content">
 		<div class="w3-col s12">
 			
-					 	<video preload="auto" playsinline autoplay muted loop class="all-rounded">
+				<div class="show-graphic-video">
+			
+						<div class="mute-button">
+							<button onclick="toggleMute();" >
+								Toggle sound!
+							</button>
+						</div>
+						
+					 	<video id="myVideo" preload="auto" playsinline autoplay muted loop class="all-rounded">
 					 	  <source src="img/io2.mp4" type="video/mp4">
 				     	</video>
+						
+				</div>
 		</div>
   </div>
 </div>
@@ -244,13 +254,13 @@
 		<div class="w3-container">
 			<div class="w3-content">
 					
-					<div class="w3-col m6 s12">
+					<div class="w3-col m6 s12 two-column-left">
 						 	<video preload="auto" playsinline autoplay muted loop class="all-rounded">
 						 	  <source src="img/io7.mp4" type="video/mp4">
 					     	</video>
 					</div>
 					
-					<div class="w3-col m6 s12">
+					<div class="w3-col m6 s12 two-column-right">
 						 	<video preload="auto" playsinline autoplay muted loop class="all-rounded">
 						 	  <source src="img/io8.mp4" type="video/mp4">
 					     	</video>
@@ -323,7 +333,7 @@
 			  
 			<div class="io-table-container">
 			  
-			<div class="w3-col l3 m12 s12">
+			<div class="w3-col l3 m12 s12 io-table-0">
 				<p class="p-white">The logo’s iconic forms are re-interpreted for a wide range of functions throughout the conference collateral — from character storytelling and interactive games, to location identification and utilitarian iconography.</p>
 			</div>
 			
@@ -358,17 +368,17 @@
 	  	  <div class="w3-content">
 			  
 			
-			<div class="w3-col l4 m12 s12 w3-container"><div class="dead"><p>Y</p></div></div>
+			<div class="w3-col l2 m12 s12 w3-container"><div class="dead"><p>Y</p></div></div>
 			
 			
-			<div class="w3-col l5 m6 s12 io-table-4">
+			<div class="w3-col l6 m6 s12 io-table-4">
 			 	<video preload="auto" playsinline autoplay muted loop class="all-rounded">
 			 	  <source src="img/io13.mp4" type="video/mp4">
 		     	</video>
 			</div>
 			
 			
-			<div class="w3-col l3 m6 s12 io-table-5">
+			<div class="w3-col l4 m6 s12 io-table-5">
 			 	<img class="all-rounded" src="img/io14.png" style="width:100%;">
 			</div>
 			
@@ -943,7 +953,19 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
+<script>
+	function toggleMute() {
 
+	var video=document.getElementById("myVideo")
+
+	if(video.muted){
+		video.muted = false;
+	} else {
+		video.muted = true;
+	}
+
+	}
+</script>
 
 <script>
 function myFunction() {

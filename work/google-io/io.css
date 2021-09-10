@@ -87,6 +87,16 @@ BLACK
 IO TABLE
 *************************************************************************************************************/
 
+.two-column-left {
+	padding-right:10px;
+}
+
+
+.two-column-right {
+	padding-left:10px;
+}
+
+
 .io-table-container {
 	display:flex;
 }
@@ -116,9 +126,59 @@ IO TABLE
 }
 
 @media (max-width: 992px) { 
+
+	.io-table-0 {
+		margin-bottom:40px;
+	}
+}
+
+@media (max-width: 700px) { 
+	
 	.io-table-container {
 		display:revert;
 	}
+}
+
+@media (max-width: 600px) { 
+
+	.two-column-left {
+		padding-right:0px;
+	}
+	
+	.two-column-right {
+		margin-top:10px;
+		padding-left:0px;
+	}
+	
+	.io-table-0 {
+		margin-bottom:60px;
+	}
+	
+	.io-table-1 {
+		  padding: 0px 0px 0px 0px ;
+		  margin-bottom: 80px;
+	}
+
+	.io-table-2 {
+		  padding: 0px 80px 0px 80px ;
+		  margin-bottom: 80px;
+	}
+
+	.io-table-3 {
+		  padding: 0px 0px 0px 0px ;
+		  margin-bottom: 15px;
+	}
+
+	.io-table-4 {
+		  padding: 0px 0px 0px 0px ;
+		  margin-bottom: 35px;
+	}
+
+	.io-table-5 {
+		  padding: 0px 0px 0px 0px ;
+		 
+	}
+	
 }
 
 
@@ -204,5 +264,71 @@ THREE GRID
 	}
 	
 	
+}
+
+/*************************************************************************************************************
+MUTE
+*************************************************************************************************************/
+
+.show-graphic-video {
+	position:relative;
+}
+
+.mute-button {
+	position:absolute;
+	bottom: 20px;
+	right: 20px;
+	z-index:99;
+}
+
+.mute-button button {
+	background-color:#fabb08;
+	color:#000;
+	outline: none;
+	border:none;
+	width:240px;
+	font-size:42px;
+	letter-spacing:-0.25px!important;
+	height:58px;
+	padding: 0px 0px 3px 0px;
+	border-radius:36px;
+	line-height:42px;
+	text-align:center;
+	display: inline-block;
+}
+
+.mute-button button:active {
+  background-color: #4285f4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+@media (max-width: 800px) { 
+	
+	.mute-button button {
+		width:180px;
+		font-size:32px;
+		height:50px;
+		line-height:32px;
+	}
+}
+
+@media (max-width: 375px) { 
+	.mute-button button {
+		width:150px;
+		font-size:26px;
+		height:40px;
+		line-height:26px;
+	}
+}
+
+@media (max-width: 320px) { 
+	
+	.mute-button button {
+		width:120px;
+		font-size:20px;
+		height:30px;
+		line-height:20px;
+	}
 }
 
