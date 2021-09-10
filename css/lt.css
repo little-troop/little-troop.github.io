@@ -333,26 +333,27 @@ NAV - BLACK
     transition: background-color 0.5s ease;
 }
 
+
 .header--alt {
     mix-blend-mode: difference;
 }
+
 
 .header .header_content {
     padding: 20px 20px;
 }
 
-.header .logo {
-    position: absolute;
+.logo {
+    position: fixed;
     left: 50%;
-    transform: translateX(-50%);
-    color: #000;
-    text-decoration: none;
-	text-transform: uppercase;
-  	font-family: "Favorit", sans-serif; 
-  	font-weight: 300;
-  	font-size:16px;	
-	letter-spacing: 0.6px;
+	z-index:99;
+	top:20px;
 	margin-top:-5px!important;
+	margin-left:-40px!important;
+}
+
+.logo img {
+	width:80px;
 }
 
 .header nav {
@@ -378,9 +379,16 @@ NAV - BLACK
     color: #000;
 }
 
-.header--alt nav a, .header--alt .logo {
-    color: #fff;
+
+.header--alt .logo {
+
 }
+
+
+.header--alt nav a {
+	color: #fff;
+}
+
 
 /*************************************************************************************************************
 NAV - WHITE
@@ -438,7 +446,7 @@ NAV - WHITE
     color: #fff;
 }
 
-.white-header--alt nav a, .white-header--alt .white-logo {
+.white-header--alt nav a {
     color: #fff;
 }
 
@@ -800,6 +808,10 @@ PROJECT CONTENT CONTAINERS
 	padding: 0px;
 }
 
+.project-top-10 {
+	padding-top: 10px;
+}
+
 .project-top-40 {
 	padding-top: 40px;
 }
@@ -813,6 +825,8 @@ PROJECT CONTENT CONTAINERS
 .project-top-70 {
 	padding-top: 70px;
 }
+
+
 
 
 
@@ -874,6 +888,10 @@ PROJECT CONTENT CONTAINERS
 
 .project-top-180 {
 	padding-top: 180px;
+}
+
+.project-top-240 {
+	padding-top: 240px;
 }
 
 .project-top-180-bottom-70 {

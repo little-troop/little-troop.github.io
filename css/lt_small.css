@@ -599,6 +599,14 @@ h1 - h6
 /*************************************************************************************************************
 NAV
 *************************************************************************************************************/
+	.logo {
+		margin-left:-30px!important;
+	}
+	
+	.logo img {
+		width:60px;
+	}
+	
 	.header .logo {
 		font-size:14px;
 		line-height:14px;
@@ -699,6 +707,10 @@ PROJECT CONTENT CONTAINERS
 	.project-0 {
 		padding: 0px;
 	}
+	
+	.project-top-10 {
+		padding-top: 10px;
+	}
 
 	.project-top-40 {
 		padding-top: 30px;
@@ -786,6 +798,10 @@ PROJECT CONTENT CONTAINERS
 
 	.project-top-180-bottom70 h2 {
 		margin-right: 20px;
+	}
+	
+	.project-top-240 {
+		padding-top: 50px;
 	}
 
 	.project-top-180 h2, .project-top-140 h2,.project-top-120 h2, .project-top180-bottom-70 h2 {
