@@ -26,6 +26,9 @@
 
 <body class="dark">
 
+<div class="preloader">
+	<div class="preloader-image"><img src="../../img/preload.gif"></div>
+</div>
 
 <div id="preload">
 	<img src="../../img/thumb_12_bagggy.jpg" />
@@ -953,6 +956,12 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 <script>
+	$(window).on('load', function() {
+	   $('.preloader').fadeOut('slow');
+	});
+</script> 
+
+<script>
 	function toggleMute() {
 
 	var video=document.getElementById("myVideo")
@@ -996,6 +1005,7 @@ function outFunc() {
 		     }
 		  });
 </script>
+
 
 
 
