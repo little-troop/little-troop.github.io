@@ -79,6 +79,10 @@ video.block-tall-vid-2 {
 		margin-bottom:180px;
 }
 
+#videoFULL {
+			margin-bottom:180px;
+}
+
 
 
 @media (max-width: 1280px) {
@@ -97,6 +101,10 @@ video.block-tall-vid-2 {
 @media (max-width: 500px) {
 	video.block-tall-vid-2 {
 			margin-bottom:70px;
+	}
+	
+	#videoFULL {
+				margin-bottom:70px;
 	}
 }
 
