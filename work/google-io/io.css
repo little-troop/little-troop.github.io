@@ -341,22 +341,14 @@ MUTE
 	}
 }
 
-@media (max-width: 375px) { 
+@media (max-width: 414px) { 
 	.mute-button button {
-		width:150px;
-		font-size:26px;
-		height:40px;
-		line-height:26px;
+		width:88px;
+		font-size:16px;
+		height:25px;
+		line-height:24px;
 	}
 }
 
-@media (max-width: 320px) { 
-	
-	.mute-button button {
-		width:120px;
-		font-size:20px;
-		height:30px;
-		line-height:20px;
-	}
-}
+
 
