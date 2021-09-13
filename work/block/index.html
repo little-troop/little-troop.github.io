@@ -198,9 +198,7 @@
 	<div class="project-0">
 
 					<div class="w3-col s12">
-					 	<video preload="auto" playsinline autoplay muted loop class="block-tall-vid-2">
-					 	  <source src="img/block7b.mp4" type="video/mp4">
-				     	</video>
+					 	<div id="videoFULL"></div>	
 					</div>
 		
  	</div>
@@ -618,7 +616,30 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
+		
+<script>
+    //get screen width and pixel ratio
+    var width = screen.width;
+    var dpr = window.devicePixelRatio;
+//initialise 2 videos — 
+//“small” is 960 pixels wide (2.6 MB), large is 1920 pixels wide (10 MB)
+    var smallVideo = "img/block7b_mobile.mp4";
+    var bigVideo = "img/block7b.mp4";
+    //TODO add logic on adding retina videos    
+     if (width< 500){
+            console.log("let’s call this mobile sized");
+          var videoTag = "\<video preload=\"auto\" width=\"100%\" playsinline autoplay muted loop> <source type=\"video/mp4\" src=\"" +smallVideo +"\"/\>";
+            console.log(videoTag);
+            document.getElementById('videoFULL').innerHTML = videoTag;
+          
+            }
+    else{
+            var videoTag = "\<video preload=\"auto\" width=\"100%\" playsinline autoplay muted loop> <source type=\"video/mp4\" src=\"" +bigVideo +"\"/\>";
+            document.getElementById('videoFULL').innerHTML = videoTag;
 
+    }
+
+</script>
 
 <script>
 function myFunction() {
