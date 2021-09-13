@@ -186,6 +186,34 @@ IO TABLE
 /*************************************************************************************************************
 THREE GRID
 *************************************************************************************************************/
+#videoGRID1, #videoGRID2,#videoGRID3 {
+	margin-bottom:8px;
+}
+
+#videoGRID4{
+	margin-bottom:180px;
+}
+
+@media (max-width: 1024px) { 
+	#videoGRID1, #videoGRID2,#videoGRID3 {
+		margin-bottom:4px;
+	}
+}
+
+@media (max-width: 600px) { 
+	#videoGRID1, #videoGRID2,#videoGRID3 {
+		margin-bottom:0px;
+	}
+
+	#videoGRID4{
+		margin-bottom:70px;
+	}
+	
+}
+
+
+
+
 .io-grid img {
 	vertical-align:inherit!important;
 }
