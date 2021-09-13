@@ -404,25 +404,23 @@
 	
 	<div class="wide-vid">
 
-		<div class="project-0">
+		<div class="project-top-70">
 
 						<div class="w3-col s12">
-						 	<video preload="auto" playsinline autoplay muted loop>
-						 	  <source src="img/block7a.mp4" type="video/mp4">
-					     	</video>
+						 	<div id="videoGRID1"></div>	
+						</div>
+						<div class="w3-col s12">
+						 	<div id="videoGRID2"></div>	
+						</div>
+						<div class="w3-col s12">
+						 	<div id="videoGRID3"></div>	
+						</div>
+						<div class="w3-col s12">
+						 	<div id="videoGRID4"></div>	
 						</div>
 		
 	 	</div>
-	
-		<div class="project-0">
-
-						<div class="w3-col s12">
-						 	<video preload="auto" playsinline autoplay muted loop class="block-tall-vid-2">
-						 	  <source src="img/block7b.mp4" type="video/mp4">
-					     	</video>
-						</div>
 		
-	 	</div>
 	
 	</div>
 	
@@ -792,6 +790,102 @@
 	}
 
 	}
+</script>
+	
+<script>
+    //get screen width and pixel ratio
+    var width = screen.width;
+    var dpr = window.devicePixelRatio;
+//initialise 2 videos — 
+//“small” is 960 pixels wide (2.6 MB), large is 1920 pixels wide (10 MB)
+    var smallVideo = "img/io-full-grid-1-mob.mp4";
+    var bigVideo = "img/io-full-grid-1.mp4";
+    //TODO add logic on adding retina videos    
+     if (width< 500){
+            console.log("let’s call this mobile sized");
+          var videoTag = "\<video preload=\"auto\" width=\"100%\" playsinline autoplay muted loop> <source type=\"video/mp4\" src=\"" +smallVideo +"\"/\>";
+            console.log(videoTag);
+            document.getElementById('videoGRID1').innerHTML = videoTag;
+          
+            }
+    else{
+            var videoTag = "\<video preload=\"auto\" width=\"100%\" playsinline autoplay muted loop> <source type=\"video/mp4\" src=\"" +bigVideo +"\"/\>";
+            document.getElementById('videoGRID1').innerHTML = videoTag;
+
+    }
+
+</script>
+	
+<script>
+    //get screen width and pixel ratio
+    var width = screen.width;
+    var dpr = window.devicePixelRatio;
+//initialise 2 videos — 
+//“small” is 960 pixels wide (2.6 MB), large is 1920 pixels wide (10 MB)
+    var smallVideo = "img/io-full-grid-2-mob.mp4";
+    var bigVideo = "img/io-full-grid-2.mp4";
+    //TODO add logic on adding retina videos    
+     if (width< 500){
+            console.log("let’s call this mobile sized");
+          var videoTag = "\<video preload=\"auto\" width=\"100%\" playsinline autoplay muted loop> <source type=\"video/mp4\" src=\"" +smallVideo +"\"/\>";
+            console.log(videoTag);
+            document.getElementById('videoGRID2').innerHTML = videoTag;
+          
+            }
+    else{
+            var videoTag = "\<video preload=\"auto\" width=\"100%\" playsinline autoplay muted loop> <source type=\"video/mp4\" src=\"" +bigVideo +"\"/\>";
+            document.getElementById('videoGRID2').innerHTML = videoTag;
+
+    }
+
+</script>
+	
+<script>
+    //get screen width and pixel ratio
+    var width = screen.width;
+    var dpr = window.devicePixelRatio;
+//initialise 2 videos — 
+//“small” is 960 pixels wide (2.6 MB), large is 1920 pixels wide (10 MB)
+    var smallVideo = "img/io-full-grid-3-mob.mp4";
+    var bigVideo = "img/io-full-grid-3.mp4";
+    //TODO add logic on adding retina videos    
+     if (width< 500){
+            console.log("let’s call this mobile sized");
+          var videoTag = "\<video preload=\"auto\" width=\"100%\" playsinline autoplay muted loop> <source type=\"video/mp4\" src=\"" +smallVideo +"\"/\>";
+            console.log(videoTag);
+            document.getElementById('videoGRID3').innerHTML = videoTag;
+          
+            }
+    else{
+            var videoTag = "\<video preload=\"auto\" width=\"100%\" playsinline autoplay muted loop> <source type=\"video/mp4\" src=\"" +bigVideo +"\"/\>";
+            document.getElementById('videoGRID3').innerHTML = videoTag;
+
+    }
+
+</script>
+	
+<script>
+    //get screen width and pixel ratio
+    var width = screen.width;
+    var dpr = window.devicePixelRatio;
+//initialise 2 videos — 
+//“small” is 960 pixels wide (2.6 MB), large is 1920 pixels wide (10 MB)
+    var smallVideo = "img/io-full-grid-4-mob.mp4";
+    var bigVideo = "img/io-full-grid-4.mp4";
+    //TODO add logic on adding retina videos    
+     if (width< 500){
+            console.log("let’s call this mobile sized");
+          var videoTag = "\<video preload=\"auto\" width=\"100%\" playsinline autoplay muted loop> <source type=\"video/mp4\" src=\"" +smallVideo +"\"/\>";
+            console.log(videoTag);
+            document.getElementById('videoGRID4').innerHTML = videoTag;
+          
+            }
+    else{
+            var videoTag = "\<video preload=\"auto\" width=\"100%\" playsinline autoplay muted loop> <source type=\"video/mp4\" src=\"" +bigVideo +"\"/\>";
+            document.getElementById('videoGRID4').innerHTML = videoTag;
+
+    }
+
 </script>
 
 <script>
