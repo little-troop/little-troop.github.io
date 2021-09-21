@@ -834,7 +834,10 @@ PROJECT CONTENT CONTAINERS
 	padding-top: 70px;
 }
 
-
+.project-top-70-bottom-120 {
+	padding-top: 70px;
+	padding-bottom:120px;
+}
 
 
 
@@ -1200,9 +1203,9 @@ div#preload {
 	background:#fff;
 }
 
-.project-grid-row {
+/*.project-grid-row {
 	margin-left:-20px;
-}
+}*/
 
 .project-grid-img {
 	margin-bottom: 10px;
@@ -1216,28 +1219,20 @@ video.project-grid-vid {
 	margin-top:-2px;
 }
 
-.thumb-3 img {
-	margin-top:-12px;
-	margin-left:-10px;
-}
+
 
 .thumb-7 img {
 	margin-top:-12px;
 	margin-left:-10px;
 }
 
-.thumb-8 img {
-	margin-top:-12px;
-	margin-left:-10px;
-}
 
 .thumb-9 img {
 	margin-top:-12px;
 	margin-left:-10px;
 }
 
-
-.thumb-11 img {
+.thumb-13 img {
 	margin-top:-12px;
 	margin-left:-10px;
 }
@@ -1247,12 +1242,27 @@ video.project-grid-vid {
 	margin-left:-10px;
 }
 
+.thumb-16 img {
+	margin-top:-12px;
+	margin-left:-10px;
+}
+
+.thumb-18 img {
+	margin-top:-12px;
+	margin-left:-10px;
+}
+
+.thumb-19 img {
+	margin-top:-12px;
+	margin-left:-10px;
+}
+
 /*THUMB 1**/
-.coming-soon-thumb-1:hover a h5 {
+.coming-soon-thumb-3:hover a h5 {
 	display:none;
 }
 
-.coming-soon-thumb-1:hover a:after {
+.coming-soon-thumb-3:hover a:after {
 	content:"Coming Soon";
 	font-family: "Favorit", sans-serif;
 	font-size: 15px;
@@ -1263,11 +1273,11 @@ video.project-grid-vid {
     text-transform: uppercase;
 } 
 
-.coming-soon-thumb-1 a:hover img {
-    content: url('../img/thumb_1.jpg');
+.coming-soon-thumb-3 a:hover img {
+    content: url('../img/thumb_3_nike.jpg');
 }
 
-.coming-soon-thumb-1 a img {
+.coming-soon-thumb-3 a img {
 	margin-top:-12px;
 	margin-left:-10px;
 }
@@ -1276,31 +1286,6 @@ video.project-grid-vid {
 
 
 /*THUMB 4**/
-.coming-soon-thumb-4:hover a h5 {
-	display:none;
-}
-
-.coming-soon-thumb-4:hover a:after {
-	content:"Coming Soon";
-	font-family: "Favorit", sans-serif;
-	font-size: 15px;
-	line-height:10px;
-    font-weight: 300;
-    letter-spacing: 0.5px;
-    color: #000;
-    text-transform: uppercase;
-} 
-
-.coming-soon-thumb-4 a:hover img {
-    content: url('../img/thumb_4.jpg');
-}
-
-.coming-soon-thumb-4 a img {
-	margin-top:-12px;
-	margin-left:-10px;
-}
-
-/*THUMB 6**/
 .coming-soon-thumb-6:hover a h5 {
 	display:none;
 }
@@ -1317,7 +1302,7 @@ video.project-grid-vid {
 } 
 
 .coming-soon-thumb-6 a:hover img {
-    content: url('../img/thumb_10_google.jpg');
+    content: url('../img/thumb_6_lepuzz.gif');
 }
 
 .coming-soon-thumb-6 a img {
@@ -1325,14 +1310,13 @@ video.project-grid-vid {
 	margin-left:-10px;
 }
 
+/*THUMB 6**/
 
-
-/*THUMB 8**/
-.coming-soon-thumb-12:hover a h5 {
+.coming-soon-thumb-14:hover a h5 {
 	display:none;
 }
 
-.coming-soon-thumb-12:hover a:after {
+.coming-soon-thumb-14:hover a:after {
 	content:"Coming Soon";
 	font-family: "Favorit", sans-serif;
 	font-size: 15px;
@@ -1343,11 +1327,38 @@ video.project-grid-vid {
     text-transform: uppercase;
 } 
 
-.coming-soon-thumb-12 a:hover img {
-    content: url('../img/thumb_12_bagggy.jpg');
+.coming-soon-thumb-14 a:hover img {
+    content: url('../img/thumb_14_megafauna.jpg');
 }
 
-.coming-soon-thumb-12 a img {
+.coming-soon-thumb-14 a img {
+	margin-top:-12px;
+	margin-left:-10px;
+}
+
+
+
+/*THUMB 8**/
+.coming-soon-thumb-17:hover a h5 {
+	display:none;
+}
+
+.coming-soon-thumb-17:hover a:after {
+	content:"Coming Soon";
+	font-family: "Favorit", sans-serif;
+	font-size: 15px;
+	line-height:10px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: #000;
+    text-transform: uppercase;
+} 
+
+.coming-soon-thumb-17 a:hover img {
+    content: url('../img/thumb_17_bagggy.jpg');
+}
+
+.coming-soon-thumb-17 a img {
 	margin-top:-12px;
 	margin-left:-10px;
 }
