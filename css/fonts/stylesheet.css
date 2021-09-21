@@ -1,31 +1,34 @@
 @font-face {
     font-family: 'Arial Narrow';
-    src: url('ArialNarrow.woff2') format('woff2'),
-        url('ArialNarrow.woff') format('woff');
+    src: url('ArialNarrow.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Apple Garamond';
-    src: url('AppleGaramondLight.woff2') format('woff2'),
-        url('AppleGaramondLight.woff') format('woff');
+    src: url('AppleGaramondLight.woff2') format('woff2');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
+  font-family: 'AppleGaramondLight-Italic';
+  src: url("AppleGaramond-LightItalic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
     font-family: 'Favorit';
-    src: url('Favorit-Medium.woff2') format('woff2'),
-        url('Favorit-Medium.woff') format('woff');
+    src: url('Favorit-Medium.woff2') format('woff2');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Favorit Light';
-    src: url('Favorit-Light.woff2') format('woff2'),
-        url('Favorit-Light.woff') format('woff');
+    src: url('Favorit-Light.woff2') format('woff2');
     font-weight: 300;
     font-style: normal;
 }
