@@ -13,16 +13,16 @@ ROUNDED CORNERS
 *************************************************************************************************************/
 
 .top-rounded {
-		  border-radius: 6px 6px 0px 0px;
+		  border-radius: 14px 14px 0px 0px;
 }
 
 
 .bottom-rounded {
-		  border-radius: 0px 0px 6px 6px;
+		  border-radius: 0px 0px 14px 14px;
 }
 
 .all-rounded {
-		border-radius:6px;
+		border-radius:14px;
 }
 
 
