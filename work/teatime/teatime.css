@@ -1,4 +1,8 @@
-﻿.tt-home-1 {
+﻿.all-rounded {
+		border-radius:30px;
+}
+
+.tt-home-1 {
 	height:800px;
 	width:100%;
 	border:1px #000 solid;
@@ -11,6 +15,46 @@
 		border:1px #000 solid;
 	}
 }
+
+/*************************************************************************************************************
+VIDEO GRID
+*************************************************************************************************************/
+
+.teatime-grid video {
+    width: 100%;
+    height: auto;
+}
+
+.teatime-grid, #videoGRID2 {
+	background:#000;
+}
+
+#videoGRID1{
+	margin-bottom:16px;
+}
+
+#videoGRID2{
+	margin-bottom:180px;
+}
+
+@media (max-width: 1024px) {
+	
+	#videoGRID1  {
+		margin-bottom:6px;
+	}
+	
+}
+
+@media (max-width: 600px) {
+	
+	#videoGRID1  {
+		margin-bottom:2px;
+	}
+	#videoGRID2  {
+		margin-bottom:90px;
+	}		
+}
+
 /*************************************************************************************************************
 SOCIAL POST
 *************************************************************************************************************/
