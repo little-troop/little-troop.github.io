@@ -447,6 +447,24 @@
 	}
 	
 	
+	
+	.three-up-left {
+		padding-right:0px;
+		margin-bottom:20px;
+	
+	}
+
+	.three-up-center {
+		padding-left:0px;
+		padding-right:0px;
+		margin-bottom:20px;
+	}
+
+	.three-up-right {
+		padding-left:0px;
+	}
+	
+	
 	.three-up-left-big {
 		padding:0;
 		margin:0;
