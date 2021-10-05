@@ -186,6 +186,7 @@ h2 span {
 .h2-small-white  {
   	font-size: 48px; 
 	color: #fff;
+	line-height: 48px;
 }
 
 .h2-small-white span  {
