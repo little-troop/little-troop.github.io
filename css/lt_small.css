@@ -896,6 +896,11 @@ PROJECT CONTENT CONTAINERS
 		margin-right: 20px;
 	}
 	
+	.project-top-200-bottom-140 {
+		padding-top: 50px;
+		padding-bottom:50px;
+	}
+	
 	.project-top-240 {
 		padding-top: 50px;
 	}
