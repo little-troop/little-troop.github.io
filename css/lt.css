@@ -365,6 +365,16 @@ NAV - BLACK
 	width:80px;
 }
 
+a.logo img:last-child {
+  display: none;  
+}
+a.logo:hover img:last-child {
+  display: block;  
+}
+a.logo:hover img:first-child {
+  display: none;  
+}
+
 .header nav {
     overflow: hidden;
     text-decoration: none;
@@ -928,7 +938,7 @@ PROJECT CONTENT CONTAINERS
 
 .project-top-200-bottom-140 {
 	padding-top: 200px;
-	padding-bottom:140px;
+	padding-bottom:10px;
 }
 
 
