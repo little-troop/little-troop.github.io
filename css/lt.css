@@ -835,6 +835,11 @@ PROJECT CONTENT CONTAINERS
 	padding-top: 40px;
 }
 
+.project-top-40-bottom-40 {
+		padding-top: 40px;
+		padding-bottom: 40px;
+}
+
 .project-top-40-bottom-140 {
 		padding-top: 40px;
 		padding-bottom: 140px;
