@@ -24,40 +24,43 @@
 <link rel="icon" href="../../img/favicon.ico">
 
 <style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
-
-.bg {
-  /* The image used */
-  background-image: url("../../work/lepuzz/img/lepuzz28.jpg");
-
-  /* Full height */
-  height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.navbarWHITE {
-			display: none!important;
-
-}
-
-.navbarBLACK {
-
-	display: none!important;
-}
 
 
+	body, html {
+	  height: 100%;
+	  margin: 0;
+	}
+
+
+
+	.navbarWHITE {
+		display: none!important;
+	}
+
+	.navbarBLACK {
+		display: none!important;
+	}
+	
+	.fifty-fifty-LEFT {
+	    padding-right: 40px;
+	    padding-left: 50px;
+	    margin-right: 0px;
+	}
+
+
+	.fifty-fifty-RIGHT {
+	    padding-left: 40px;
+	    padding-right: 50px;
+	    margin-left: 0px;
+	}
 
 </style>
 </head>
 
 <body class="dark">
+
+<div class="preloader"></div>
+
 
 
 <!-- Nav / Logo-->
@@ -67,6 +70,7 @@ body, html {
 <div class="navbarBLACK">
 	<h4 class="lt"><a href="../index.html" target="_blank">LITTLE TROOP</a></h4>
 </div>
+
 <div class="rotateContain"><h4 class="rotate">Best viewed in landscape.<br/> Please rotate your device.</h4></div>
 
 <!-- LINKS-->
@@ -83,8 +87,31 @@ body, html {
 </a>
 
 
-<!-- BG-->
-<div class="bg"></div>	
+
+<div class="website-folio">
+		<div class="project-top-40">	
+				<div class="w3-container w3-black">
+					<div class="w3-content">
+								<div class="w3-col m3 s12 w3-container"><div class="dead"><p>Y</p></div></div>
+								
+								<div class="w3-col m6 s12">
+									<div class="fifty-fifty-LEFT">
+							 			<img class="all-rounded" src="../../work/lepuzz/img/lepuzz7.jpg" style="width:100%;">
+									</div>
+								</div>
+						
+								
+								<div class="w3-col m3 s12 w3-container"><div class="dead"><p>Y</p></div></div>
+					</div>
+				</div>
+		</div>
+		
+		
+	
+	
+	
+
+</div>
 
 
 <!-- Footer3-->
@@ -139,6 +166,15 @@ body, html {
  		});			
 </script> 
 
+			<script>	
+				$(window).scroll(function() {
+   				 if ($(this).scrollTop() > 300) { //use `this`, not `document`
+     				$('.scrollWHITE').fadeOut("slow");
+   			 		}
+				});
+</script>
+
+		
 
 
 		
