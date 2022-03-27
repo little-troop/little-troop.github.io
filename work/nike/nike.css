@@ -1,8 +1,6 @@
 ﻿.ui-page-active { outline: none; }
 
-.home-mob {
-	margin: 0px 20px;
-}
+
 
 /*************************************************************************************************************
 ROUNDED EDGES
@@ -36,8 +34,21 @@ FULL SCREEN IMAGES
 }
 
 
-@media (max-width: 1024px) {
-	.bgimg2 {
-		min-height:90%!important;
+@media (max-width: 1200px) {
+	.fullBGImage {
+			 margin-top: 40px!important;
+	}	
+}
+
+@media (max-width: 900px) {
+	.fullBGImage {
+			 margin-top: 80px!important;
+	}
+}
+
+@media (max-width: 414px) {
+	.fullBGImage {
+			 margin-top: 55px!important;
+			 margin-bottom: 20px!important;
 	}
 }
