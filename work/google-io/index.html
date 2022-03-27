@@ -42,12 +42,12 @@
 	<img src="../../img/balloon.png">
 	<img src="../../img/balloon_pink.png">
 </a>
-<header class="header">
-		<div class="header_content">
+<header class="white-header">
+		<div class="white-header_content">
 			 
 			<nav>
-				<div class="nav-left"><a href="../../index.html">W<br>O<br>R<br>K</a></div>
-				<div class="nav-right"><a href="../../info.html">I<br>N<br>F<br>O</a></div>
+				<div class="white-nav-left"><a href="../../index.html">W<br>O<br>R<br>K</a></div>
+				<div class="white-nav-right"><a href="../../info.html">I<br>N<br>F<br>O</a></div>
 			</nav>
 		</div>
 </header>
@@ -926,14 +926,14 @@ function outFunc() {
 
 <script>
 		  $(window).scroll(function() {
-		     var heroHeight = $('.header').outerHeight(),
+		     var heroHeight = $('.white-header').outerHeight(),
 		         winScrollPos = $(this).scrollTop();
 		     //console.log(heroHeight, winScrollPos);
 
 		     if (winScrollPos > heroHeight){
-		      $('header').addClass('header--alt');
+		      $('.white-header').addClass('white-header--alt');
 		     } else {
-		     	 $('header').removeClass('header--alt');
+		     	 $('.white-header').removeClass('white-header--alt');
 		     }
 		  });
 </script>
