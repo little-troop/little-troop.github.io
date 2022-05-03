@@ -24,31 +24,34 @@
 <link rel="icon" href="../../img/favicon.ico">
 
 <style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
 
-.bg {
-  /* The image used */
-  background-image: url("img/14.jpg");
 
-  /* Full height */
-  height: 100%; 
+	body, html {
+	  height: 100%;
+	  margin: 0;
+	}
 
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+	.bg {
+	  /* The image used */
+	  background-image: url("img/14.jpg");
 
-.navbarWHITE {
-	display: none!important;
-}
+	  /* Full height */
+	  height: 100%; 
 
-.navbarBLACK {
-	display: none!important;
-}
+	  /* Center and scale the image nicely */
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	}
+
+	.navbarWHITE {
+		display: none!important;
+	}
+
+	.navbarBLACK {
+		display: none!important;
+	}
+
 
 
 
@@ -57,6 +60,10 @@ body, html {
 
 <body class="dark">
 
+<div class="preloader"></div>
+
+
+
 <!-- Nav / Logo-->
 <div class="navbarWHITE">
 	<h4 class="lt"><a href="../index.html" target="_blank">LITTLE TROOP</a></h4>
@@ -64,7 +71,6 @@ body, html {
 <div class="navbarBLACK">
 	<h4 class="lt"><a href="../index.html" target="_blank">LITTLE TROOP</a></h4>
 </div>
-
 <div class="rotateContain"><h4 class="rotate">Best viewed in landscape.<br/> Please rotate your device.</h4></div>
 
 <!-- LINKS-->
@@ -80,10 +86,7 @@ body, html {
 	</div> 
 </a>
 
-
-<!-- BG-->
 <div class="bg"></div>	
-
 
 <!-- Footer3-->
 <div class="contact-footer-3">
@@ -127,6 +130,7 @@ body, html {
 
 
 
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 
@@ -136,6 +140,15 @@ body, html {
  		});			
 </script> 
 
+			<script>	
+				$(window).scroll(function() {
+   				 if ($(this).scrollTop() > 300) { //use `this`, not `document`
+     				$('.scrollWHITE').fadeOut("slow");
+   			 		}
+				});
+</script>
+
+		
 
 
 		

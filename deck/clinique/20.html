@@ -30,6 +30,19 @@
 	  height: 100%;
 	  margin: 0;
 	}
+	
+	.bg {
+	  /* The image used */
+	  background-image: url("../../work/hilma/img/hilma4.jpg");
+
+	  /* Full height */
+	  height: 100%; 
+
+	  /* Center and scale the image nicely */
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	}
 
 
 
@@ -63,13 +76,13 @@
 <div class="rotateContain"><h4 class="rotate">Best viewed in landscape.<br/> Please rotate your device.</h4></div>
 
 <!-- LINKS-->
-<a href="19.html" class="link-left-white">
+<a href="19.html" class="link-left-black">
 	<div class="split left">
 		<div class="centered"></div>
 	</div> 
 </a>
 
-<a href="21.html" class="link-right-white">
+<a href="21.html" class="link-right-black">
 	<div class="split right">
 		<div class="centered"></div>
 	</div> 
@@ -78,30 +91,10 @@
 
 
 
-<div class="website-folio">
-	
-	
-	<div class="project-top-70">
-		<div class="w3-container w3-black">
-	  	  <div class="w3-content">
-		
-		<div class="w3-col m2 s12 w3-container"><div class="dead"><p>Y</p></div></div>
-		
-			<div class="w3-col m8 s12">
-				<div class="w3-col s12">
-					<img src="../../work/hilma/img/hilma5.jpg" style="width:100%;margin-top:50px" class="all-rounded">
-				</div>
-				
-			</div>
-		
-		
-		
-		
-	  	</div>
-	  </div>
-	</div>
+<!-- BG-->
+<div class="bg"></div>	
 
-</div>
+
 
 <!-- Footer3-->
 <div class="contact-footer-3">
@@ -155,6 +148,15 @@
  		});			
 </script> 
 
+			<script>	
+				$(window).scroll(function() {
+   				 if ($(this).scrollTop() > 300) { //use `this`, not `document`
+     				$('.scrollWHITE').fadeOut("slow");
+   			 		}
+				});
+</script>
+
+		
 
 
 		

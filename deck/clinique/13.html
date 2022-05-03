@@ -26,42 +26,21 @@
 <style>
 
 
-	body, html {
-	  height: 100%;
-	  margin: 0;
-	}
 
-	.bg {
-	  /* The image used */
-	  background-image: url("img/13.jpg");
-
-	  /* Full height */
-	  height: 100%; 
-
-	  /* Center and scale the image nicely */
-	  background-position: center;
-	  background-repeat: no-repeat;
-	  background-size: cover;
-	}
-
-	.navbarWHITE {
+.navbarWHITE {
 		display: none!important;
-	}
 
-	.navbarBLACK {
-		display: none!important;
-	}
+}
 
+.navbarBLACK {
+	display: none!important;
+}
 
 
 
 </style>
 </head>
-
 <body class="dark">
-
-<div class="preloader"></div>
-
 
 
 <!-- Nav / Logo-->
@@ -74,19 +53,27 @@
 <div class="rotateContain"><h4 class="rotate">Best viewed in landscape.<br/> Please rotate your device.</h4></div>
 
 <!-- LINKS-->
-<a href="12.html" class="link-left-white">
+<a href="12.html" class="link-left-black">
 	<div class="split left">
 		<div class="centered"></div>
 	</div> 
 </a>
 
-<a href="14.html" class="link-right-white">
+<a href="14.html" class="link-right-black">
 	<div class="split right">
 		<div class="centered"></div>
 	</div> 
 </a>
 
-<div class="bg"></div>	
+
+<!-- BG-->
+<!-- Video Hero-->
+<div class="vid-hero">	
+<video preload="auto" playsinline autoplay muted loop>
+  <source src="img/13.mp4" type="video/mp4">
+</video>
+</div>
+
 
 <!-- Footer3-->
 <div class="contact-footer-3">
@@ -140,15 +127,6 @@
  		});			
 </script> 
 
-			<script>	
-				$(window).scroll(function() {
-   				 if ($(this).scrollTop() > 300) { //use `this`, not `document`
-     				$('.scrollWHITE').fadeOut("slow");
-   			 		}
-				});
-</script>
-
-		
 
 
 		

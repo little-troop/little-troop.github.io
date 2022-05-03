@@ -24,18 +24,35 @@
 <link rel="icon" href="../../img/favicon.ico">
 
 <style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
 
-.navbarWHITE {
-	display: none!important;
-}
+	body, html {
+	  height: 100%;
+	  margin: 0;
+	}
 
-.navbarBLACK {
-	display: none!important;
-}
+	.bg {
+	  /* The image used */
+	  background-image: url("img/18.jpg");
+
+	  /* Full height */
+	  height: 100%; 
+
+	  /* Center and scale the image nicely */
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	}
+	
+
+
+	.navbarWHITE {
+		display: none!important;
+	}
+
+	.navbarBLACK {
+		display: none!important;
+	}
+
 
 
 
@@ -43,6 +60,9 @@ body, html {
 </head>
 
 <body class="dark">
+
+<div class="preloader"></div>
+
 
 
 <!-- Nav / Logo-->
@@ -68,19 +88,11 @@ body, html {
 </a>
 
 
-<!-- BG-->
-<div class="wide-vid">
-	<div class="project-0">
 
-					<div class="w3-col s12">
-					 	<img src="img/18.jpg" style="width:100%;margin-top:-2px;">
-					</div>
-		
- 	</div>
-	
-	
-	
-</div>
+
+<!-- BG-->
+<div class="bg"></div>	
+
 
 
 <!-- Footer3-->
@@ -135,6 +147,15 @@ body, html {
  		});			
 </script> 
 
+			<script>	
+				$(window).scroll(function() {
+   				 if ($(this).scrollTop() > 300) { //use `this`, not `document`
+     				$('.scrollWHITE').fadeOut("slow");
+   			 		}
+				});
+</script>
+
+		
 
 
 		

@@ -24,19 +24,36 @@
 <link rel="icon" href="../../img/favicon.ico">
 
 <style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
 
 
-.navbarWHITE {
-	display: none!important;
-}
+	body, html {
+	  height: 100%;
+	  margin: 0;
+	}
 
-.navbarBLACK {
-	display: none!important;
-}
+	.bg {
+	  /* The image used */
+	  background-image: url("img/24.png");
+
+	  /* Full height */
+	  height: 100%; 
+
+	  /* Center and scale the image nicely */
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	}
+
+
+
+	.navbarWHITE {
+		display: none!important;
+	}
+
+	.navbarBLACK {
+		display: none!important;
+	}
+
 
 
 
@@ -44,6 +61,9 @@ body, html {
 </head>
 
 <body class="dark">
+
+<div class="preloader"></div>
+
 
 
 <!-- Nav / Logo-->
@@ -69,13 +89,7 @@ body, html {
 </a>
 
 <!-- BG-->
-<!-- Video Hero-->
-<div class="vid-hero">	
-<video preload="auto" playsinline autoplay muted loop>
-  <source src="../../work/offcourt/img/offcourt1.mp4" type="video/mp4">
-</video>
-<div class="nav-trigger">	</div>
-</div>
+<div class="bg"></div>	
 
 
 <!-- Footer3-->
@@ -130,6 +144,8 @@ body, html {
  		});			
 </script> 
 
+
+		
 
 
 		
