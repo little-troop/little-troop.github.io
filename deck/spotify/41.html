@@ -24,38 +24,32 @@
 <link rel="icon" href="../../img/favicon.ico">
 
 <style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
-
-.bg {
-  /* The image used */
-  background-image: url("img/41.jpg");
-
-  /* Full height */
-  height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.navbarWHITE {
-	display: none!important;
-}
-
-.navbarBLACK {
-	display: none!important;
-}
 
 
+	body, html {
+	  height: 100%;
+	  margin: 0;
+	}
+
+
+
+	.navbarWHITE {
+		display: none!important;
+	}
+
+	.navbarBLACK {
+		display: none!important;
+	}
+
+	
 
 </style>
 </head>
 
 <body class="dark">
+
+<div class="preloader"></div>
+
 
 
 <!-- Nav / Logo-->
@@ -65,24 +59,112 @@ body, html {
 <div class="navbarBLACK">
 	<h4 class="lt"><a href="../index.html" target="_blank">LITTLE TROOP</a></h4>
 </div>
+<div class="scrollWHITE"><h4 class="scroll"><a href="#">SCROLL</a></h4></div>
 <div class="rotateContain"><h4 class="rotate">Best viewed in landscape.<br/> Please rotate your device.</h4></div>
 
 <!-- LINKS-->
-<a href="40.html" class="link-left-black">
+<a href="40.html" class="link-left-white">
 	<div class="split left">
 		<div class="centered"></div>
 	</div> 
 </a>
 
-<a href="42.html" class="link-right-black">
+<a href="42.html" class="link-right-white">
 	<div class="split right">
 		<div class="centered"></div>
 	</div> 
 </a>
 
 
-<!-- BG-->
-<div class="bg"></div>	
+
+<div class="website-folio">
+	
+		<div class="project-top-120">
+				<div class="w3-container">
+			  	 	<div class="w3-content">
+					
+							<div class="w3-col s12">
+							 	 <h2 class="h2-white">Le Puzz's website merges moments of delight and surprise with best-practice ecom conventions. Unexpected, playful interactions, spinning click-throughs and rich product storytelling pepper the path to purchase — bringing the joy of Le Puzz's puzzle experience, online.<br/><br/> We worked closely with developer Anthony Smith from Laurton Digital to achieve custom stretched and squished typography throughout the web experience.</h2>
+							</div>
+					
+			  	</div>
+			  </div>
+		</div>
+
+		<div class="project-top-70">
+				<div class="w3-container">
+					<div class="w3-content">
+							<div class="w3-col m1 s12 w3-container"><div class="dead"><p>Y</p></div></div>
+					
+							<div class="w3-col m10 s12">
+								<video preload="auto" playsinline autoplay muted loop style="margin-bottom:-6px;" class="top-rounded">
+							 	  <source src="../../work/lepuzz/img/lepuzz_home_top.mp4" type="video/mp4">
+						     	</video>
+						
+								<video preload="auto" playsinline autoplay muted loop style="margin-bottom:-5px;">
+							 	  <source src="../../work/lepuzz/img/lepuzz_home3.mp4" type="video/mp4">
+						     	</video>
+						
+								<video preload="auto" playsinline autoplay muted loop class="bottom-rounded">
+							 	  <source src="../../work/lepuzz/img/lepuzz_home_bottom.mp4" type="video/mp4">
+						     	</video>
+
+							</div>
+					</div>
+				</div>
+		</div>
+
+
+		<div class="project-top-120">
+				<div class="w3-container">
+					<div class="w3-content">
+							<div class="w3-col m1 s12 w3-container"><div class="dead"><p>Y</p></div></div>
+					
+							<div class="w3-col m10 s12">
+								<video preload="auto" playsinline autoplay muted loop style="margin-bottom:-5px;" class="top-rounded">
+							 	  <source src="../../work/lepuzz/img/lepuzz_pdp1.mp4" type="video/mp4">
+						     	</video>
+						
+								<img class="bottom-rounded" src="../../work/lepuzz/img/lepuzz_pdp2.jpg" style="width:100%;">
+					 	
+						 	
+						
+							</div>
+					</div>
+				</div>
+		</div>
+
+
+		<div class="project-top-120">
+				<div class="w3-container">
+					<div class="w3-content">
+							<div class="w3-col m1 s12 w3-container"><div class="dead"><p>Y</p></div></div>
+					
+							<div class="w3-col m10 s12">
+							 	<video preload="auto" playsinline autoplay muted loop>
+							 	  <source src="../../work/lepuzz/img/lepuzz_pdp_mobs.mp4" type="video/mp4">
+						     	</video>
+							</div>
+					</div>
+				</div>
+		</div>
+
+		<div class="project-top-120">
+				<div class="w3-container">
+					<div class="w3-content">
+							<div class="w3-col m1 s12 w3-container"><div class="dead"><p>Y</p></div></div>
+					
+							<div class="w3-col m10 s12">
+								<img class="all-rounded" src="../../work/lepuzz/img/lepuzz_about.jpg" style="width:100%;">
+							</div>
+					</div>
+				</div>
+		</div>
+		
+	
+	
+
+</div>
 
 
 <!-- Footer3-->
@@ -137,6 +219,15 @@ body, html {
  		});			
 </script> 
 
+			<script>	
+				$(window).scroll(function() {
+   				 if ($(this).scrollTop() > 300) { //use `this`, not `document`
+     				$('.scrollWHITE').fadeOut("slow");
+   			 		}
+				});
+</script>
+
+		
 
 
 		

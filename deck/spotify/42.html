@@ -24,12 +24,26 @@
 <link rel="icon" href="../../img/favicon.ico">
 
 <style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
 
+.bg {
+  /* The image used */
+  background-image: url("img/42.jpg");
 
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .navbarWHITE {
-		display: none!important;
-
+	display: none!important;
 }
 
 .navbarBLACK {
@@ -40,6 +54,7 @@
 
 </style>
 </head>
+
 <body class="dark">
 
 
@@ -67,12 +82,7 @@
 
 
 <!-- BG-->
-<!-- Video Hero-->
-<div class="vid-hero">	
-<video preload="auto" playsinline autoplay muted loop>
-  <source src="img/42.mp4" type="video/mp4">
-</video>
-</div>
+<div class="bg"></div>	
 
 
 <!-- Footer3-->
