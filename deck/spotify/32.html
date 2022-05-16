@@ -24,11 +24,26 @@
 <link rel="icon" href="../../img/favicon.ico">
 
 <style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
 
+.bg {
+  /* The image used */
+  background-image: url("img/32.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .navbarWHITE {
-		display: none!important;
-
+	display: none!important;
 }
 
 .navbarBLACK {
@@ -53,13 +68,13 @@
 <div class="rotateContain"><h4 class="rotate">Best viewed in landscape.<br/> Please rotate your device.</h4></div>
 
 <!-- LINKS-->
-<a href="31.html" class="link-left-black">
+<a href="31.html" class="link-left-white">
 	<div class="split left">
 		<div class="centered"></div>
 	</div> 
 </a>
 
-<a href="33.html" class="link-right-black">
+<a href="33.html" class="link-right-white">
 	<div class="split right">
 		<div class="centered"></div>
 	</div> 
@@ -67,13 +82,7 @@
 
 
 <!-- BG-->
-<!-- Video Hero-->
-<div class="vid-hero">	
-<video preload="auto" playsinline autoplay muted loop>
-  <source src="../../work/lepuzz/img/lepuzz1.mp4" type="video/mp4">
-</video>
-<div class="nav-trigger">	</div>
-</div>
+<div class="bg"></div>	
 
 
 <!-- Footer3-->
