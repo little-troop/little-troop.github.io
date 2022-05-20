@@ -210,14 +210,20 @@ BLOCK
 }
 
 .scroll {
-	bottom:-20px;
+	bottom:20px;
 	position:fixed;
 	z-index:100;
 	text-align:center;
-	width:100%;
-	background-color: #fff;
+	width:120px;
 	padding-bottom:10px;
 	padding-top:10px;
+	background-color: #4BE99A;
+	    padding-bottom: 10px;
+	    padding-top: 10px;
+	    margin: 0 auto;
+	    left: 50%;
+	    transform: translateX(-50%);
+	    border-radius: 25px;
 }
 
 
