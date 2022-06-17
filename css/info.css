@@ -117,6 +117,9 @@ INTRO
 	
 }
 
+
+
+
 @media (max-width: 1280px) {
 	
 	#bloc1 a {
@@ -393,7 +396,7 @@ PARAGRAPH
 .info-para-image img {
 	border-radius:10px;
 	width: 215px;	
-		margin-right: 30px;
+	margin-right: 30px;
 }
 
 
@@ -459,13 +462,12 @@ PARAGRAPH
 .info-clients {
     border-top: 2px solid #000;
     padding-top: 80px;
-	padding-bottom: 40px;
+	padding-bottom: 80px;
 	background-color:#fff;
 }
 
 
-.info-para h1, .info-clients h1 {
-
+.info-para h1, .info-clients h1, .info-press h1 {
 	font-size: 40px;
 	line-height: 39px;
 	letter-spacing: -0.5px;
@@ -502,6 +504,77 @@ PARAGRAPH
 
 .info-contact h2{
 	margin-bottom:60px;
+}
+
+
+.info-press {
+    border-top: 2px solid #000;
+    padding-top: 80px;
+}
+
+
+.info-press h4 {
+	text-align:center;
+}
+
+.press-item {
+	margin-top:50px;
+	margin-bottom:50px;
+	height:130px;
+}
+
+
+
+
+.press-img {
+	float:left;
+	width:70px;
+}
+
+.press-img img {
+	width:50px;
+}
+
+.press-text {
+	float:left;
+	width:330px;
+	padding-right:25px;	
+}
+
+.press-head { 
+	font-family: "Apple Garamond", serif;
+	font-weight: 300;
+	font-size: 28px;
+	line-height: 30px;
+	letter-spacing: -0.5px;
+	clear:left;
+}
+
+.press-link { 
+	padding-bottom:20px;
+	padding-top:20px;
+  	font-family: "Favorit", sans-serif; 
+  	font-weight: 300;
+  	letter-spacing: 0.6px;
+  	font-size:12px;	
+	line-height:20px;
+	text-transform:uppercase;
+}
+
+.press-text a:hover {
+	text-decoration: underline;
+}
+
+@media (max-width: 600px) { 
+	
+	.press-text {
+		width:290px;
+	}
+	.press-item {
+		margin-top:30px;
+		margin-bottom:30px;
+		margin-left:40px;
+	}
 }
 
 
