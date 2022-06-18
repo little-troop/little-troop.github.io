@@ -447,7 +447,6 @@ PARAGRAPH
 	}	
 }
 
-
 .info-para-contain {
 	float:left;
 }
@@ -466,13 +465,17 @@ PARAGRAPH
 	background-color:#fff;
 }
 
-
-.info-para h1, .info-clients h1, .info-press h1 {
+.info-press h1 {
 	font-size: 40px;
 	line-height: 39px;
 	letter-spacing: -0.5px;
 }
 
+.info-para h1, .info-clients h1 {
+	font-size: 28px;
+	line-height: 30px;
+	letter-spacing: -0.5px;
+}
 
 .info-para h1 span {
 	font-size: 36px;
@@ -480,11 +483,9 @@ PARAGRAPH
 	letter-spacing: -1px;
 }
 
-
 .info-para a {
 	text-decoration:underline;
 }
-
 
 .info-services {
 	border-top: 2px solid #000;	
@@ -506,12 +507,10 @@ PARAGRAPH
 	margin-bottom:60px;
 }
 
-
 .info-press {
     border-top: 2px solid #000;
     padding-top: 80px;
 }
-
 
 .info-press h4 {
 	text-align:center;
@@ -520,15 +519,13 @@ PARAGRAPH
 .press-item {
 	margin-top:50px;
 	margin-bottom:50px;
-	height:130px;
+	height:140px;
 }
-
-
-
 
 .press-img {
 	float:left;
 	width:70px;
+	margin-bottom:10px;
 }
 
 .press-img img {
@@ -565,16 +562,91 @@ PARAGRAPH
 	text-decoration: underline;
 }
 
-@media (max-width: 600px) { 
+
+@media (max-width: 1331px) { 	
+	.press-item {
+		height:190px;
+	}
+}
+
+@media (max-width: 1120px) { 	
+	.press-text {
+		padding-right:65px;	
+	}
+}
+
+@media (max-width: 992px) { 
+	.press-item {
+		height:100px;
+	}	
+	
+	.press-long {
+		height:140px;
+	}
 	
 	.press-text {
-		width:290px;
+		padding-right:25px;	
 	}
+}
+
+@media (max-width: 932px) { 
 	.press-item {
+		height:160px;
+	}
+	.press-long {
+		height:190px;
+	}
+	
+}
+
+@media (max-width: 700px) { 
+	.press-item {
+		height:200px;
+	}
+	.press-long {
+		height:220px;
+	}
+		
+	.press-text {
+		padding-right:50px;	
+	}
+}
+
+@media (max-width: 650px) { 
+		
+	.press-text {
+		padding-right:100px;	
+	}
+}
+
+@media (max-width: 600px) { 
+	.press-img img {
+		width:40px;
+	}
+	
+	.press-head { 
+		font-size: 24px;
+		line-height: 25px;
+	}
+	.press-text {
+		width:370px;
+		padding-right:0px;	
+	}
+	
+	.press-long {
+		height:100px;
+	}
+
+	.press-item {
+		height:80px;
 		margin-top:30px;
 		margin-bottom:30px;
 		margin-left:40px;
 	}
+}
+
+@media (max-width: 500px) { 
+
 }
 
 
