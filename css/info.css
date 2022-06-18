@@ -645,7 +645,10 @@ PARAGRAPH
 	}
 }
 
-@media (max-width: 500px) { 
+@media (max-width: 414px) { 
+	.press-text {
+		width:280px;
+	}
 
 }
 
