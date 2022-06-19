@@ -656,9 +656,12 @@ PARAGRAPH
 
 @media (max-width: 414px) { 
 	.press-text {
-		width:280px;
+		width:255px;
 	}
-
+	
+	.press-item {
+		margin-left:0px;
+	}
 }
 
 
