@@ -470,6 +470,11 @@ PARAGRAPH
 	line-height: 39px;
 	letter-spacing: -0.5px;
 }
+.info-para h1 span {
+	font-size: 36px;
+	line-height: 35px;
+	letter-spacing: -1px;
+}
 
 
 @media (max-width: 500px) {
@@ -486,11 +491,6 @@ PARAGRAPH
 	
 }
 
-.info-para h1 span {
-	font-size: 36px;
-	line-height: 35px;
-	letter-spacing: -1px;
-}
 
 .info-para a {
 	text-decoration:underline;
