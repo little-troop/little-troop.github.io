@@ -93,3 +93,65 @@ FULL SCREEN IMAGES
 	
 }
 
+
+/*************************************************************************************************************
+INTRO VIDEO
+*************************************************************************************************************/
+.black video {
+    width: 100%;
+    height: auto;
+}
+
+.show-graphic-video {
+	position:relative;
+}
+
+.mute-button {
+	position:absolute;
+	bottom: 20px;
+	right: 20px;
+	z-index:99;
+}
+
+.mute-button button {
+	background-color:#ff5c4d;
+	color:#000;
+	outline: none;
+	border:none;
+	width:240px;
+	font-size:42px;
+	letter-spacing:-0.25px!important;
+	height:58px;
+	padding: 0px 0px 3px 0px;
+	border-radius:36px;
+	line-height:42px;
+	text-align:center;
+	display: inline-block;
+}
+
+.mute-button button:active {
+  background-color: #ff90ff;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+@media (max-width: 800px) { 
+	
+	.mute-button button {
+		width:180px;
+		font-size:32px;
+		height:50px;
+		line-height:32px;
+	}
+}
+
+@media (max-width: 414px) { 
+	.mute-button button {
+		width:88px;
+		font-size:16px;
+		height:25px;
+		line-height:24px;
+	}
+}
+
+

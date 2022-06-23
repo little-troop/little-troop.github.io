@@ -88,7 +88,38 @@
    </div>
 </div>
 
+<div class="w3-container w3-black">
+  <div class="w3-content">
+	<div class="intro-para-project">
+   	    <h2 class="h2-white">The ID represents the company’s vision for collaboration and takes cues from the magic of vintage entertainment graphics, reimagined for new eyes. <br/><br/>We worked with Paris based animator <span style="color:#fff"><a href="http://instagram.com/alexis_jamet" target="_blank">Alexis Jamet</a></span> to bring the logo to life with a nod to animated entertainment idents from the past.</h2>
+  	</div>
+  </div>
+</div>
 
+<div class="black">
+<div class="project-0">
+<div class="w3-container">
+  <div class="w3-content">
+		<div class="w3-col s12">
+			
+				<div class="show-graphic-video">
+			
+						<div class="mute-button">
+							<button onclick="toggleMute();" >
+								Toggle sound!
+							</button>
+						</div>
+						
+					 	<video id="myVideo" preload="auto" playsinline autoplay muted loop>
+					 	  <source src="img/teatime_intro.mp4" type="video/mp4">
+				     	</video>
+						
+				</div>
+		</div>
+  </div>
+</div>
+</div>
+</div>
 
 
 
@@ -107,7 +138,7 @@
   			<div class="w3-content">
 	  			<div class="w3-col l3 m8 s12">
 					<p class="p-white">
-						We designed and developed a holding page for TeaTime as an interim while we work on the full site experience. We worked with Paris based animator <span style="color:#fff"><a href="http://instagram.com/alexis_jamet" target="_blank">Alexis Jamet</a></span> to bring the logo to life with a nod to animated entertainment idents from the past. The live site is embedded below.<br/><br/>Happy scrolling!
+						We designed and developed a holding page for TeaTime as an interim while we work on the full site experience. The live site is embedded below.<br/><br/>Happy scrolling!
 					</p>
 				</div>
 				<div class="w3-col l2 m2 s4 w3-container"><div class="dead"><p>Y</p></div></div>
@@ -135,23 +166,9 @@
 
 
 
-	<div class="project-top-180">
-		<div class="w3-container w3-black">
-  	  	  <div class="w3-content">
-		  
-		  	  <div class="w3-col m1 s12 w3-container"><div class="dead"><p>Y</p></div></div>
-			  <div class="w3-col l5 m6 s12">
-				  <p class="p-white">The ID represents the company’s vision for collaboration and takes cues from the magic of vintage entertainment graphics, reimagined for new eyes.</p>
-			  </div>
-	
-   	
-	
-	
-  		</div>
-  	</div>
-	</div>
 
-	<div class="project-top-70">
+
+	<div class="project-top-180">
 		<div class="w3-container">
 			<div class="w3-content">
 					<div class="w3-col m1 s12 w3-container"><div class="dead"><p>Y</p></div></div>
@@ -542,6 +559,20 @@
 	   $('.preloader').fadeOut('slow');
 	});
 </script> 
+	
+	<script>
+		function toggleMute() {
+
+		var video=document.getElementById("myVideo")
+
+		if(video.muted){
+			video.muted = false;
+		} else {
+			video.muted = true;
+		}
+
+		}
+	</script>
 
 <script>
     //get screen width and pixel ratio
