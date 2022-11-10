@@ -1229,13 +1229,17 @@ div#preload {
 	background:#fff;
 }
 
-.project-grid-items {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-column-gap: 20px;
-    grid-row-gap: 10px;
+/*
+
+.project-grid-row {
+	margin-left:-20px;
+}
+.project-grid-img {
+	margin-bottom: 10px;
+	border-radius: 10px;
 }
 
+*/
 
 
 
@@ -1252,6 +1256,155 @@ img.project-grid-img {
 
 
 
+.thumb-7 img {
+	margin-top:-12px;
+	margin-left:-10px;
+}
+
+
+.thumb-9 img {
+	margin-top:-12px;
+	margin-left:-10px;
+}
+
+.thumb-13 img {
+	margin-top:-12px;
+	margin-left:-10px;
+}
+
+.thumb-14 img {
+	margin-top:-12px;
+	margin-left:-10px;
+}
+
+.thumb-16 img {
+	margin-top:-12px;
+	margin-left:-10px;
+}
+
+.thumb-18 img {
+	margin-top:-12px;
+	margin-left:-10px;
+}
+
+.thumb-19 img {
+	margin-top:-12px;
+	margin-left:-10px;
+}
+
+/*THUMB 1**/
+.coming-soon-thumb-3:hover a h5 {
+	display:none;
+}
+
+.coming-soon-thumb-3:hover a:after {
+	content:"Coming Soon";
+	font-family: "Favorit", sans-serif;
+	font-size: 15px;
+	line-height:10px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: #000;
+    text-transform: uppercase;
+} 
+
+.coming-soon-thumb-3 a:hover img {
+    content: url('../img/thumb_3_nike.jpg');
+}
+
+.coming-soon-thumb-3 a img {
+	margin-top:-12px;
+	margin-left:-10px;
+}
+
+
+
+
+/*THUMB 4**/
+.coming-soon-thumb-6:hover a h5 {
+	display:none;
+}
+
+.coming-soon-thumb-6:hover a:after {
+	content:"Coming Soon";
+	font-family: "Favorit", sans-serif;
+	font-size: 15px;
+	line-height:10px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: #000;
+    text-transform: uppercase;
+} 
+
+.coming-soon-thumb-6 a:hover img {
+    content: url('../img/thumb_6_lepuzz.gif');
+}
+
+.coming-soon-thumb-6 a img {
+	margin-top:-12px;
+	margin-left:-10px;
+}
+
+/*THUMB 6**/
+
+.coming-soon-thumb-14:hover a h5 {
+	display:none;
+}
+
+.coming-soon-thumb-14:hover a:after {
+	content:"Coming Soon";
+	font-family: "Favorit", sans-serif;
+	font-size: 15px;
+	line-height:10px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: #000;
+    text-transform: uppercase;
+} 
+
+.coming-soon-thumb-14 a:hover img {
+    content: url('../img/thumb_14_megafauna.jpg');
+}
+
+.coming-soon-thumb-14 a img {
+	margin-top:-12px;
+	margin-left:-10px;
+}
+
+
+
+/*THUMB 8**/
+.coming-soon-thumb-17:hover a h5 {
+	display:none;
+}
+
+.coming-soon-thumb-17:hover a:after {
+	content:"Coming Soon";
+	font-family: "Favorit", sans-serif;
+	font-size: 15px;
+	line-height:10px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: #000;
+    text-transform: uppercase;
+} 
+
+.coming-soon-thumb-17 a:hover img {
+    content: url('../img/thumb_17_bagggy.jpg');
+}
+
+.coming-soon-thumb-17 a img {
+	margin-top:-12px;
+	margin-left:-10px;
+}
+
+
+
+
+
+.project-grid-img-soon {
+}
+
 
 
 .project-grid-head {
@@ -1260,26 +1413,90 @@ img.project-grid-img {
 }
 
 
-
+.project-grid-copy2 {
+	position:absolute;
+	top:2px;
+	font-size: 18px;
+	line-height: 18px;
+}
 
 @media (max-width: 920px) { 
-	.project-grid-items {
-	    grid-template-columns: repeat(4, 1fr);
+	.project-grid-copy2 {
+		font-size: 17px;
+		line-height: 15px;
 	}
 	
+	.project-grid-copy2 span {
+		font-size: 14px;
+		line-height: 14px;	
+	}
+}
+
+.project-grid-copy2 h5 span {
+	line-height: 15px;	
 }
 
 
+
+.currently-working-on {
+	position:relative;
+}
+
+.project-grid-item {
+	width: 20%;
+	float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+	margin-bottom:10px;
+}
+
+
+@media (max-width: 849px) {
+	.project-grid-item {
+		height:150px;
+	}
+} 
+
 @media (max-width: 768px) { 
-	.project-grid-items {
-	    grid-template-columns: repeat(2, 1fr);
+	.project-grid-item {
+		width: 49%;
+		float: left;
+	    padding-right: 10px;
+	    padding-left: 10px;
+		height:270px;
+	}
+	
+	.project-grid-row {
+		margin-left:-1px;
 	}
 }
 
 
+@media (max-width: 500px) {
+	.project-grid-item {
+		height:180px;
+	}
+} 
 
 @media (max-width: 414px) {
+	.project-grid-item {
+		height:170px;
+	}
 	.currently-wrapper{
 		height: 60px;
+	}
+} 
+
+@media (max-width: 375px) {
+	.project-grid-item {
+		height:160px;
+	}
+} 
+
+
+@media (max-width: 320px) {
+	.project-grid-row {
+	    margin-left: -10px;
+	    margin-right: -20px;
 	}
 } 
