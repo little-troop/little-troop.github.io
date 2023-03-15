@@ -1,0 +1,74 @@
+﻿
+.logo {
+	mix-blend-mode: exclusion;
+}
+
+.center {
+	text-align:center;
+}
+
+/*************************************************************************************************************
+VIDEO
+*************************************************************************************************************/
+
+.site1 {
+	margin-bottom:180px;
+}
+
+.site1 video {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/*************************************************************************************************************
+VIDEO HERO - TALL 1
+*************************************************************************************************************/
+
+.wide-vid {
+
+}
+
+.wide-vid video {
+    width: 100%;
+    height: auto;
+	margin-top:-10px;
+}
+
+
+
+.videoFULL {
+			margin-bottom:120px;
+}
+
+
+
+@media (max-width: 1280px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 600px) {
+}
+
+
+@media (max-width: 500px) {
+
+	.videoFULL {
+				margin-bottom:70px;
+	}
+}
+
+@media (max-width: 414px) {	
+}
+
+
+@media (max-width: 375px) {
+}
+
+
