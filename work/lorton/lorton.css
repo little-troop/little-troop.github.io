@@ -87,6 +87,13 @@ VIDEO
 	margin-bottom:140px;
 }
 
+@media (max-width: 500px) { 
+	.site {
+		padding-top:0px;
+		padding-bottom: 70px;
+	}		
+}
+
 .site1 video {
     width: 100%;
     height: auto;
