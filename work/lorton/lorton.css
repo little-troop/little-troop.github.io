@@ -1,0 +1,199 @@
+﻿
+/*************************************************************************************************************
+VIDEO HERO
+*************************************************************************************************************/
+
+.vid-hero {
+    width:100%;
+    height:100vh;
+    overflow: hidden;
+	z-index: 1;
+	
+}
+
+.vid-hero video {
+      /*object-fit: contain;*/
+/*       object-fit: fill; */
+      object-fit: cover;
+      width:100%;
+      height:100%;
+}
+
+@media (max-width: 1200px) { 
+	.vid-hero {
+	    width:100%;
+	    height:82vh;
+	    overflow: hidden;
+		margin-top:100px;
+	}
+}
+
+@media (max-width: 1000px) { 
+	.vid-hero {
+	    width:100%;
+	    height:70vh;
+	    overflow: hidden;
+		margin-top:120px;
+	}
+}
+
+@media (max-width: 800px) { 
+	.vid-hero {
+	    width:100%;
+	    height:50vh;
+	    overflow: hidden;
+		margin-top:160px;
+	}
+}
+
+@media (max-width: 500px) { 
+	.vid-hero {
+	    width:100%;
+	    height:36vh;
+	    overflow: hidden;
+		margin-top:70px;
+	}
+}
+
+@media (max-width: 414px) { 
+	.vid-hero {
+	    width:100%;
+	    height:30vh;
+	    overflow: hidden;
+		margin-top:90px;
+	}
+
+}
+
+@media (max-width: 375px) { 
+	.vid-hero {
+	    width:100%;
+	    height:32vh;
+	    overflow: hidden;
+	}
+
+}
+
+
+.center {
+	text-align:center;
+}
+
+/*************************************************************************************************************
+VIDEO
+*************************************************************************************************************/
+
+.site1 {
+	margin-bottom:140px;
+}
+
+.site1 video {
+    width: 100%;
+    height: auto;
+}
+
+
+.show-graphic-video {
+	position:relative;
+}
+
+.mute-button {
+	position:absolute;
+	bottom: 20px;
+	right: 20px;
+	z-index:99;
+}
+
+.mute-button button {
+	background-color:#347AE1;
+	color:#000;
+	outline: none;
+	border:none;
+	width:240px;
+	font-size:42px;
+	letter-spacing:-0.25px!important;
+	height:58px;
+	padding: 0px 0px 3px 0px;
+	border-radius:36px;
+	line-height:42px;
+	text-align:center;
+	display: inline-block;
+}
+
+.mute-button button:active {
+  background-color: #fff;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+@media (max-width: 800px) { 
+	
+	.mute-button button {
+		width:180px;
+		font-size:32px;
+		height:50px;
+		line-height:32px;
+	}
+}
+
+@media (max-width: 414px) { 
+	.mute-button button {
+		width:88px;
+		font-size:16px;
+		height:25px;
+		line-height:24px;
+	}
+}
+
+
+
+/*************************************************************************************************************
+VIDEO HERO - TALL 1
+*************************************************************************************************************/
+
+.wide-vid {
+
+}
+
+.wide-vid video {
+    width: 100%;
+    height: auto;
+	margin-top:-10px;
+}
+
+
+
+.videoFULL {
+			margin-bottom:120px;
+}
+
+
+
+@media (max-width: 1280px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 600px) {
+}
+
+
+@media (max-width: 500px) {
+
+	.videoFULL {
+				margin-bottom:70px;
+	}
+}
+
+@media (max-width: 414px) {	
+}
+
+
+@media (max-width: 375px) {
+}
+
+
