@@ -99,7 +99,7 @@
    	  <h1><div id="bloc1">	
 				<div class="hover_img">
      		 		<span>
-						<a href="#">
+						<a class="baloon" href="#">
 							Little Troop
 							<span>
 								<img src="img/lt-baloon-big.gif" />
@@ -107,7 +107,8 @@
 						</a>
 		    		</span>
 				</div>
-			</div> is a design studio building brands that we want around forever.</h1>
+			</div> 
+			is a creative studio, driven by craft, culture and imagination.</h1>
 		</div>
 	  <h4><a href="info.html">MORE ON US</a></h4>
   	</div>
@@ -771,6 +772,12 @@ function outFunc() {
     	  });
 	
   	  $(".work").click(function() {
+  	      $('html, body').animate({
+  	          scrollTop: $(".project-grid").offset().top
+  	      }, 1000);
+  	  });
+	  
+  	  $(".baloon").click(function() {
   	      $('html, body').animate({
   	          scrollTop: $(".project-grid").offset().top
   	      }, 1000);
