@@ -1,4 +1,49 @@
-﻿
+﻿/*************************************************************************************************************
+THREE GRID
+*************************************************************************************************************/
+#videoGRID1, #videoGRID2, #videoGRID3, #videoGRID4, #videoGRID5, #videoGRID6, #videoGRID7, #videoGRID8 {
+	margin-bottom:5px;
+	margin-left:50px;
+	margin-right:50px;
+	
+}
+
+#videoGRID1 video, #videoGRID2 video, #videoGRID3 video, #videoGRID4 video, #videoGRID5 video, #videoGRID6 video, #videoGRID7 video, #videoGRID8 video, #videoGRID9 video {
+	border-radius:10px;
+}
+
+#videoGRID9{
+	margin-bottom:180px;
+	margin-left:50px;
+	margin-right:50px;
+}
+
+@media (max-width: 1024px) { 
+	
+	#videoGRID1, #videoGRID2, #videoGRID3, #videoGRID4, #videoGRID5, #videoGRID6, #videoGRID7, #videoGRID8 {
+		margin-bottom:0px;
+		margin-left:20px;
+		margin-right:20px;
+	}
+	
+}
+
+@media (max-width: 600px) { 
+	#videoGRID1, #videoGRID2, #videoGRID3, #videoGRID4, #videoGRID5, #videoGRID6, #videoGRID7, #videoGRID8 {
+		margin-bottom:0px;
+		margin-left:10px;
+		margin-right:10px;
+	}
+
+	#videoGRID9{
+		margin-bottom:70px;
+	}
+	
+}
+
+
+
+
 /*************************************************************************************************************
 VIDEO HERO
 *************************************************************************************************************/
