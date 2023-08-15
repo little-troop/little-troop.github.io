@@ -213,14 +213,14 @@
 			     	</video>
 					<h5 class="project-grid-copy">Ads with pizzazz for <span>Billie</span></h5>
 				</a>
+				
 			
-				<a href="work/megafauna/index.html">
- 				 	<video preload="auto" playsinline autoplay muted loop class="project-grid-vid">
- 				 	  <source src="img/thumb_14_megafauna_510.mp4" type="video/mp4">
- 			     	</video>
-  		  		
-					<h5 class="project-grid-copy">ID and digital for <span>Megafauna</span></h5>
-			
+				
+				<a href="work/lorton/index.html">
+				 	<video preload="auto" playsinline autoplay muted loop class="project-grid-vid">
+				 	  <source src="img/thumb_21_lorton_510.mp4" type="video/mp4">
+			     	</video>
+					<h5 class="project-grid-copy">Fresh ID and website for <span>Lorton</span></h5>
 				</a>
 			
 				<a href="work/billie/index.html">
@@ -258,10 +258,14 @@
 				
 				</a>
 			
-				<a href="http://bagggy.co" target="_blank">
-	  					<img src="img/thumb_17_bagggy_510.jpg" class="project-grid-img">
-						<h5 class="project-grid-copy">Building the future <span>Bagggy</span>.co</h5>
-					</a>
+				<a href="work/megafauna/index.html">
+ 				 	<video preload="auto" playsinline autoplay muted loop class="project-grid-vid">
+ 				 	  <source src="img/thumb_14_megafauna_510.mp4" type="video/mp4">
+ 			     	</video>
+  		  		
+					<h5 class="project-grid-copy">ID and digital for <span>Megafauna</span></h5>
+			
+				</a>
 			
 			
 				<a href="work/smalls/index.html">
@@ -741,7 +745,41 @@
 
 <script  src="js/index.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
- 
+<script>
+function playPauseVideo() {
+    let videos = document.querySelectorAll("video");
+    videos.forEach((video) => {
+        // We can only control playback without insteraction if video is mute
+        video.muted = true;
+        // Play is a promise so we need to check we have it
+        let playPromise = video.play();
+        if (playPromise !== undefined) {
+            playPromise.then((_) => {
+                let observer = new IntersectionObserver(
+                    (entries) => {
+                        entries.forEach((entry) => {
+                            if (
+                                entry.intersectionRatio !== 1 &&
+                                !video.paused
+                            ) {
+                                video.pause();
+                            } else if (video.paused) {
+                                video.play();
+                            }
+                        });
+                    },
+                    { threshold: 0.2 }
+                );
+                observer.observe(video);
+            });
+        }
+    });
+}
+
+// And you would kick this off where appropriate with:
+playPauseVideo();
+</script>
+		
  
 <script>
 function myFunction() {
