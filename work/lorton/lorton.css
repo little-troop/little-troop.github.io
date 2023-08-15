@@ -134,8 +134,25 @@ VIDEO
 	margin-bottom:120px;
 }
 
+.wideGrid {
+	margin-left:50px;
+	margin-right:50px;
+}
+
+.wideGrid video {
+    width: 100%;
+    height: auto;
+		border-radius:10px;
+}
+
 .site1 {
 	margin-bottom:140px;
+}
+
+
+.site1 video {
+    width: 100%;
+    height: auto;
 }
 
 @media (max-width: 500px) { 
@@ -148,12 +165,6 @@ VIDEO
 		margin-bottom:60px;
 	}
 }
-
-.site1 video {
-    width: 100%;
-    height: auto;
-}
-
 
 .show-graphic-video {
 	position:relative;
