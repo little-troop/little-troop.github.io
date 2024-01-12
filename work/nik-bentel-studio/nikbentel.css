@@ -1,0 +1,405 @@
+﻿
+
+
+.top-rounded {
+		  border-radius: 40px 40px 0px 0px;
+}
+
+
+.bottom-rounded {
+		  border-radius: 0px 0px 40px 40px;
+}
+
+.all-rounded {
+		border-radius:40px;
+}
+
+.all-rounded-small {
+		border-radius:10px;
+}
+
+
+
+.center {
+	text-align:center;
+}
+
+.carousel-mod {
+	margin-bottom:180px;
+}
+
+@media (max-width: 500px) { 
+	.carousel-mod {
+		margin-bottom:80px;
+	}
+}
+
+
+/*************************************************************************************************************
+VIDEO HERO
+*************************************************************************************************************/
+
+.vid-hero {
+    width:100%;
+    height:100vh;
+    overflow: hidden;
+	z-index: 1;
+	
+}
+
+.vid-hero video {
+      /*object-fit: contain;*/
+/*       object-fit: fill; */
+      object-fit: cover;
+      width:100%;
+      height:100%;
+}
+
+@media (max-width: 500px) { 
+	.vid-hero {
+	    width:100%;
+	    height:70vh;
+	    overflow: hidden;
+	}
+}
+
+@media (max-width: 375px) { 
+	.vid-hero {
+	    width:100%;
+	    height:55vh;
+	    overflow: hidden;
+	}
+
+}
+
+#videoFULL {
+    margin-bottom: 70px;
+}
+
+#videoFULL2 {
+    margin-bottom: 100px;
+}
+
+
+/*************************************************************************************************************
+SITE
+*************************************************************************************************************/
+.wide-vid video {
+    width: 100%;
+    height: auto;
+	margin-top:-10px;
+}
+
+.site {
+	background-color:#000;
+	padding-bottom: 200px;
+}
+
+.site2 {
+	background-color:#000;
+	padding-bottom: 70px;
+}
+
+
+.site video {
+    width: 100%;
+    height: auto;
+}
+
+.white-bg {
+	background-color:#fff;
+	padding-bottom: 200px;
+}
+
+
+.white-bg  video {
+    width: 100%;
+    height: auto;
+}
+
+
+/*************************************************************************************************************
+YELLOW
+*************************************************************************************************************/
+.mute-button button {
+	background-color:#FAEC23;
+	color:#000;
+	outline: none;
+	border:none;
+	width:240px;
+	font-size:42px;
+	letter-spacing:-0.25px!important;
+	height:58px;
+	padding: 0px 0px 3px 0px;
+	border-radius:36px;
+	line-height:42px;
+	text-align:center;
+	display: inline-block;
+}
+
+.mute-button button:active {
+  background-color: #7CBAFF;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.mute-button {
+	right: 20px;
+	bottom:20px;
+	position:absolute;
+	z-index:999;
+}
+
+@media (max-width: 1280px) {
+	
+	.mute-button{
+	   bottom:13%;
+	}
+
+}
+
+@media (max-width: 1000px) {
+	
+	.mute-button{
+	  bottom:36%;
+	}
+
+}
+
+@media (max-width: 768px) { 
+	.mute-button{
+	    bottom:54%;
+	}
+}
+
+@media (max-width: 500px) { 
+	.mute-button{
+	   bottom:62%;
+	}
+	
+	.mute-button button {
+		background-color:#4BE99A;
+		color:#000;
+		outline: none;
+		border:none;
+		width:180px;
+		font-size:32px;
+		letter-spacing:-0.25px!important;
+		height:50px;
+		padding: 0px 0px 3px 0px;
+		border-radius:36px;
+		line-height:32px;
+		text-align:center;
+		display: inline-block;
+	}
+}
+
+@media (max-width: 414px) { 
+	.mute-button{
+	   bottom:63%;
+	}
+}
+
+
+
+
+@media (max-width: 375px) { 
+	.mute-button button {
+		background-color:#4BE99A;
+		color:#000;
+		outline: none;
+		border:none;
+		width:150px;
+		font-size:26px;
+		letter-spacing:-0.25px!important;
+		height:40px;
+		padding: 0px 0px 3px 0px;
+		border-radius:36px;
+		line-height:26px;
+		text-align:center;
+		display: inline-block;
+	}
+	
+	.mute-button{
+	     bottom:69%;
+	}
+}
+
+/* iPhone678 */
+@media only screen and (device-width: 375px) and (device-height: 667px) { 
+	.mute-button {
+	    bottom:69%;
+	}
+}
+
+@media (max-width: 320px) { 
+	
+	.mute-button button {
+		background-color:#4BE99A;
+		color:#000;
+		outline: none;
+		border:none;
+		width:120px;
+		font-size:20px;
+		letter-spacing:-0.25px!important;
+		height:30px;
+		padding: 0px 0px 3px 0px;
+		border-radius:36px;
+		line-height:20px;
+		text-align:center;
+		display: inline-block;
+	}
+	
+	.mute-button{
+	    bottom:68%;
+	}
+}
+
+
+.yellow {
+	background-color:#fbef56;
+	padding-bottom: 200px;
+	padding-top:100px;
+}
+
+
+
+
+
+
+.fifty-fifty-LEFT {
+	padding-right:40px;
+	padding-left:0px;
+	margin-right:0px;
+}
+
+.fifty-fifty-RIGHT {
+	padding-left:40px;
+	padding-right:0px;
+	margin-left:0px;
+}
+
+
+/*************************************************************************************************************
+RESPSONSIVE
+*************************************************************************************************************/
+
+
+@media (max-width: 650px) {
+	
+	.links-three {
+		margin-top:-15px;
+	}
+	
+	.links-four {
+		margin-top:-35px;
+	}
+	
+	.spinner-container {
+		border-radius:136px;
+	 	height:272px;
+	 	width:272px;
+	}
+
+
+	.eyes {
+		padding: 142px 0px 0px 75px;
+		width: 240px;
+	}
+
+	.eye {
+	  height: 31px;
+	  width: 31px;
+	  border:4px solid #000;
+	  margin-right:47px;
+	}
+
+	.eye:after { /*pupil*/
+	  bottom: 6px;
+	  right: -1px;
+	  width: 24px;
+	  height: 19px;
+	  background: #000;
+	  border-radius: 50%;
+	  content: " ";
+	}
+
+
+	.face-image {
+		position:relative;
+		 background: url("img/scotty_532.png") no-repeat top left;
+		 background-size:contain;
+		 height:266px;
+		 width:266px;
+		 margin: 0 auto;
+		 top:1px;
+	}
+
+	/*Rotating Words*/
+	.rotate-words {
+			margin-top: -181px;
+			margin-left: -2px;
+	}
+	
+	img.rotate {
+		width:272px;
+		height:272px;
+	}
+	
+	
+	.three-up-center {
+		margin-left:0px;
+	}
+	.three-up-left {
+		margin-left:0px;
+	}
+	.three-up-right {
+		margin-left:0px;
+	}
+	
+	.fifty-fifty-LEFT {
+		padding-right:0px;
+		padding-left:0px;
+		margin-bottom:70px;
+	}
+
+	.fifty-fifty-RIGHT {
+		padding-left:0px;
+		padding-right:0px;
+	}	
+}
+
+@media (max-width: 500px) {
+	.site {
+		padding-top:0px;
+		padding-bottom: 90px;
+	}	
+	
+	
+
+	.top-rounded {
+			  border-radius: 20px 20px 0px 0px;
+	}
+
+
+	.bottom-rounded {
+			  border-radius: 0px 0px 20px 20px;
+	}
+
+	.all-rounded {
+			border-radius:20px;
+	}
+
+	
+}
+
+@media (max-width: 414px) {
+}
+
+
+@media (max-width: 375px) {
+}
+
+
+
