@@ -169,17 +169,16 @@ YELLOW
 
 @media (max-width: 768px) { 
 	.mute-button{
-	    bottom:54%;
+	    bottom:32%;
 	}
 }
 
 @media (max-width: 500px) { 
 	.mute-button{
-	   bottom:62%;
+	   bottom:32%;
 	}
 	
 	.mute-button button {
-		background-color:#4BE99A;
 		color:#000;
 		outline: none;
 		border:none;
@@ -197,7 +196,7 @@ YELLOW
 
 @media (max-width: 414px) { 
 	.mute-button{
-	   bottom:63%;
+	   bottom:32%;
 	}
 }
 
@@ -206,7 +205,6 @@ YELLOW
 
 @media (max-width: 375px) { 
 	.mute-button button {
-		background-color:#4BE99A;
 		color:#000;
 		outline: none;
 		border:none;
@@ -222,14 +220,14 @@ YELLOW
 	}
 	
 	.mute-button{
-	     bottom:69%;
+	     bottom:33%;
 	}
 }
 
 /* iPhone678 */
 @media only screen and (device-width: 375px) and (device-height: 667px) { 
 	.mute-button {
-	    bottom:69%;
+	    bottom:34%;
 	}
 }
 
@@ -252,7 +250,7 @@ YELLOW
 	}
 	
 	.mute-button{
-	    bottom:68%;
+	    bottom:35%;
 	}
 }
 
