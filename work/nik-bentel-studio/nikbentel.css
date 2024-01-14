@@ -34,6 +34,15 @@
 	}
 }
 
+.nik-timeless {
+	z-index:99;	
+}
+
+.nik-cubes {
+	margin-top:-40px;
+	z-index:0;
+}
+
 .nik-caption {
     display: flex;
      height: 100%;
@@ -86,12 +95,12 @@ VIDEO HERO
 
 
 
-#videoFULL {
-    margin-bottom: 70px;
+.videoFULL {
+    margin-bottom: 150px;
 }
 
-#videoFULL2 {
-    margin-bottom: 100px;
+.videoFULL2 {
+    margin-bottom: 300px;
 }
 
 
@@ -115,6 +124,7 @@ SITE
 .site video, .wide-vid video, .site2 video {
     width: 100%;
     height: auto;
+	    margin-top: -10px;
 }
 
 .white-bg {
