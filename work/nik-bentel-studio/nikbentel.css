@@ -38,6 +38,14 @@
 	z-index:99;	
 }
 
+.nik-square2 {
+	padding-left:40px;
+	padding-right:40px;
+}
+
+.nik-square {
+	padding:40px;
+}
 .nik-cubes {
 	margin-top:-40px;
 	z-index:0;
