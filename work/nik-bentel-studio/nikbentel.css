@@ -34,6 +34,17 @@
 	}
 }
 
+.nik-caption {
+    display: flex;
+     height: 100%;
+}
+
+.nik-caption-inner {
+    display: inline-block;
+     align-self: flex-end;
+	 margin-bottom:20px;
+	 padding-right:70px;
+}
 
 /*************************************************************************************************************
 VIDEO HERO
@@ -101,7 +112,7 @@ SITE
 }
 
 
-.site video, .wide-vid video {
+.site video, .wide-vid video, .site2 video {
     width: 100%;
     height: auto;
 }
@@ -154,7 +165,7 @@ YELLOW
 @media (max-width: 1280px) {
 	
 	.mute-button{
-	   bottom:13%;
+	   bottom:3%;
 	}
 
 }
@@ -162,14 +173,22 @@ YELLOW
 @media (max-width: 1000px) {
 	
 	.mute-button{
-	  bottom:36%;
+	  bottom:3%;
 	}
 
 }
 
 @media (max-width: 768px) { 
 	.mute-button{
-	    bottom:32%;
+	    bottom:3%;
+	}
+	
+	.nik-caption {
+		display:inline-block;
+	}
+	
+	.nik-caption-inner{
+		margin-bottom:40px;
 	}
 }
 
@@ -224,12 +243,20 @@ YELLOW
 	}
 }
 
+@media only screen and (device-width: 360px) and (device-height: 740px) { 
+	.mute-button {
+	    bottom:46%;
+	}
+}
+
 /* iPhone678 */
 @media only screen and (device-width: 375px) and (device-height: 667px) { 
 	.mute-button {
-	    bottom:34%;
+	    bottom:47%;
 	}
 }
+
+
 
 @media (max-width: 320px) { 
 	
