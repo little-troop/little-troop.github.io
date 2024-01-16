@@ -54,7 +54,7 @@
 
 <!-- Video Hero-->
 <div class="vid-hero">	
-<video preload="auto" playsinline autoplay muted loop>
+<video id="myVideo" preload="auto" playsinline autoplay muted loop>
   <source src="img/lepuzz1.mp4" type="video/mp4">
 </video>
 </div>
@@ -1089,8 +1089,13 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 <script>
-	$(window).on('load', function() {
-	   $('.preloader').fadeOut('slow');
+	document.addEventListener('DOMContentLoaded', function () {
+
+	    const video = document.querySelector("#myVideo");
+
+		video.addEventListener("canplay", (event) => {
+			$('.preloader').fadeOut('slow');
+		});
 	});
 </script>
 <script>
