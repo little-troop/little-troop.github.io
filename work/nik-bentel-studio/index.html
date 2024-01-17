@@ -54,11 +54,7 @@
 
 <!-- Video Hero-->
 <div class="vid-hero">	
-	<div class="mute-button">
-		<button onclick="toggleMute();" >
-			Toggle sound!
-		</button>
-	</div>
+
 	<video id="myVideo" preload="none" autoplay playsinline muted loop poster="img/nik1.jpg">
   		
 		  <source src="img/nik2.mp4" type="video/mp4">
@@ -714,19 +710,7 @@
 	playPauseVideo();
 </script>
 
-<script>
-	function toggleMute() {
 
-	var video=document.getElementById("myVideo")
-
-	if(video.muted){
-		video.muted = false;
-	} else {
-		video.muted = true;
-	}
-
-	}
-</script>
 
 		
 <script>
