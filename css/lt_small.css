@@ -807,6 +807,11 @@ PROJECT CONTENT CONTAINERS
 	.project-top-10 {
 		padding-top: 10px;
 	}
+	
+	.project-top-10-bottom-140 {
+		padding-top:0px;
+		padding-bottom:70px;
+	}
 
 	.project-top-40 {
 		padding-top: 20px;
@@ -814,6 +819,11 @@ PROJECT CONTENT CONTAINERS
 
 	.project-top-70 {
 		padding-top: 50px;
+	}
+	
+	.project-top-70-bottom-120 {
+		padding-top:50px;
+		padding-bottom:30px;
 	}
 	
 	.project-top-40-bottom-140 {
