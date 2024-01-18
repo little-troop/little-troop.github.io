@@ -254,6 +254,13 @@ YELLOW
 }
 
 
+@media (max-width: 393px) { 
+	.mute-button{
+	   bottom:2%;
+	}
+}
+
+
 
 
 @media (max-width: 375px) { 
