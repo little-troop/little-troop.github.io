@@ -126,7 +126,13 @@ VIDEO HERO
 .videoFULL4 {
     margin-bottom: 40px;
 }
+.videoFULL5 {
+    margin-top: 40px;
+}
 
+.videoFULL6 {
+    margin-bottom: 40px;
+}
 
 
 
@@ -265,10 +271,15 @@ YELLOW
 	    margin-bottom: 50px;
 	}
 	.videoFULL4 {
-	    margin-bottom: 20px;
+	    margin-bottom: 40px;
+	
 	}
 	.videoFULL5 {
 	    margin-top: 40px;
+	}
+	.videoFULL6 {
+	    margin-bottom: 10px;
+		margin-top:20px;
 	}
 }
 
@@ -377,7 +388,7 @@ RESPSONSIVE
 	
 	.two-up-left-row1 {
 		padding-right:0px;
-		margin-bottom:60px;
+		margin-bottom:100px;
 	}
 	.two-up-right-row1 {
 		padding-left:0px;
@@ -415,8 +426,48 @@ RESPSONSIVE
 	.all-rounded {
 			border-radius:20px;
 	}
-
 	
+	.p-white {
+		font-size: 14px;
+		line-height: 17px;
+		letter-spacing: 0px;
+	}
+	
+	.nik-caption {
+		margin-top:40px;
+	}
+	
+	.blocks {
+		margin-bottom:30px;
+	}
+	
+	.nik-color {
+		margin-top:40px;
+		margin-bottom:20px;
+	}
+	
+	.type-words {
+		margin-bottom:40px;
+	}
+	
+	.nik-square {
+		padding: 10px;
+	}
+	.nik-square2 {
+		padding: 0px;
+	}
+	.project-top-240 {
+		padding-top:100px;
+	}
+	
+	.website-text {
+		margin-top:20px;
+	}
+	
+	.project-top-40-bottom-140 {
+		padding-top:0;
+	}
+		
 }
 
 @media (max-width: 414px) {
