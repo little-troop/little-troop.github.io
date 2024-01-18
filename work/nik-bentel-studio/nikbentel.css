@@ -251,6 +251,20 @@ YELLOW
 	.mute-button{
 	   bottom:32%;
 	}
+	
+	.videoFULL {
+	    margin-bottom: 50px;
+	}
+
+	.videoFULL2 {
+	    margin-bottom: 50px;
+	}
+	.videoFULL3 {
+	    margin-bottom: 50px;
+	}
+	.videoFULL4 {
+	    margin-bottom: 20px;
+	}
 }
 
 
@@ -334,18 +348,6 @@ YELLOW
 
 
 
-.fifty-fifty-LEFT {
-	padding-right:40px;
-	padding-left:0px;
-	margin-right:0px;
-}
-
-.fifty-fifty-RIGHT {
-	padding-left:40px;
-	padding-right:0px;
-	margin-left:0px;
-}
-
 
 /*************************************************************************************************************
 RESPSONSIVE
@@ -362,65 +364,15 @@ RESPSONSIVE
 		margin-top:-35px;
 	}
 	
-	.spinner-container {
-		border-radius:136px;
-	 	height:272px;
-	 	width:272px;
-	}
-
-
-	.eyes {
-		padding: 142px 0px 0px 75px;
-		width: 240px;
-	}
-
-	.eye {
-	  height: 31px;
-	  width: 31px;
-	  border:4px solid #000;
-	  margin-right:47px;
-	}
-
-	.eye:after { /*pupil*/
-	  bottom: 6px;
-	  right: -1px;
-	  width: 24px;
-	  height: 19px;
-	  background: #000;
-	  border-radius: 50%;
-	  content: " ";
-	}
-
-
-	.face-image {
-		position:relative;
-		 background: url("img/scotty_532.png") no-repeat top left;
-		 background-size:contain;
-		 height:266px;
-		 width:266px;
-		 margin: 0 auto;
-		 top:1px;
-	}
-
-	/*Rotating Words*/
-	.rotate-words {
-			margin-top: -181px;
-			margin-left: -2px;
-	}
 	
-	img.rotate {
-		width:272px;
-		height:272px;
-	}
+
+
+
 	
-	
-	.three-up-center {
+	.two-up-left {
 		margin-left:0px;
 	}
-	.three-up-left {
-		margin-left:0px;
-	}
-	.three-up-right {
+	.twp-up-right {
 		margin-left:0px;
 	}
 	
