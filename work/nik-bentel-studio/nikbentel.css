@@ -151,7 +151,7 @@ SITE
 .site video, .wide-vid video, .site2 video {
     width: 100%;
     height: auto;
- 
+	margin-top: -10px;
 }
 
 .white-bg {
