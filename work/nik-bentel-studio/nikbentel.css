@@ -1,5 +1,7 @@
 ﻿
-
+p.tinyScrunch{
+	font-size:2px;
+}
 
 .top-rounded {
 		  border-radius: 40px 40px 0px 0px;
@@ -18,7 +20,16 @@
 		border-radius:10px;
 }
 
-
+.three-up-left-row1 {
+    padding-right: 20px;
+}
+.three-up-center-row1 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.three-up-right-row1 {
+    padding-left: 20px;
+}
 
 .center {
 	text-align:center;
