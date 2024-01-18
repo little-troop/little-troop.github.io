@@ -363,6 +363,7 @@ RESPSONSIVE
 	
 	.links-three {
 		margin-top:-15px;
+		
 	}
 	
 	.links-four {
@@ -375,10 +376,11 @@ RESPSONSIVE
 
 	
 	.two-up-left-row1 {
-		margin-left:0px;
+		padding-right:0px;
+		margin-bottom:60px;
 	}
 	.two-up-right-row1 {
-		margin-left:0px;
+		padding-left:0px;
 	}
 	
 	.fifty-fifty-LEFT {
