@@ -846,6 +846,11 @@ PROJECT CONTENT CONTAINERS
 		padding-bottom: 140px;
 }
 
+.project-top-10-bottom-140 {
+		padding-top: 10px;
+		padding-bottom: 140px;
+}
+
 
 .project-top-70 {
 	padding-top: 70px;
@@ -878,7 +883,10 @@ PROJECT CONTENT CONTAINERS
 	padding-top: 120px;
 }
 
-
+.project-top-120-bottom-70 {
+	padding-top: 120px;
+	padding-bottom:70px;
+}
 
 .project-top-120-bottom-120 {
 	padding-top: 120px;
@@ -907,9 +915,9 @@ PROJECT CONTENT CONTAINERS
 
 
 
-.project-top-140-bottom-160 {
+.project-top-140-bottom-180 {
 	padding-top: 140px;
-	padding-bottom:160px;
+	padding-bottom:180px;
 }
 
 
@@ -940,6 +948,11 @@ PROJECT CONTENT CONTAINERS
 .project-top-180-bottom-180 {
 	padding-top: 180px;
 	padding-bottom:180px;
+}
+
+.project-top-180-bottom-270 {
+	padding-top: 180px;
+	padding-bottom:270px;
 }
 
 .project-top-200-bottom-140 {
