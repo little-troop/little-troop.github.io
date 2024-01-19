@@ -609,7 +609,6 @@
   		
 		<div class="project-grid-items">
 			
-			
 				<a href="work/nik-bentel-studio/index.html">
 				 	<video preload="none" playsinline muted loop class="project-grid-vid">
 				 	  <source src="img/thumb_0_nik_510.mp4" type="video/mp4">
@@ -617,33 +616,30 @@
 					<h5 class="project-grid-copy">An all new <span>Nik Bentel Studio</span></h5>
 				</a>
 	
-			
+		
+			<a href="work/billie-beauty/index.html">
+			 	<video preload="none" playsinline muted loop class="project-grid-vid">
+			 	  <source src="img/thumb_1_billie-beauty_510.mp4" type="video/mp4">
+		     	</video>
+				<h5 class="project-grid-copy">Squeaky clean beauty for <span>Billie</span></h5>
+			</a>
+				
+				<a href="work/nike/index.html">
+				
+  		  			<img src="img/thumb_3_nike_510.jpg" class="project-grid-img">
+					<h5 class="project-grid-copy">Just Doing It for <span>NIKE Women</span></h5>
+				</a>
 				<a href="work/google-io/index.html">
 				 	<video preload="none" playsinline muted loop class="project-grid-vid">
 				 	  <source src="img/thumb_2_google_510.mp4" type="video/mp4">
 			     	</video>
 					<h5 class="project-grid-copy">A new look for <span>Google I/O '21</span></h5>
 				</a>
-			
-				<a href="work/nike/index.html">
-				
-  		  			<img src="img/thumb_3_nike_510.jpg" class="project-grid-img">
-					<h5 class="project-grid-copy">Just Doing It for <span>NIKE Women</span></h5>
-				</a>
 				<a href="work/lepuzz/index.html">
 				 	<video preload="none" playsinline muted loop class="project-grid-vid">
 				 	  <source src="img/thumb_6_lepuzz_510.mp4" type="video/mp4">
 			     	</video>
 					<h5 class="project-grid-copy">Launching our new faves, <span>Le Puzz</span></h5>
-				</a>
-			
-	
-			
-				<a href="work/billie-beauty/index.html">
-				 	<video preload="none" playsinline muted loop class="project-grid-vid">
-				 	  <source src="img/thumb_1_billie-beauty_510.mp4" type="video/mp4">
-			     	</video>
-					<h5 class="project-grid-copy">Squeaky clean beauty for <span>Billie</span></h5>
 				</a>
 			
 				<a href="work/offcourt/index.html">
@@ -820,6 +816,40 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script>
+ function playPauseVideo() {
+     let videos = document.querySelectorAll("video");
+     videos.forEach((video) => {
+         // We can only control playback without insteraction if video is mute
+         video.muted = true;
+         // Play is a promise so we need to check we have it
+         let playPromise = video.play();
+         if (playPromise !== undefined) {
+             playPromise.then((_) => {
+                 let observer = new IntersectionObserver(
+                     (entries) => {
+                         entries.forEach((entry) => {
+                             if (
+                                 entry.intersectionRatio !== 1 &&
+                                 !video.paused
+                             ) {
+                                 video.pause();
+                             } else if (video.paused) {
+                                 video.play();
+                             }
+                         });
+                     },
+                     { threshold: 0.2 }
+                 );
+                 observer.observe(video);
+             });
+         }
+     });
+ }
+
+ // And you would kick this off where appropriate with:
+ playPauseVideo();
+ </script>
  
  <script>
  var loader = document.getElementsByClassName("bodymovin");
